@@ -10,10 +10,7 @@ app = dash.Dash(__name__)
 server = app.server
 date_today = datetime.strftime(datetime.today(), '%d-%m-%Y')
 
-# path_of_main_analysis = f"/data/output/complete_df/stacked/{date_today}/"
-# if not os.path.exists(path_of_main_analysis):
-#     CoronaAnalysis.run_corona_analysis()
-stacked_df_path = f'./data/output/complete_df/stacked/{date_today}/result.csv'
+stacked_df_path = f'./data/result.csv'
 df = pd.read_csv(stacked_df_path, header=0)
 available_indicators = df['indicator'].unique()
 
