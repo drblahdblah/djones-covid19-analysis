@@ -4,7 +4,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
-import plotly.express as px
+import plotly.graph_objects as go
 
 pd.set_option("display.max_columns", 500)
 pd.set_option("display.max_rows", 1000)
@@ -28,42 +28,151 @@ colors = {
 }
 
 
-def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
-    """
-    Function to create a good scatter plot of new versus total cases with the date as the
-    parameter in the bar.
-    :param df_scatter: A Pandas DataFrame to create the scatter plot with
-    :return:
-    """
-    df_scatter = df_scatter.groupby(['Country/Region', 'Date', 'Continent'], as_index=False).sum()
+def create_animation_scatter_plot() -> go.Figure:
 
-    df_scatter['growth_rate_clip'] = df_scatter['growth_rate'].clip(lower=1)
+    # make figure
+    fig_dict = {
+        "data": [],
+        "layout": {},
+        "frames": []
+    }
 
-    df_scatter['New cases per day'] = df_scatter['new_cases'].clip(lower=1)
-    df_scatter['Total cases'] = df_scatter['total_cases'].clip(lower=1)
+    # fill in most of layout
+    fig_dict["layout"]["xaxis"] = {"range": [0, 6.5],
+                                   "title": "Total Cases",
+                                   'type': 'log'}
+    fig_dict["layout"]["yaxis"] = {"range": [0, 5.5],
+                                   "title": "New Cases",
+                                   "type": "log"}
+    fig_dict["layout"]["hovermode"] = "closest"
+    fig_dict["layout"]["sliders"] = {
+        "args": [
+            "transition", {
+                "duration": 400,
+                "easing": "cubic-in-out"
+            }
+        ],
+        "initialValue": "0",
+        "plotlycommand": "animate",
+        "values": days,
+        "visible": True
+    }
+    fig_dict["layout"]["updatemenus"] = [
+        {
+            "buttons": [
+                {
+                    "args": [None, {"frame": {"duration": 500,
+                                              "redraw": False},
+                                    "fromcurrent": True,
+                                    "transition": {"duration": 300,
+                                                   "easing": "quadratic-in-out"
+                                                   }
+                                    }
+                             ],
+                    "label": "Play",
+                    "method": "animate"
+                },
+                {
+                    "args": [[None], {"frame": {"duration": 0,
+                                                "redraw": False
+                                                },
+                                      "mode": "immediate",
+                                      "transition": {"duration": 0}
+                                      }
+                             ],
+                    "label": "Pause",
+                    "method": "animate"
+                }
+            ],
+            "direction": "left",
+            "pad": {"r": 10, "t": 87},
+            "showactive": False,
+            "type": "buttons",
+            "x": 0.1,
+            "xanchor": "right",
+            "y": 0,
+            "yanchor": "top"
+        }
+    ]
 
-    title = {
-        'text': "Covid-19 cases per region: Marker size is growth rate",
-        'y': 0.9,
-        'x': 0.5,
-        'xanchor': 'center',
-        'yanchor': 'top'}
-    # return scatter plot
-    return px.scatter(df_scatter, x="Total cases", y="New cases per day",
-                      animation_frame="Date", animation_group="Country/Region",
-                      size="growth_rate_clip",
-                      size_max=100,
-                      color="Continent",
-                      hover_name="Country/Region",
-                      log_x=True,
-                      log_y=True,
-                      range_x=[1, 3e6],
-                      range_y=[1, 1e6],
-                      title=title
-                      )
+    sliders_dict = {
+        "active": 0,
+        "yanchor": "top",
+        "xanchor": "left",
+        "currentvalue": {
+            "font": {"size": 20},
+            "prefix": "Day:",
+            "visible": True,
+            "xanchor": "right"
+        },
+        "transition": {"duration": 300, "easing": "cubic-in-out"},
+        "pad": {"b": 10, "t": 50},
+        "len": 0.9,
+        "x": 0.1,
+        "y": 0,
+        "steps": []
+    }
+
+    # make data
+    day = 0
+    for Continent in continents:
+        dataset_by_day = pivoted[pivoted["Days"] == day]
+        dataset_by_year_and_cont = dataset_by_day[
+            dataset_by_day["Continent"] == Continent]
+
+        data_dict = {
+            "x": list(dataset_by_year_and_cont["total_cases"]),
+            "y": list(dataset_by_year_and_cont["new_cases"]),
+            "mode": "markers",
+            "text": list(dataset_by_year_and_cont["Country/Region"]),
+            "marker": {
+                "sizemode": "area",
+                "sizeref": 50,
+                "size": list(abs(dataset_by_year_and_cont["total_cases"]))
+            },
+            "name": Continent
+        }
+        fig_dict["data"].append(data_dict)
+
+    # make frames
+    for day in days:
+        frame = {"data": [], "name": str(day)}
+        for continent in continents:
+            dataset_by_year = pivoted[pivoted["Days"] == int(day)]
+            dataset_by_year_and_cont = dataset_by_year[
+                dataset_by_year["Continent"] == continent]
+
+            data_dict = {
+                "x": list(dataset_by_year_and_cont["total_cases"]),
+                "y": list(dataset_by_year_and_cont["new_cases"]),
+                "mode": "markers",
+                "text": list(dataset_by_year_and_cont["Country/Region"]),
+                "marker": {
+                    "sizemode": "area",
+                    "sizeref": 50,
+                    "size": list(abs(dataset_by_year_and_cont["total_cases"]))
+                },
+                "name": continent
+            }
+            frame["data"].append(data_dict)
+
+        fig_dict["frames"].append(frame)
+        slider_step = {"args": [
+            [str(day)],
+            {"frame": {"duration": 300, "redraw": False},
+             "mode": "immediate",
+             "transition": {"duration": 300}}
+        ],
+            "label": str(day),
+            "method": "animate"}
+        sliders_dict["steps"].append(slider_step)
+
+    fig_dict["layout"]["sliders"] = [sliders_dict]
+
+    return go.Figure(fig_dict)
 
 
-fig_animated = plot_animation(pivoted)
+fig = create_animation_scatter_plot()
 
 app.layout = html.Div([
 
@@ -166,17 +275,17 @@ app.layout = html.Div([
     }
     ),
 
-    # fig_animated
     html.Div([
-        dcc.Graph(id='cases-animation-slider',
-                  figure=fig_animated,
-                  style={'height': '700px'})
+        dcc.Graph(id='total-new-cases-slider',
+                  figure=fig,
+                  style={'height': '700px'}),
     ], style={
         'borderBottom': 'thin lightgrey solid',
         'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px',
-        'vertical-align': 'center'
-    }),
+        'vertical-align': 'middle'
+    }
+    ),
 
     html.Div(children=f'Copyright Dr. David I. Jones, 2020. MIT License. '
                       f'See https://github.com/drblahdblah/covid-19-analysis for the code.',
