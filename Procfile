@@ -1,1 +1,1 @@
-web: gunicorn --workers=3 app:server --log-file=- --log-level debug
+web: gunicorn --workers=6 app:server --log-file=- --log-level debug
