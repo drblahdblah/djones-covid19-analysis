@@ -4,8 +4,12 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
+import plotly.express as px
 import plotly.graph_objects as go
 
+pd.set_option("display.max_columns", 500)
+pd.set_option("display.max_rows", 1000)
+pd.set_option("display.width", 1000)
 app = dash.Dash(__name__)
 server = app.server
 date_today = datetime.strftime(datetime.today(), '%d-%m-%Y')
@@ -17,24 +21,47 @@ available_indicators = df['indicator'].unique()
 days = df.Days.unique()
 continents = df.Continent.unique()
 
-df_total_new_cases = df.loc[(df.indicator == 'total_cases') |
-                            (df.indicator == 'new_cases')]
-df_total_new_cases = df_total_new_cases.drop(labels=['Unnamed: 0'], axis=1)
-
-pivoted = (df_total_new_cases
-           .set_index(['Date', 'Country/Region', 'Continent', 'Days'])
-           .pivot_table(values='value',
-                        index=['Date', 'Country/Region', 'Continent', 'Days'],
-                        columns='indicator',
-                        aggfunc='mean',
-                        fill_value=0)
-           .reset_index()
-           )
-
+pivoted_data_path = f'./data/result_pivoted.csv'
+pivoted = pd.read_csv(pivoted_data_path, header=0)
 colors = {
     'background': '#111111',
     'text': '#7FDBFF'
 }
+
+
+def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
+    """
+    Function to create a good scatter plot of new versus total cases with the date as the
+    parameter in the bar.
+    :param df_scatter: A Pandas DataFrame to create the scatter plot with
+    :return:
+    """
+    df_scatter = df_scatter.groupby(['Country/Region', 'Date', 'Continent'], as_index=False).sum()
+
+    df_scatter['growth_rate_clip'] = df_scatter['growth_rate'].clip(lower=1)
+
+    df_scatter['New cases per day'] = df_scatter['new_cases'].clip(lower=1)
+    df_scatter['Total cases'] = df_scatter['total_cases'].clip(lower=1)
+
+    title = {
+        'text': "Covid-19 cases per region: Marker size is growth rate",
+        'y': 0.9,
+        'x': 0.5,
+        'xanchor': 'center',
+        'yanchor': 'top'}
+    # return scatter plot
+    return px.scatter(df_scatter, x="Total cases", y="New cases per day",
+                      animation_frame="Date", animation_group="Country/Region",
+                      size="growth_rate_clip",
+                      size_max=100,
+                      color="Continent",
+                      hover_name="Country/Region",
+                      log_x=True,
+                      log_y=True,
+                      range_x=[1, 3e6],
+                      range_y=[1, 1e6],
+                      title=title
+                      )
 
 
 def create_animation_scatter_plot() -> go.Figure:
@@ -136,8 +163,8 @@ def create_animation_scatter_plot() -> go.Figure:
             "text": list(dataset_by_year_and_cont["Country/Region"]),
             "marker": {
                 "sizemode": "area",
-                "sizeref": 100,
-                "size": list(dataset_by_year_and_cont["total_cases"])
+                "sizeref": 500000,
+                "size": list(abs(dataset_by_year_and_cont["growth_rate"]))
             },
             "name": Continent
         }
@@ -158,8 +185,8 @@ def create_animation_scatter_plot() -> go.Figure:
                 "text": list(dataset_by_year_and_cont["Country/Region"]),
                 "marker": {
                     "sizemode": "area",
-                    "sizeref": 50,
-                    "size": list(dataset_by_year_and_cont["total_cases"])
+                    "sizeref": 500000,
+                    "size": list(abs(dataset_by_year_and_cont["growth_rate"]))
                 },
                 "name": continent
             }
@@ -182,6 +209,7 @@ def create_animation_scatter_plot() -> go.Figure:
 
 
 fig = create_animation_scatter_plot()
+fig_animated = plot_animation(pivoted)
 
 app.layout = html.Div([
 
@@ -275,7 +303,7 @@ app.layout = html.Div([
             step=2
         ), style={'width': '49%',
                   'float': 'left',
-                  'padding': '0px 20px 20px 20px'}
+                  'padding': '50px 20px 20px 20px'}
         ),
     ], style={
         'borderBottom': 'thin lightgrey solid',
@@ -284,22 +312,34 @@ app.layout = html.Div([
     }
     ),
 
+    # fig_animated
     html.Div([
-        dcc.Graph(id='total-new-cases-slider',
-                  figure=fig,
-                  style={'height': '700px'}),
+        dcc.Graph(id='cases-animation-slider',
+                  figure=fig_animated,
+                  style={'height': '700px'})
     ], style={
         'borderBottom': 'thin lightgrey solid',
         'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px',
-        'vertical-align': 'middle'
-    }
-    ),
+        'vertical-align': 'center'
+    }),
+
+    # html.Div([
+    #     dcc.Graph(id='total-new-cases-slider',
+    #               figure=fig,
+    #               style={'height': '700px'}),
+    # ], style={
+    #     'borderBottom': 'thin lightgrey solid',
+    #     'backgroundColor': 'rgb(250, 250, 250)',
+    #     'padding': '10px 5px',
+    #     'vertical-align': 'middle'
+    # }
+    # ),
 
     html.Div(children=f'Copyright Dr. David I. Jones, 2020. MIT License. '
                       f'See https://github.com/drblahdblah/covid-19-analysis for the code.',
              style={
-                 'textAlign': 'right',
+                 'textAlign': 'center',
                  'width': '100%'
              }
              )
@@ -396,4 +436,4 @@ def update_x_timeseries(hover_data, yaxis_column_name, axis_type):
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
