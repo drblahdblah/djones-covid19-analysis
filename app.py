@@ -313,28 +313,28 @@ app.layout = html.Div([
     ),
 
     # fig_animated
-    html.Div([
-        dcc.Graph(id='cases-animation-slider',
-                  figure=fig_animated,
-                  style={'height': '700px'})
-    ], style={
-        'borderBottom': 'thin lightgrey solid',
-        'backgroundColor': 'rgb(250, 250, 250)',
-        'padding': '10px 5px',
-        'vertical-align': 'center'
-    }),
-
     # html.Div([
-    #     dcc.Graph(id='total-new-cases-slider',
-    #               figure=fig,
-    #               style={'height': '700px'}),
+    #     dcc.Graph(id='cases-animation-slider',
+    #               figure=fig_animated,
+    #               style={'height': '700px'})
     # ], style={
     #     'borderBottom': 'thin lightgrey solid',
     #     'backgroundColor': 'rgb(250, 250, 250)',
     #     'padding': '10px 5px',
-    #     'vertical-align': 'middle'
-    # }
-    # ),
+    #     'vertical-align': 'center'
+    # }),
+
+    html.Div([
+        dcc.Graph(id='total-new-cases-slider',
+                  figure=fig,
+                  style={'height': '700px'}),
+    ], style={
+        'borderBottom': 'thin lightgrey solid',
+        'backgroundColor': 'rgb(250, 250, 250)',
+        'padding': '10px 5px',
+        'vertical-align': 'middle'
+    }
+    ),
 
     html.Div(children=f'Copyright Dr. David I. Jones, 2020. MIT License. '
                       f'See https://github.com/drblahdblah/covid-19-analysis for the code.',
