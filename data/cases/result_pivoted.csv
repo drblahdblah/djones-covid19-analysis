@@ -1,4 +1,4 @@
-,Date,Country/Region,Continent,Days,growth_rate,new_cases,total_cases
+,Date,Country/Region,Continent,Days,Growth Rate,New cases,Total cases
 0,2020-01-22,Afghanistan,Asia,0,0.0,0,0
 1,2020-01-22,Albania,Europe,0,0.0,0,0
 2,2020-01-22,Algeria,Africa,0,0.0,0,0
@@ -7,7 +7,7 @@
 5,2020-01-22,Antigua and Barbuda,North America,0,0.0,0,0
 6,2020-01-22,Argentina,South America,0,0.0,0,0
 7,2020-01-22,Armenia,Asia,0,0.0,0,0
-8,2020-01-22,Australia,Australia,0,0.0,0,0
+8,2020-01-22,Australia,Australasia,0,0.0,0,0
 9,2020-01-22,Austria,Europe,0,0.0,0,0
 10,2020-01-22,Azerbaijan,Asia,0,0.0,0,0
 11,2020-01-22,Bahamas,North America,0,0.0,0,0
@@ -54,7 +54,7 @@
 52,2020-01-22,Estonia,Europe,0,0.0,0,0
 53,2020-01-22,Eswatini,Africa,0,0.0,0,0
 54,2020-01-22,Ethiopia,Africa,0,0.0,0,0
-55,2020-01-22,Fiji,Australia,0,0.0,0,0
+55,2020-01-22,Fiji,Australasia,0,0.0,0,0
 56,2020-01-22,Finland,Europe,0,0.0,0,0
 57,2020-01-22,France,Europe,0,0.0,0,0
 58,2020-01-22,Gabon,Africa,0,0.0,0,0
@@ -114,7 +114,7 @@
 112,2020-01-22,Namibia,Africa,0,0.0,0,0
 113,2020-01-22,Nepal,Asia,0,0.0,0,0
 114,2020-01-22,Netherlands,Europe,0,0.0,0,0
-115,2020-01-22,New Zealand,Australia,0,0.0,0,0
+115,2020-01-22,New Zealand,Australasia,0,0.0,0,0
 116,2020-01-22,Nicaragua,North America,0,0.0,0,0
 117,2020-01-22,Niger,Africa,0,0.0,0,0
 118,2020-01-22,Nigeria,Africa,0,0.0,0,0
@@ -123,7 +123,7 @@
 121,2020-01-22,Oman,Asia,0,0.0,0,0
 122,2020-01-22,Pakistan,Asia,0,0.0,0,0
 123,2020-01-22,Panama,North America,0,0.0,0,0
-124,2020-01-22,Papua New Guinea,Australia,0,0.0,0,0
+124,2020-01-22,Papua New Guinea,Australasia,0,0.0,0,0
 125,2020-01-22,Paraguay,South America,0,0.0,0,0
 126,2020-01-22,Peru,South America,0,0.0,0,0
 127,2020-01-22,Philippines,Asia,0,0.0,0,0
@@ -185,7 +185,7 @@
 183,2020-01-23,Antigua and Barbuda,North America,1,0.0,0,0
 184,2020-01-23,Argentina,South America,1,0.0,0,0
 185,2020-01-23,Armenia,Asia,1,0.0,0,0
-186,2020-01-23,Australia,Australia,1,0.0,0,0
+186,2020-01-23,Australia,Australasia,1,0.0,0,0
 187,2020-01-23,Austria,Europe,1,0.0,0,0
 188,2020-01-23,Azerbaijan,Asia,1,0.0,0,0
 189,2020-01-23,Bahamas,North America,1,0.0,0,0
@@ -232,7 +232,7 @@
 230,2020-01-23,Estonia,Europe,1,0.0,0,0
 231,2020-01-23,Eswatini,Africa,1,0.0,0,0
 232,2020-01-23,Ethiopia,Africa,1,0.0,0,0
-233,2020-01-23,Fiji,Australia,1,0.0,0,0
+233,2020-01-23,Fiji,Australasia,1,0.0,0,0
 234,2020-01-23,Finland,Europe,1,0.0,0,0
 235,2020-01-23,France,Europe,1,0.0,0,0
 236,2020-01-23,Gabon,Africa,1,0.0,0,0
@@ -292,7 +292,7 @@
 290,2020-01-23,Namibia,Africa,1,0.0,0,0
 291,2020-01-23,Nepal,Asia,1,0.0,0,0
 292,2020-01-23,Netherlands,Europe,1,0.0,0,0
-293,2020-01-23,New Zealand,Australia,1,0.0,0,0
+293,2020-01-23,New Zealand,Australasia,1,0.0,0,0
 294,2020-01-23,Nicaragua,North America,1,0.0,0,0
 295,2020-01-23,Niger,Africa,1,0.0,0,0
 296,2020-01-23,Nigeria,Africa,1,0.0,0,0
@@ -301,7 +301,7 @@
 299,2020-01-23,Oman,Asia,1,0.0,0,0
 300,2020-01-23,Pakistan,Asia,1,0.0,0,0
 301,2020-01-23,Panama,North America,1,0.0,0,0
-302,2020-01-23,Papua New Guinea,Australia,1,0.0,0,0
+302,2020-01-23,Papua New Guinea,Australasia,1,0.0,0,0
 303,2020-01-23,Paraguay,South America,1,0.0,0,0
 304,2020-01-23,Peru,South America,1,0.0,0,0
 305,2020-01-23,Philippines,Asia,1,0.0,0,0
@@ -363,7 +363,7 @@
 361,2020-01-24,Antigua and Barbuda,North America,2,0.0,0,0
 362,2020-01-24,Argentina,South America,2,0.0,0,0
 363,2020-01-24,Armenia,Asia,2,0.0,0,0
-364,2020-01-24,Australia,Australia,2,0.0,0,0
+364,2020-01-24,Australia,Australasia,2,0.0,0,0
 365,2020-01-24,Austria,Europe,2,0.0,0,0
 366,2020-01-24,Azerbaijan,Asia,2,0.0,0,0
 367,2020-01-24,Bahamas,North America,2,0.0,0,0
@@ -410,7 +410,7 @@
 408,2020-01-24,Estonia,Europe,2,0.0,0,0
 409,2020-01-24,Eswatini,Africa,2,0.0,0,0
 410,2020-01-24,Ethiopia,Africa,2,0.0,0,0
-411,2020-01-24,Fiji,Australia,2,0.0,0,0
+411,2020-01-24,Fiji,Australasia,2,0.0,0,0
 412,2020-01-24,Finland,Europe,2,0.0,0,0
 413,2020-01-24,France,Europe,2,0.0,2,2
 414,2020-01-24,Gabon,Africa,2,0.0,0,0
@@ -470,7 +470,7 @@
 468,2020-01-24,Namibia,Africa,2,0.0,0,0
 469,2020-01-24,Nepal,Asia,2,0.0,0,0
 470,2020-01-24,Netherlands,Europe,2,0.0,0,0
-471,2020-01-24,New Zealand,Australia,2,0.0,0,0
+471,2020-01-24,New Zealand,Australasia,2,0.0,0,0
 472,2020-01-24,Nicaragua,North America,2,0.0,0,0
 473,2020-01-24,Niger,Africa,2,0.0,0,0
 474,2020-01-24,Nigeria,Africa,2,0.0,0,0
@@ -479,7 +479,7 @@
 477,2020-01-24,Oman,Asia,2,0.0,0,0
 478,2020-01-24,Pakistan,Asia,2,0.0,0,0
 479,2020-01-24,Panama,North America,2,0.0,0,0
-480,2020-01-24,Papua New Guinea,Australia,2,0.0,0,0
+480,2020-01-24,Papua New Guinea,Australasia,2,0.0,0,0
 481,2020-01-24,Paraguay,South America,2,0.0,0,0
 482,2020-01-24,Peru,South America,2,0.0,0,0
 483,2020-01-24,Philippines,Asia,2,0.0,0,0
@@ -541,7 +541,7 @@
 539,2020-01-25,Antigua and Barbuda,North America,3,0.0,0,0
 540,2020-01-25,Argentina,South America,3,0.0,0,0
 541,2020-01-25,Armenia,Asia,3,0.0,0,0
-542,2020-01-25,Australia,Australia,3,0.0,0,0
+542,2020-01-25,Australia,Australasia,3,0.0,0,0
 543,2020-01-25,Austria,Europe,3,0.0,0,0
 544,2020-01-25,Azerbaijan,Asia,3,0.0,0,0
 545,2020-01-25,Bahamas,North America,3,0.0,0,0
@@ -588,7 +588,7 @@
 586,2020-01-25,Estonia,Europe,3,0.0,0,0
 587,2020-01-25,Eswatini,Africa,3,0.0,0,0
 588,2020-01-25,Ethiopia,Africa,3,0.0,0,0
-589,2020-01-25,Fiji,Australia,3,0.0,0,0
+589,2020-01-25,Fiji,Australasia,3,0.0,0,0
 590,2020-01-25,Finland,Europe,3,0.0,0,0
 591,2020-01-25,France,Europe,3,0.0,1,3
 592,2020-01-25,Gabon,Africa,3,0.0,0,0
@@ -648,7 +648,7 @@
 646,2020-01-25,Namibia,Africa,3,0.0,0,0
 647,2020-01-25,Nepal,Asia,3,0.0,1,1
 648,2020-01-25,Netherlands,Europe,3,0.0,0,0
-649,2020-01-25,New Zealand,Australia,3,0.0,0,0
+649,2020-01-25,New Zealand,Australasia,3,0.0,0,0
 650,2020-01-25,Nicaragua,North America,3,0.0,0,0
 651,2020-01-25,Niger,Africa,3,0.0,0,0
 652,2020-01-25,Nigeria,Africa,3,0.0,0,0
@@ -657,7 +657,7 @@
 655,2020-01-25,Oman,Asia,3,0.0,0,0
 656,2020-01-25,Pakistan,Asia,3,0.0,0,0
 657,2020-01-25,Panama,North America,3,0.0,0,0
-658,2020-01-25,Papua New Guinea,Australia,3,0.0,0,0
+658,2020-01-25,Papua New Guinea,Australasia,3,0.0,0,0
 659,2020-01-25,Paraguay,South America,3,0.0,0,0
 660,2020-01-25,Peru,South America,3,0.0,0,0
 661,2020-01-25,Philippines,Asia,3,0.0,0,0
@@ -719,7 +719,7 @@
 717,2020-01-26,Antigua and Barbuda,North America,4,0.0,0,0
 718,2020-01-26,Argentina,South America,4,0.0,0,0
 719,2020-01-26,Armenia,Asia,4,0.0,0,0
-720,2020-01-26,Australia,Australia,4,100.0,4,4
+720,2020-01-26,Australia,Australasia,4,100.0,4,4
 721,2020-01-26,Austria,Europe,4,0.0,0,0
 722,2020-01-26,Azerbaijan,Asia,4,0.0,0,0
 723,2020-01-26,Bahamas,North America,4,0.0,0,0
@@ -766,7 +766,7 @@
 764,2020-01-26,Estonia,Europe,4,0.0,0,0
 765,2020-01-26,Eswatini,Africa,4,0.0,0,0
 766,2020-01-26,Ethiopia,Africa,4,0.0,0,0
-767,2020-01-26,Fiji,Australia,4,0.0,0,0
+767,2020-01-26,Fiji,Australasia,4,0.0,0,0
 768,2020-01-26,Finland,Europe,4,0.0,0,0
 769,2020-01-26,France,Europe,4,37.49999999999999,0,3
 770,2020-01-26,Gabon,Africa,4,0.0,0,0
@@ -826,7 +826,7 @@
 824,2020-01-26,Namibia,Africa,4,0.0,0,0
 825,2020-01-26,Nepal,Asia,4,50.0,0,1
 826,2020-01-26,Netherlands,Europe,4,0.0,0,0
-827,2020-01-26,New Zealand,Australia,4,0.0,0,0
+827,2020-01-26,New Zealand,Australasia,4,0.0,0,0
 828,2020-01-26,Nicaragua,North America,4,0.0,0,0
 829,2020-01-26,Niger,Africa,4,0.0,0,0
 830,2020-01-26,Nigeria,Africa,4,0.0,0,0
@@ -835,7 +835,7 @@
 833,2020-01-26,Oman,Asia,4,0.0,0,0
 834,2020-01-26,Pakistan,Asia,4,0.0,0,0
 835,2020-01-26,Panama,North America,4,0.0,0,0
-836,2020-01-26,Papua New Guinea,Australia,4,0.0,0,0
+836,2020-01-26,Papua New Guinea,Australasia,4,0.0,0,0
 837,2020-01-26,Paraguay,South America,4,0.0,0,0
 838,2020-01-26,Peru,South America,4,0.0,0,0
 839,2020-01-26,Philippines,Asia,4,0.0,0,0
@@ -897,7 +897,7 @@
 895,2020-01-27,Antigua and Barbuda,North America,5,0.0,0,0
 896,2020-01-27,Argentina,South America,5,0.0,0,0
 897,2020-01-27,Armenia,Asia,5,0.0,0,0
-898,2020-01-27,Australia,Australia,5,55.55555555555556,1,5
+898,2020-01-27,Australia,Australasia,5,55.55555555555556,1,5
 899,2020-01-27,Austria,Europe,5,0.0,0,0
 900,2020-01-27,Azerbaijan,Asia,5,0.0,0,0
 901,2020-01-27,Bahamas,North America,5,0.0,0,0
@@ -944,7 +944,7 @@
 942,2020-01-27,Estonia,Europe,5,0.0,0,0
 943,2020-01-27,Eswatini,Africa,5,0.0,0,0
 944,2020-01-27,Ethiopia,Africa,5,0.0,0,0
-945,2020-01-27,Fiji,Australia,5,0.0,0,0
+945,2020-01-27,Fiji,Australasia,5,0.0,0,0
 946,2020-01-27,Finland,Europe,5,0.0,0,0
 947,2020-01-27,France,Europe,5,27.27272727272727,0,3
 948,2020-01-27,Gabon,Africa,5,0.0,0,0
@@ -1004,7 +1004,7 @@
 1002,2020-01-27,Namibia,Africa,5,0.0,0,0
 1003,2020-01-27,Nepal,Asia,5,33.333333333333336,0,1
 1004,2020-01-27,Netherlands,Europe,5,0.0,0,0
-1005,2020-01-27,New Zealand,Australia,5,0.0,0,0
+1005,2020-01-27,New Zealand,Australasia,5,0.0,0,0
 1006,2020-01-27,Nicaragua,North America,5,0.0,0,0
 1007,2020-01-27,Niger,Africa,5,0.0,0,0
 1008,2020-01-27,Nigeria,Africa,5,0.0,0,0
@@ -1013,7 +1013,7 @@
 1011,2020-01-27,Oman,Asia,5,0.0,0,0
 1012,2020-01-27,Pakistan,Asia,5,0.0,0,0
 1013,2020-01-27,Panama,North America,5,0.0,0,0
-1014,2020-01-27,Papua New Guinea,Australia,5,0.0,0,0
+1014,2020-01-27,Papua New Guinea,Australasia,5,0.0,0,0
 1015,2020-01-27,Paraguay,South America,5,0.0,0,0
 1016,2020-01-27,Peru,South America,5,0.0,0,0
 1017,2020-01-27,Philippines,Asia,5,0.0,0,0
@@ -1075,7 +1075,7 @@
 1073,2020-01-28,Antigua and Barbuda,North America,6,0.0,0,0
 1074,2020-01-28,Argentina,South America,6,0.0,0,0
 1075,2020-01-28,Armenia,Asia,6,0.0,0,0
-1076,2020-01-28,Australia,Australia,6,35.714285714285715,0,5
+1076,2020-01-28,Australia,Australasia,6,35.714285714285715,0,5
 1077,2020-01-28,Austria,Europe,6,0.0,0,0
 1078,2020-01-28,Azerbaijan,Asia,6,0.0,0,0
 1079,2020-01-28,Bahamas,North America,6,0.0,0,0
@@ -1122,7 +1122,7 @@
 1120,2020-01-28,Estonia,Europe,6,0.0,0,0
 1121,2020-01-28,Eswatini,Africa,6,0.0,0,0
 1122,2020-01-28,Ethiopia,Africa,6,0.0,0,0
-1123,2020-01-28,Fiji,Australia,6,0.0,0,0
+1123,2020-01-28,Fiji,Australasia,6,0.0,0,0
 1124,2020-01-28,Finland,Europe,6,0.0,0,0
 1125,2020-01-28,France,Europe,6,26.666666666666668,1,4
 1126,2020-01-28,Gabon,Africa,6,0.0,0,0
@@ -1182,7 +1182,7 @@
 1180,2020-01-28,Namibia,Africa,6,0.0,0,0
 1181,2020-01-28,Nepal,Asia,6,25.0,0,1
 1182,2020-01-28,Netherlands,Europe,6,0.0,0,0
-1183,2020-01-28,New Zealand,Australia,6,0.0,0,0
+1183,2020-01-28,New Zealand,Australasia,6,0.0,0,0
 1184,2020-01-28,Nicaragua,North America,6,0.0,0,0
 1185,2020-01-28,Niger,Africa,6,0.0,0,0
 1186,2020-01-28,Nigeria,Africa,6,0.0,0,0
@@ -1191,7 +1191,7 @@
 1189,2020-01-28,Oman,Asia,6,0.0,0,0
 1190,2020-01-28,Pakistan,Asia,6,0.0,0,0
 1191,2020-01-28,Panama,North America,6,0.0,0,0
-1192,2020-01-28,Papua New Guinea,Australia,6,0.0,0,0
+1192,2020-01-28,Papua New Guinea,Australasia,6,0.0,0,0
 1193,2020-01-28,Paraguay,South America,6,0.0,0,0
 1194,2020-01-28,Peru,South America,6,0.0,0,0
 1195,2020-01-28,Philippines,Asia,6,0.0,0,0
@@ -1253,7 +1253,7 @@
 1251,2020-01-29,Antigua and Barbuda,North America,7,0.0,0,0
 1252,2020-01-29,Argentina,South America,7,0.0,0,0
 1253,2020-01-29,Armenia,Asia,7,0.0,0,0
-1254,2020-01-29,Australia,Australia,7,30.0,1,6
+1254,2020-01-29,Australia,Australasia,7,30.0,1,6
 1255,2020-01-29,Austria,Europe,7,0.0,0,0
 1256,2020-01-29,Azerbaijan,Asia,7,0.0,0,0
 1257,2020-01-29,Bahamas,North America,7,0.0,0,0
@@ -1300,7 +1300,7 @@
 1298,2020-01-29,Estonia,Europe,7,0.0,0,0
 1299,2020-01-29,Eswatini,Africa,7,0.0,0,0
 1300,2020-01-29,Ethiopia,Africa,7,0.0,0,0
-1301,2020-01-29,Fiji,Australia,7,0.0,0,0
+1301,2020-01-29,Fiji,Australasia,7,0.0,0,0
 1302,2020-01-29,Finland,Europe,7,100.0,1,1
 1303,2020-01-29,France,Europe,7,16.666666666666664,1,5
 1304,2020-01-29,Gabon,Africa,7,0.0,0,0
@@ -1360,7 +1360,7 @@
 1358,2020-01-29,Namibia,Africa,7,0.0,0,0
 1359,2020-01-29,Nepal,Asia,7,20.0,0,1
 1360,2020-01-29,Netherlands,Europe,7,0.0,0,0
-1361,2020-01-29,New Zealand,Australia,7,0.0,0,0
+1361,2020-01-29,New Zealand,Australasia,7,0.0,0,0
 1362,2020-01-29,Nicaragua,North America,7,0.0,0,0
 1363,2020-01-29,Niger,Africa,7,0.0,0,0
 1364,2020-01-29,Nigeria,Africa,7,0.0,0,0
@@ -1369,7 +1369,7 @@
 1367,2020-01-29,Oman,Asia,7,0.0,0,0
 1368,2020-01-29,Pakistan,Asia,7,0.0,0,0
 1369,2020-01-29,Panama,North America,7,0.0,0,0
-1370,2020-01-29,Papua New Guinea,Australia,7,0.0,0,0
+1370,2020-01-29,Papua New Guinea,Australasia,7,0.0,0,0
 1371,2020-01-29,Paraguay,South America,7,0.0,0,0
 1372,2020-01-29,Peru,South America,7,0.0,0,0
 1373,2020-01-29,Philippines,Asia,7,0.0,0,0
@@ -1431,7 +1431,7 @@
 1429,2020-01-30,Antigua and Barbuda,North America,8,0.0,0,0
 1430,2020-01-30,Argentina,South America,8,0.0,0,0
 1431,2020-01-30,Armenia,Asia,8,0.0,0,0
-1432,2020-01-30,Australia,Australia,8,31.03448275862069,3,9
+1432,2020-01-30,Australia,Australasia,8,31.03448275862069,3,9
 1433,2020-01-30,Austria,Europe,8,0.0,0,0
 1434,2020-01-30,Azerbaijan,Asia,8,0.0,0,0
 1435,2020-01-30,Bahamas,North America,8,0.0,0,0
@@ -1478,7 +1478,7 @@
 1476,2020-01-30,Estonia,Europe,8,0.0,0,0
 1477,2020-01-30,Eswatini,Africa,8,0.0,0,0
 1478,2020-01-30,Ethiopia,Africa,8,0.0,0,0
-1479,2020-01-30,Fiji,Australia,8,0.0,0,0
+1479,2020-01-30,Fiji,Australasia,8,0.0,0,0
 1480,2020-01-30,Finland,Europe,8,50.0,0,1
 1481,2020-01-30,France,Europe,8,10.0,0,5
 1482,2020-01-30,Gabon,Africa,8,0.0,0,0
@@ -1538,7 +1538,7 @@
 1536,2020-01-30,Namibia,Africa,8,0.0,0,0
 1537,2020-01-30,Nepal,Asia,8,0.0,0,1
 1538,2020-01-30,Netherlands,Europe,8,0.0,0,0
-1539,2020-01-30,New Zealand,Australia,8,0.0,0,0
+1539,2020-01-30,New Zealand,Australasia,8,0.0,0,0
 1540,2020-01-30,Nicaragua,North America,8,0.0,0,0
 1541,2020-01-30,Niger,Africa,8,0.0,0,0
 1542,2020-01-30,Nigeria,Africa,8,0.0,0,0
@@ -1547,7 +1547,7 @@
 1545,2020-01-30,Oman,Asia,8,0.0,0,0
 1546,2020-01-30,Pakistan,Asia,8,0.0,0,0
 1547,2020-01-30,Panama,North America,8,0.0,0,0
-1548,2020-01-30,Papua New Guinea,Australia,8,0.0,0,0
+1548,2020-01-30,Papua New Guinea,Australasia,8,0.0,0,0
 1549,2020-01-30,Paraguay,South America,8,0.0,0,0
 1550,2020-01-30,Peru,South America,8,0.0,0,0
 1551,2020-01-30,Philippines,Asia,8,100.0,1,1
@@ -1609,7 +1609,7 @@
 1607,2020-01-31,Antigua and Barbuda,North America,9,0.0,0,0
 1608,2020-01-31,Argentina,South America,9,0.0,0,0
 1609,2020-01-31,Armenia,Asia,9,0.0,0,0
-1610,2020-01-31,Australia,Australia,9,14.705882352941178,0,9
+1610,2020-01-31,Australia,Australasia,9,14.705882352941178,0,9
 1611,2020-01-31,Austria,Europe,9,0.0,0,0
 1612,2020-01-31,Azerbaijan,Asia,9,0.0,0,0
 1613,2020-01-31,Bahamas,North America,9,0.0,0,0
@@ -1656,7 +1656,7 @@
 1654,2020-01-31,Estonia,Europe,9,0.0,0,0
 1655,2020-01-31,Eswatini,Africa,9,0.0,0,0
 1656,2020-01-31,Ethiopia,Africa,9,0.0,0,0
-1657,2020-01-31,Fiji,Australia,9,0.0,0,0
+1657,2020-01-31,Fiji,Australasia,9,0.0,0,0
 1658,2020-01-31,Finland,Europe,9,33.333333333333336,0,1
 1659,2020-01-31,France,Europe,9,9.090909090909092,0,5
 1660,2020-01-31,Gabon,Africa,9,0.0,0,0
@@ -1716,7 +1716,7 @@
 1714,2020-01-31,Namibia,Africa,9,0.0,0,0
 1715,2020-01-31,Nepal,Asia,9,0.0,0,1
 1716,2020-01-31,Netherlands,Europe,9,0.0,0,0
-1717,2020-01-31,New Zealand,Australia,9,0.0,0,0
+1717,2020-01-31,New Zealand,Australasia,9,0.0,0,0
 1718,2020-01-31,Nicaragua,North America,9,0.0,0,0
 1719,2020-01-31,Niger,Africa,9,0.0,0,0
 1720,2020-01-31,Nigeria,Africa,9,0.0,0,0
@@ -1725,7 +1725,7 @@
 1723,2020-01-31,Oman,Asia,9,0.0,0,0
 1724,2020-01-31,Pakistan,Asia,9,0.0,0,0
 1725,2020-01-31,Panama,North America,9,0.0,0,0
-1726,2020-01-31,Papua New Guinea,Australia,9,0.0,0,0
+1726,2020-01-31,Papua New Guinea,Australasia,9,0.0,0,0
 1727,2020-01-31,Paraguay,South America,9,0.0,0,0
 1728,2020-01-31,Peru,South America,9,0.0,0,0
 1729,2020-01-31,Philippines,Asia,9,50.0,0,1
@@ -1787,7 +1787,7 @@
 1785,2020-02-01,Antigua and Barbuda,North America,10,0.0,0,0
 1786,2020-02-01,Argentina,South America,10,0.0,0,0
 1787,2020-02-01,Armenia,Asia,10,0.0,0,0
-1788,2020-02-01,Australia,Australia,10,17.073170731707318,3,12
+1788,2020-02-01,Australia,Australasia,10,17.073170731707318,3,12
 1789,2020-02-01,Austria,Europe,10,0.0,0,0
 1790,2020-02-01,Azerbaijan,Asia,10,0.0,0,0
 1791,2020-02-01,Bahamas,North America,10,0.0,0,0
@@ -1834,7 +1834,7 @@
 1832,2020-02-01,Estonia,Europe,10,0.0,0,0
 1833,2020-02-01,Eswatini,Africa,10,0.0,0,0
 1834,2020-02-01,Ethiopia,Africa,10,0.0,0,0
-1835,2020-02-01,Fiji,Australia,10,0.0,0,0
+1835,2020-02-01,Fiji,Australasia,10,0.0,0,0
 1836,2020-02-01,Finland,Europe,10,25.0,0,1
 1837,2020-02-01,France,Europe,10,12.0,1,6
 1838,2020-02-01,Gabon,Africa,10,0.0,0,0
@@ -1894,7 +1894,7 @@
 1892,2020-02-01,Namibia,Africa,10,0.0,0,0
 1893,2020-02-01,Nepal,Asia,10,0.0,0,1
 1894,2020-02-01,Netherlands,Europe,10,0.0,0,0
-1895,2020-02-01,New Zealand,Australia,10,0.0,0,0
+1895,2020-02-01,New Zealand,Australasia,10,0.0,0,0
 1896,2020-02-01,Nicaragua,North America,10,0.0,0,0
 1897,2020-02-01,Niger,Africa,10,0.0,0,0
 1898,2020-02-01,Nigeria,Africa,10,0.0,0,0
@@ -1903,7 +1903,7 @@
 1901,2020-02-01,Oman,Asia,10,0.0,0,0
 1902,2020-02-01,Pakistan,Asia,10,0.0,0,0
 1903,2020-02-01,Panama,North America,10,0.0,0,0
-1904,2020-02-01,Papua New Guinea,Australia,10,0.0,0,0
+1904,2020-02-01,Papua New Guinea,Australasia,10,0.0,0,0
 1905,2020-02-01,Paraguay,South America,10,0.0,0,0
 1906,2020-02-01,Peru,South America,10,0.0,0,0
 1907,2020-02-01,Philippines,Asia,10,33.333333333333336,0,1
@@ -1965,7 +1965,7 @@
 1963,2020-02-02,Antigua and Barbuda,North America,11,0.0,0,0
 1964,2020-02-02,Argentina,South America,11,0.0,0,0
 1965,2020-02-02,Armenia,Asia,11,0.0,0,0
-1966,2020-02-02,Australia,Australia,11,14.583333333333334,0,12
+1966,2020-02-02,Australia,Australasia,11,14.583333333333334,0,12
 1967,2020-02-02,Austria,Europe,11,0.0,0,0
 1968,2020-02-02,Azerbaijan,Asia,11,0.0,0,0
 1969,2020-02-02,Bahamas,North America,11,0.0,0,0
@@ -2012,7 +2012,7 @@
 2010,2020-02-02,Estonia,Europe,11,0.0,0,0
 2011,2020-02-02,Eswatini,Africa,11,0.0,0,0
 2012,2020-02-02,Ethiopia,Africa,11,0.0,0,0
-2013,2020-02-02,Fiji,Australia,11,0.0,0,0
+2013,2020-02-02,Fiji,Australasia,11,0.0,0,0
 2014,2020-02-02,Finland,Europe,11,20.0,0,1
 2015,2020-02-02,France,Europe,11,7.4074074074074066,0,6
 2016,2020-02-02,Gabon,Africa,11,0.0,0,0
@@ -2072,7 +2072,7 @@
 2070,2020-02-02,Namibia,Africa,11,0.0,0,0
 2071,2020-02-02,Nepal,Asia,11,0.0,0,1
 2072,2020-02-02,Netherlands,Europe,11,0.0,0,0
-2073,2020-02-02,New Zealand,Australia,11,0.0,0,0
+2073,2020-02-02,New Zealand,Australasia,11,0.0,0,0
 2074,2020-02-02,Nicaragua,North America,11,0.0,0,0
 2075,2020-02-02,Niger,Africa,11,0.0,0,0
 2076,2020-02-02,Nigeria,Africa,11,0.0,0,0
@@ -2081,7 +2081,7 @@
 2079,2020-02-02,Oman,Asia,11,0.0,0,0
 2080,2020-02-02,Pakistan,Asia,11,0.0,0,0
 2081,2020-02-02,Panama,North America,11,0.0,0,0
-2082,2020-02-02,Papua New Guinea,Australia,11,0.0,0,0
+2082,2020-02-02,Papua New Guinea,Australasia,11,0.0,0,0
 2083,2020-02-02,Paraguay,South America,11,0.0,0,0
 2084,2020-02-02,Peru,South America,11,0.0,0,0
 2085,2020-02-02,Philippines,Asia,11,40.0,1,2
@@ -2143,7 +2143,7 @@
 2141,2020-02-03,Antigua and Barbuda,North America,12,0.0,0,0
 2142,2020-02-03,Argentina,South America,12,0.0,0,0
 2143,2020-02-03,Armenia,Asia,12,0.0,0,0
-2144,2020-02-03,Australia,Australia,12,11.11111111111111,0,12
+2144,2020-02-03,Australia,Australasia,12,11.11111111111111,0,12
 2145,2020-02-03,Austria,Europe,12,0.0,0,0
 2146,2020-02-03,Azerbaijan,Asia,12,0.0,0,0
 2147,2020-02-03,Bahamas,North America,12,0.0,0,0
@@ -2190,7 +2190,7 @@
 2188,2020-02-03,Estonia,Europe,12,0.0,0,0
 2189,2020-02-03,Eswatini,Africa,12,0.0,0,0
 2190,2020-02-03,Ethiopia,Africa,12,0.0,0,0
-2191,2020-02-03,Fiji,Australia,12,0.0,0,0
+2191,2020-02-03,Fiji,Australasia,12,0.0,0,0
 2192,2020-02-03,Finland,Europe,12,0.0,0,1
 2193,2020-02-03,France,Europe,12,3.571428571428572,0,6
 2194,2020-02-03,Gabon,Africa,12,0.0,0,0
@@ -2250,7 +2250,7 @@
 2248,2020-02-03,Namibia,Africa,12,0.0,0,0
 2249,2020-02-03,Nepal,Asia,12,0.0,0,1
 2250,2020-02-03,Netherlands,Europe,12,0.0,0,0
-2251,2020-02-03,New Zealand,Australia,12,0.0,0,0
+2251,2020-02-03,New Zealand,Australasia,12,0.0,0,0
 2252,2020-02-03,Nicaragua,North America,12,0.0,0,0
 2253,2020-02-03,Niger,Africa,12,0.0,0,0
 2254,2020-02-03,Nigeria,Africa,12,0.0,0,0
@@ -2259,7 +2259,7 @@
 2257,2020-02-03,Oman,Asia,12,0.0,0,0
 2258,2020-02-03,Pakistan,Asia,12,0.0,0,0
 2259,2020-02-03,Panama,North America,12,0.0,0,0
-2260,2020-02-03,Papua New Guinea,Australia,12,0.0,0,0
+2260,2020-02-03,Papua New Guinea,Australasia,12,0.0,0,0
 2261,2020-02-03,Paraguay,South America,12,0.0,0,0
 2262,2020-02-03,Peru,South America,12,0.0,0,0
 2263,2020-02-03,Philippines,Asia,12,28.571428571428577,0,2
@@ -2321,7 +2321,7 @@
 2319,2020-02-04,Antigua and Barbuda,North America,13,0.0,0,0
 2320,2020-02-04,Argentina,South America,13,0.0,0,0
 2321,2020-02-04,Armenia,Asia,13,0.0,0,0
-2322,2020-02-04,Australia,Australia,13,6.896551724137931,1,13
+2322,2020-02-04,Australia,Australasia,13,6.896551724137931,1,13
 2323,2020-02-04,Austria,Europe,13,0.0,0,0
 2324,2020-02-04,Azerbaijan,Asia,13,0.0,0,0
 2325,2020-02-04,Bahamas,North America,13,0.0,0,0
@@ -2368,7 +2368,7 @@
 2366,2020-02-04,Estonia,Europe,13,0.0,0,0
 2367,2020-02-04,Eswatini,Africa,13,0.0,0,0
 2368,2020-02-04,Ethiopia,Africa,13,0.0,0,0
-2369,2020-02-04,Fiji,Australia,13,0.0,0,0
+2369,2020-02-04,Fiji,Australasia,13,0.0,0,0
 2370,2020-02-04,Finland,Europe,13,0.0,0,1
 2371,2020-02-04,France,Europe,13,3.4482758620689653,0,6
 2372,2020-02-04,Gabon,Africa,13,0.0,0,0
@@ -2428,7 +2428,7 @@
 2426,2020-02-04,Namibia,Africa,13,0.0,0,0
 2427,2020-02-04,Nepal,Asia,13,0.0,0,1
 2428,2020-02-04,Netherlands,Europe,13,0.0,0,0
-2429,2020-02-04,New Zealand,Australia,13,0.0,0,0
+2429,2020-02-04,New Zealand,Australasia,13,0.0,0,0
 2430,2020-02-04,Nicaragua,North America,13,0.0,0,0
 2431,2020-02-04,Niger,Africa,13,0.0,0,0
 2432,2020-02-04,Nigeria,Africa,13,0.0,0,0
@@ -2437,7 +2437,7 @@
 2435,2020-02-04,Oman,Asia,13,0.0,0,0
 2436,2020-02-04,Pakistan,Asia,13,0.0,0,0
 2437,2020-02-04,Panama,North America,13,0.0,0,0
-2438,2020-02-04,Papua New Guinea,Australia,13,0.0,0,0
+2438,2020-02-04,Papua New Guinea,Australasia,13,0.0,0,0
 2439,2020-02-04,Paraguay,South America,13,0.0,0,0
 2440,2020-02-04,Peru,South America,13,0.0,0,0
 2441,2020-02-04,Philippines,Asia,13,12.5,0,2
@@ -2499,7 +2499,7 @@
 2497,2020-02-05,Antigua and Barbuda,North America,14,0.0,0,0
 2498,2020-02-05,Argentina,South America,14,0.0,0,0
 2499,2020-02-05,Armenia,Asia,14,0.0,0,0
-2500,2020-02-05,Australia,Australia,14,6.451612903225806,0,13
+2500,2020-02-05,Australia,Australasia,14,6.451612903225806,0,13
 2501,2020-02-05,Austria,Europe,14,0.0,0,0
 2502,2020-02-05,Azerbaijan,Asia,14,0.0,0,0
 2503,2020-02-05,Bahamas,North America,14,0.0,0,0
@@ -2546,7 +2546,7 @@
 2544,2020-02-05,Estonia,Europe,14,0.0,0,0
 2545,2020-02-05,Eswatini,Africa,14,0.0,0,0
 2546,2020-02-05,Ethiopia,Africa,14,0.0,0,0
-2547,2020-02-05,Fiji,Australia,14,0.0,0,0
+2547,2020-02-05,Fiji,Australasia,14,0.0,0,0
 2548,2020-02-05,Finland,Europe,14,0.0,0,1
 2549,2020-02-05,France,Europe,14,3.3333333333333335,0,6
 2550,2020-02-05,Gabon,Africa,14,0.0,0,0
@@ -2606,7 +2606,7 @@
 2604,2020-02-05,Namibia,Africa,14,0.0,0,0
 2605,2020-02-05,Nepal,Asia,14,0.0,0,1
 2606,2020-02-05,Netherlands,Europe,14,0.0,0,0
-2607,2020-02-05,New Zealand,Australia,14,0.0,0,0
+2607,2020-02-05,New Zealand,Australasia,14,0.0,0,0
 2608,2020-02-05,Nicaragua,North America,14,0.0,0,0
 2609,2020-02-05,Niger,Africa,14,0.0,0,0
 2610,2020-02-05,Nigeria,Africa,14,0.0,0,0
@@ -2615,7 +2615,7 @@
 2613,2020-02-05,Oman,Asia,14,0.0,0,0
 2614,2020-02-05,Pakistan,Asia,14,0.0,0,0
 2615,2020-02-05,Panama,North America,14,0.0,0,0
-2616,2020-02-05,Papua New Guinea,Australia,14,0.0,0,0
+2616,2020-02-05,Papua New Guinea,Australasia,14,0.0,0,0
 2617,2020-02-05,Paraguay,South America,14,0.0,0,0
 2618,2020-02-05,Peru,South America,14,0.0,0,0
 2619,2020-02-05,Philippines,Asia,14,11.111111111111112,0,2
@@ -2677,7 +2677,7 @@
 2675,2020-02-06,Antigua and Barbuda,North America,15,0.0,0,0
 2676,2020-02-06,Argentina,South America,15,0.0,0,0
 2677,2020-02-06,Armenia,Asia,15,0.0,0,0
-2678,2020-02-06,Australia,Australia,15,3.125,1,14
+2678,2020-02-06,Australia,Australasia,15,3.125,1,14
 2679,2020-02-06,Austria,Europe,15,0.0,0,0
 2680,2020-02-06,Azerbaijan,Asia,15,0.0,0,0
 2681,2020-02-06,Bahamas,North America,15,0.0,0,0
@@ -2724,7 +2724,7 @@
 2722,2020-02-06,Estonia,Europe,15,0.0,0,0
 2723,2020-02-06,Eswatini,Africa,15,0.0,0,0
 2724,2020-02-06,Ethiopia,Africa,15,0.0,0,0
-2725,2020-02-06,Fiji,Australia,15,0.0,0,0
+2725,2020-02-06,Fiji,Australasia,15,0.0,0,0
 2726,2020-02-06,Finland,Europe,15,0.0,0,1
 2727,2020-02-06,France,Europe,15,0.0,0,6
 2728,2020-02-06,Gabon,Africa,15,0.0,0,0
@@ -2784,7 +2784,7 @@
 2782,2020-02-06,Namibia,Africa,15,0.0,0,0
 2783,2020-02-06,Nepal,Asia,15,0.0,0,1
 2784,2020-02-06,Netherlands,Europe,15,0.0,0,0
-2785,2020-02-06,New Zealand,Australia,15,0.0,0,0
+2785,2020-02-06,New Zealand,Australasia,15,0.0,0,0
 2786,2020-02-06,Nicaragua,North America,15,0.0,0,0
 2787,2020-02-06,Niger,Africa,15,0.0,0,0
 2788,2020-02-06,Nigeria,Africa,15,0.0,0,0
@@ -2793,7 +2793,7 @@
 2791,2020-02-06,Oman,Asia,15,0.0,0,0
 2792,2020-02-06,Pakistan,Asia,15,0.0,0,0
 2793,2020-02-06,Panama,North America,15,0.0,0,0
-2794,2020-02-06,Papua New Guinea,Australia,15,0.0,0,0
+2794,2020-02-06,Papua New Guinea,Australasia,15,0.0,0,0
 2795,2020-02-06,Paraguay,South America,15,0.0,0,0
 2796,2020-02-06,Peru,South America,15,0.0,0,0
 2797,2020-02-06,Philippines,Asia,15,10.0,0,2
@@ -2855,7 +2855,7 @@
 2853,2020-02-07,Antigua and Barbuda,North America,16,0.0,0,0
 2854,2020-02-07,Argentina,South America,16,0.0,0,0
 2855,2020-02-07,Armenia,Asia,16,0.0,0,0
-2856,2020-02-07,Australia,Australia,16,4.477611940298507,1,15
+2856,2020-02-07,Australia,Australasia,16,4.477611940298507,1,15
 2857,2020-02-07,Austria,Europe,16,0.0,0,0
 2858,2020-02-07,Azerbaijan,Asia,16,0.0,0,0
 2859,2020-02-07,Bahamas,North America,16,0.0,0,0
@@ -2902,7 +2902,7 @@
 2900,2020-02-07,Estonia,Europe,16,0.0,0,0
 2901,2020-02-07,Eswatini,Africa,16,0.0,0,0
 2902,2020-02-07,Ethiopia,Africa,16,0.0,0,0
-2903,2020-02-07,Fiji,Australia,16,0.0,0,0
+2903,2020-02-07,Fiji,Australasia,16,0.0,0,0
 2904,2020-02-07,Finland,Europe,16,0.0,0,1
 2905,2020-02-07,France,Europe,16,0.0,0,6
 2906,2020-02-07,Gabon,Africa,16,0.0,0,0
@@ -2962,7 +2962,7 @@
 2960,2020-02-07,Namibia,Africa,16,0.0,0,0
 2961,2020-02-07,Nepal,Asia,16,0.0,0,1
 2962,2020-02-07,Netherlands,Europe,16,0.0,0,0
-2963,2020-02-07,New Zealand,Australia,16,0.0,0,0
+2963,2020-02-07,New Zealand,Australasia,16,0.0,0,0
 2964,2020-02-07,Nicaragua,North America,16,0.0,0,0
 2965,2020-02-07,Niger,Africa,16,0.0,0,0
 2966,2020-02-07,Nigeria,Africa,16,0.0,0,0
@@ -2971,7 +2971,7 @@
 2969,2020-02-07,Oman,Asia,16,0.0,0,0
 2970,2020-02-07,Pakistan,Asia,16,0.0,0,0
 2971,2020-02-07,Panama,North America,16,0.0,0,0
-2972,2020-02-07,Papua New Guinea,Australia,16,0.0,0,0
+2972,2020-02-07,Papua New Guinea,Australasia,16,0.0,0,0
 2973,2020-02-07,Paraguay,South America,16,0.0,0,0
 2974,2020-02-07,Peru,South America,16,0.0,0,0
 2975,2020-02-07,Philippines,Asia,16,9.090909090909092,1,3
@@ -3033,7 +3033,7 @@
 3031,2020-02-08,Antigua and Barbuda,North America,17,0.0,0,0
 3032,2020-02-08,Argentina,South America,17,0.0,0,0
 3033,2020-02-08,Armenia,Asia,17,0.0,0,0
-3034,2020-02-08,Australia,Australia,17,4.285714285714286,0,15
+3034,2020-02-08,Australia,Australasia,17,4.285714285714286,0,15
 3035,2020-02-08,Austria,Europe,17,0.0,0,0
 3036,2020-02-08,Azerbaijan,Asia,17,0.0,0,0
 3037,2020-02-08,Bahamas,North America,17,0.0,0,0
@@ -3080,7 +3080,7 @@
 3078,2020-02-08,Estonia,Europe,17,0.0,0,0
 3079,2020-02-08,Eswatini,Africa,17,0.0,0,0
 3080,2020-02-08,Ethiopia,Africa,17,0.0,0,0
-3081,2020-02-08,Fiji,Australia,17,0.0,0,0
+3081,2020-02-08,Fiji,Australasia,17,0.0,0,0
 3082,2020-02-08,Finland,Europe,17,0.0,0,1
 3083,2020-02-08,France,Europe,17,14.285714285714285,5,11
 3084,2020-02-08,Gabon,Africa,17,0.0,0,0
@@ -3140,7 +3140,7 @@
 3138,2020-02-08,Namibia,Africa,17,0.0,0,0
 3139,2020-02-08,Nepal,Asia,17,0.0,0,1
 3140,2020-02-08,Netherlands,Europe,17,0.0,0,0
-3141,2020-02-08,New Zealand,Australia,17,0.0,0,0
+3141,2020-02-08,New Zealand,Australasia,17,0.0,0,0
 3142,2020-02-08,Nicaragua,North America,17,0.0,0,0
 3143,2020-02-08,Niger,Africa,17,0.0,0,0
 3144,2020-02-08,Nigeria,Africa,17,0.0,0,0
@@ -3149,7 +3149,7 @@
 3147,2020-02-08,Oman,Asia,17,0.0,0,0
 3148,2020-02-08,Pakistan,Asia,17,0.0,0,0
 3149,2020-02-08,Panama,North America,17,0.0,0,0
-3150,2020-02-08,Papua New Guinea,Australia,17,0.0,0,0
+3150,2020-02-08,Papua New Guinea,Australasia,17,0.0,0,0
 3151,2020-02-08,Paraguay,South America,17,0.0,0,0
 3152,2020-02-08,Peru,South America,17,0.0,0,0
 3153,2020-02-08,Philippines,Asia,17,8.333333333333334,0,3
@@ -3211,7 +3211,7 @@
 3209,2020-02-09,Antigua and Barbuda,North America,18,0.0,0,0
 3210,2020-02-09,Argentina,South America,18,0.0,0,0
 3211,2020-02-09,Armenia,Asia,18,0.0,0,0
-3212,2020-02-09,Australia,Australia,18,2.777777777777778,0,15
+3212,2020-02-09,Australia,Australasia,18,2.777777777777778,0,15
 3213,2020-02-09,Austria,Europe,18,0.0,0,0
 3214,2020-02-09,Azerbaijan,Asia,18,0.0,0,0
 3215,2020-02-09,Bahamas,North America,18,0.0,0,0
@@ -3258,7 +3258,7 @@
 3256,2020-02-09,Estonia,Europe,18,0.0,0,0
 3257,2020-02-09,Eswatini,Africa,18,0.0,0,0
 3258,2020-02-09,Ethiopia,Africa,18,0.0,0,0
-3259,2020-02-09,Fiji,Australia,18,0.0,0,0
+3259,2020-02-09,Fiji,Australasia,18,0.0,0,0
 3260,2020-02-09,Finland,Europe,18,0.0,0,1
 3261,2020-02-09,France,Europe,18,12.5,0,11
 3262,2020-02-09,Gabon,Africa,18,0.0,0,0
@@ -3318,7 +3318,7 @@
 3316,2020-02-09,Namibia,Africa,18,0.0,0,0
 3317,2020-02-09,Nepal,Asia,18,0.0,0,1
 3318,2020-02-09,Netherlands,Europe,18,0.0,0,0
-3319,2020-02-09,New Zealand,Australia,18,0.0,0,0
+3319,2020-02-09,New Zealand,Australasia,18,0.0,0,0
 3320,2020-02-09,Nicaragua,North America,18,0.0,0,0
 3321,2020-02-09,Niger,Africa,18,0.0,0,0
 3322,2020-02-09,Nigeria,Africa,18,0.0,0,0
@@ -3327,7 +3327,7 @@
 3325,2020-02-09,Oman,Asia,18,0.0,0,0
 3326,2020-02-09,Pakistan,Asia,18,0.0,0,0
 3327,2020-02-09,Panama,North America,18,0.0,0,0
-3328,2020-02-09,Papua New Guinea,Australia,18,0.0,0,0
+3328,2020-02-09,Papua New Guinea,Australasia,18,0.0,0,0
 3329,2020-02-09,Paraguay,South America,18,0.0,0,0
 3330,2020-02-09,Peru,South America,18,0.0,0,0
 3331,2020-02-09,Philippines,Asia,18,7.6923076923076925,0,3
@@ -3389,7 +3389,7 @@
 3387,2020-02-10,Antigua and Barbuda,North America,19,0.0,0,0
 3388,2020-02-10,Argentina,South America,19,0.0,0,0
 3389,2020-02-10,Armenia,Asia,19,0.0,0,0
-3390,2020-02-10,Australia,Australia,19,2.7027027027027026,0,15
+3390,2020-02-10,Australia,Australasia,19,2.7027027027027026,0,15
 3391,2020-02-10,Austria,Europe,19,0.0,0,0
 3392,2020-02-10,Azerbaijan,Asia,19,0.0,0,0
 3393,2020-02-10,Bahamas,North America,19,0.0,0,0
@@ -3436,7 +3436,7 @@
 3434,2020-02-10,Estonia,Europe,19,0.0,0,0
 3435,2020-02-10,Eswatini,Africa,19,0.0,0,0
 3436,2020-02-10,Ethiopia,Africa,19,0.0,0,0
-3437,2020-02-10,Fiji,Australia,19,0.0,0,0
+3437,2020-02-10,Fiji,Australasia,19,0.0,0,0
 3438,2020-02-10,Finland,Europe,19,0.0,0,1
 3439,2020-02-10,France,Europe,19,11.11111111111111,0,11
 3440,2020-02-10,Gabon,Africa,19,0.0,0,0
@@ -3496,7 +3496,7 @@
 3494,2020-02-10,Namibia,Africa,19,0.0,0,0
 3495,2020-02-10,Nepal,Asia,19,0.0,0,1
 3496,2020-02-10,Netherlands,Europe,19,0.0,0,0
-3497,2020-02-10,New Zealand,Australia,19,0.0,0,0
+3497,2020-02-10,New Zealand,Australasia,19,0.0,0,0
 3498,2020-02-10,Nicaragua,North America,19,0.0,0,0
 3499,2020-02-10,Niger,Africa,19,0.0,0,0
 3500,2020-02-10,Nigeria,Africa,19,0.0,0,0
@@ -3505,7 +3505,7 @@
 3503,2020-02-10,Oman,Asia,19,0.0,0,0
 3504,2020-02-10,Pakistan,Asia,19,0.0,0,0
 3505,2020-02-10,Panama,North America,19,0.0,0,0
-3506,2020-02-10,Papua New Guinea,Australia,19,0.0,0,0
+3506,2020-02-10,Papua New Guinea,Australasia,19,0.0,0,0
 3507,2020-02-10,Paraguay,South America,19,0.0,0,0
 3508,2020-02-10,Peru,South America,19,0.0,0,0
 3509,2020-02-10,Philippines,Asia,19,7.142857142857144,0,3
@@ -3567,7 +3567,7 @@
 3565,2020-02-11,Antigua and Barbuda,North America,20,0.0,0,0
 3566,2020-02-11,Argentina,South America,20,0.0,0,0
 3567,2020-02-11,Armenia,Asia,20,0.0,0,0
-3568,2020-02-11,Australia,Australia,20,1.3333333333333335,0,15
+3568,2020-02-11,Australia,Australasia,20,1.3333333333333335,0,15
 3569,2020-02-11,Austria,Europe,20,0.0,0,0
 3570,2020-02-11,Azerbaijan,Asia,20,0.0,0,0
 3571,2020-02-11,Bahamas,North America,20,0.0,0,0
@@ -3614,7 +3614,7 @@
 3612,2020-02-11,Estonia,Europe,20,0.0,0,0
 3613,2020-02-11,Eswatini,Africa,20,0.0,0,0
 3614,2020-02-11,Ethiopia,Africa,20,0.0,0,0
-3615,2020-02-11,Fiji,Australia,20,0.0,0,0
+3615,2020-02-11,Fiji,Australasia,20,0.0,0,0
 3616,2020-02-11,Finland,Europe,20,0.0,0,1
 3617,2020-02-11,France,Europe,20,10.0,0,11
 3618,2020-02-11,Gabon,Africa,20,0.0,0,0
@@ -3674,7 +3674,7 @@
 3672,2020-02-11,Namibia,Africa,20,0.0,0,0
 3673,2020-02-11,Nepal,Asia,20,0.0,0,1
 3674,2020-02-11,Netherlands,Europe,20,0.0,0,0
-3675,2020-02-11,New Zealand,Australia,20,0.0,0,0
+3675,2020-02-11,New Zealand,Australasia,20,0.0,0,0
 3676,2020-02-11,Nicaragua,North America,20,0.0,0,0
 3677,2020-02-11,Niger,Africa,20,0.0,0,0
 3678,2020-02-11,Nigeria,Africa,20,0.0,0,0
@@ -3683,7 +3683,7 @@
 3681,2020-02-11,Oman,Asia,20,0.0,0,0
 3682,2020-02-11,Pakistan,Asia,20,0.0,0,0
 3683,2020-02-11,Panama,North America,20,0.0,0,0
-3684,2020-02-11,Papua New Guinea,Australia,20,0.0,0,0
+3684,2020-02-11,Papua New Guinea,Australasia,20,0.0,0,0
 3685,2020-02-11,Paraguay,South America,20,0.0,0,0
 3686,2020-02-11,Peru,South America,20,0.0,0,0
 3687,2020-02-11,Philippines,Asia,20,6.666666666666667,0,3
@@ -3745,7 +3745,7 @@
 3743,2020-02-12,Antigua and Barbuda,North America,21,0.0,0,0
 3744,2020-02-12,Argentina,South America,21,0.0,0,0
 3745,2020-02-12,Armenia,Asia,21,0.0,0,0
-3746,2020-02-12,Australia,Australia,21,0.0,0,15
+3746,2020-02-12,Australia,Australasia,21,0.0,0,15
 3747,2020-02-12,Austria,Europe,21,0.0,0,0
 3748,2020-02-12,Azerbaijan,Asia,21,0.0,0,0
 3749,2020-02-12,Bahamas,North America,21,0.0,0,0
@@ -3792,7 +3792,7 @@
 3790,2020-02-12,Estonia,Europe,21,0.0,0,0
 3791,2020-02-12,Eswatini,Africa,21,0.0,0,0
 3792,2020-02-12,Ethiopia,Africa,21,0.0,0,0
-3793,2020-02-12,Fiji,Australia,21,0.0,0,0
+3793,2020-02-12,Fiji,Australasia,21,0.0,0,0
 3794,2020-02-12,Finland,Europe,21,0.0,0,1
 3795,2020-02-12,France,Europe,21,9.090909090909092,0,11
 3796,2020-02-12,Gabon,Africa,21,0.0,0,0
@@ -3852,7 +3852,7 @@
 3850,2020-02-12,Namibia,Africa,21,0.0,0,0
 3851,2020-02-12,Nepal,Asia,21,0.0,0,1
 3852,2020-02-12,Netherlands,Europe,21,0.0,0,0
-3853,2020-02-12,New Zealand,Australia,21,0.0,0,0
+3853,2020-02-12,New Zealand,Australasia,21,0.0,0,0
 3854,2020-02-12,Nicaragua,North America,21,0.0,0,0
 3855,2020-02-12,Niger,Africa,21,0.0,0,0
 3856,2020-02-12,Nigeria,Africa,21,0.0,0,0
@@ -3861,7 +3861,7 @@
 3859,2020-02-12,Oman,Asia,21,0.0,0,0
 3860,2020-02-12,Pakistan,Asia,21,0.0,0,0
 3861,2020-02-12,Panama,North America,21,0.0,0,0
-3862,2020-02-12,Papua New Guinea,Australia,21,0.0,0,0
+3862,2020-02-12,Papua New Guinea,Australasia,21,0.0,0,0
 3863,2020-02-12,Paraguay,South America,21,0.0,0,0
 3864,2020-02-12,Peru,South America,21,0.0,0,0
 3865,2020-02-12,Philippines,Asia,21,0.0,0,3
@@ -3923,7 +3923,7 @@
 3921,2020-02-13,Antigua and Barbuda,North America,22,0.0,0,0
 3922,2020-02-13,Argentina,South America,22,0.0,0,0
 3923,2020-02-13,Armenia,Asia,22,0.0,0,0
-3924,2020-02-13,Australia,Australia,22,0.0,0,15
+3924,2020-02-13,Australia,Australasia,22,0.0,0,15
 3925,2020-02-13,Austria,Europe,22,0.0,0,0
 3926,2020-02-13,Azerbaijan,Asia,22,0.0,0,0
 3927,2020-02-13,Bahamas,North America,22,0.0,0,0
@@ -3970,7 +3970,7 @@
 3968,2020-02-13,Estonia,Europe,22,0.0,0,0
 3969,2020-02-13,Eswatini,Africa,22,0.0,0,0
 3970,2020-02-13,Ethiopia,Africa,22,0.0,0,0
-3971,2020-02-13,Fiji,Australia,22,0.0,0,0
+3971,2020-02-13,Fiji,Australasia,22,0.0,0,0
 3972,2020-02-13,Finland,Europe,22,0.0,0,1
 3973,2020-02-13,France,Europe,22,0.0,0,11
 3974,2020-02-13,Gabon,Africa,22,0.0,0,0
@@ -4030,7 +4030,7 @@
 4028,2020-02-13,Namibia,Africa,22,0.0,0,0
 4029,2020-02-13,Nepal,Asia,22,0.0,0,1
 4030,2020-02-13,Netherlands,Europe,22,0.0,0,0
-4031,2020-02-13,New Zealand,Australia,22,0.0,0,0
+4031,2020-02-13,New Zealand,Australasia,22,0.0,0,0
 4032,2020-02-13,Nicaragua,North America,22,0.0,0,0
 4033,2020-02-13,Niger,Africa,22,0.0,0,0
 4034,2020-02-13,Nigeria,Africa,22,0.0,0,0
@@ -4039,7 +4039,7 @@
 4037,2020-02-13,Oman,Asia,22,0.0,0,0
 4038,2020-02-13,Pakistan,Asia,22,0.0,0,0
 4039,2020-02-13,Panama,North America,22,0.0,0,0
-4040,2020-02-13,Papua New Guinea,Australia,22,0.0,0,0
+4040,2020-02-13,Papua New Guinea,Australasia,22,0.0,0,0
 4041,2020-02-13,Paraguay,South America,22,0.0,0,0
 4042,2020-02-13,Peru,South America,22,0.0,0,0
 4043,2020-02-13,Philippines,Asia,22,0.0,0,3
@@ -4101,7 +4101,7 @@
 4099,2020-02-14,Antigua and Barbuda,North America,23,0.0,0,0
 4100,2020-02-14,Argentina,South America,23,0.0,0,0
 4101,2020-02-14,Armenia,Asia,23,0.0,0,0
-4102,2020-02-14,Australia,Australia,23,0.0,0,15
+4102,2020-02-14,Australia,Australasia,23,0.0,0,15
 4103,2020-02-14,Austria,Europe,23,0.0,0,0
 4104,2020-02-14,Azerbaijan,Asia,23,0.0,0,0
 4105,2020-02-14,Bahamas,North America,23,0.0,0,0
@@ -4148,7 +4148,7 @@
 4146,2020-02-14,Estonia,Europe,23,0.0,0,0
 4147,2020-02-14,Eswatini,Africa,23,0.0,0,0
 4148,2020-02-14,Ethiopia,Africa,23,0.0,0,0
-4149,2020-02-14,Fiji,Australia,23,0.0,0,0
+4149,2020-02-14,Fiji,Australasia,23,0.0,0,0
 4150,2020-02-14,Finland,Europe,23,0.0,0,1
 4151,2020-02-14,France,Europe,23,0.0,0,11
 4152,2020-02-14,Gabon,Africa,23,0.0,0,0
@@ -4208,7 +4208,7 @@
 4206,2020-02-14,Namibia,Africa,23,0.0,0,0
 4207,2020-02-14,Nepal,Asia,23,0.0,0,1
 4208,2020-02-14,Netherlands,Europe,23,0.0,0,0
-4209,2020-02-14,New Zealand,Australia,23,0.0,0,0
+4209,2020-02-14,New Zealand,Australasia,23,0.0,0,0
 4210,2020-02-14,Nicaragua,North America,23,0.0,0,0
 4211,2020-02-14,Niger,Africa,23,0.0,0,0
 4212,2020-02-14,Nigeria,Africa,23,0.0,0,0
@@ -4217,7 +4217,7 @@
 4215,2020-02-14,Oman,Asia,23,0.0,0,0
 4216,2020-02-14,Pakistan,Asia,23,0.0,0,0
 4217,2020-02-14,Panama,North America,23,0.0,0,0
-4218,2020-02-14,Papua New Guinea,Australia,23,0.0,0,0
+4218,2020-02-14,Papua New Guinea,Australasia,23,0.0,0,0
 4219,2020-02-14,Paraguay,South America,23,0.0,0,0
 4220,2020-02-14,Peru,South America,23,0.0,0,0
 4221,2020-02-14,Philippines,Asia,23,0.0,0,3
@@ -4279,7 +4279,7 @@
 4277,2020-02-15,Antigua and Barbuda,North America,24,0.0,0,0
 4278,2020-02-15,Argentina,South America,24,0.0,0,0
 4279,2020-02-15,Armenia,Asia,24,0.0,0,0
-4280,2020-02-15,Australia,Australia,24,0.0,0,15
+4280,2020-02-15,Australia,Australasia,24,0.0,0,15
 4281,2020-02-15,Austria,Europe,24,0.0,0,0
 4282,2020-02-15,Azerbaijan,Asia,24,0.0,0,0
 4283,2020-02-15,Bahamas,North America,24,0.0,0,0
@@ -4326,7 +4326,7 @@
 4324,2020-02-15,Estonia,Europe,24,0.0,0,0
 4325,2020-02-15,Eswatini,Africa,24,0.0,0,0
 4326,2020-02-15,Ethiopia,Africa,24,0.0,0,0
-4327,2020-02-15,Fiji,Australia,24,0.0,0,0
+4327,2020-02-15,Fiji,Australasia,24,0.0,0,0
 4328,2020-02-15,Finland,Europe,24,0.0,0,1
 4329,2020-02-15,France,Europe,24,1.785714285714286,1,12
 4330,2020-02-15,Gabon,Africa,24,0.0,0,0
@@ -4386,7 +4386,7 @@
 4384,2020-02-15,Namibia,Africa,24,0.0,0,0
 4385,2020-02-15,Nepal,Asia,24,0.0,0,1
 4386,2020-02-15,Netherlands,Europe,24,0.0,0,0
-4387,2020-02-15,New Zealand,Australia,24,0.0,0,0
+4387,2020-02-15,New Zealand,Australasia,24,0.0,0,0
 4388,2020-02-15,Nicaragua,North America,24,0.0,0,0
 4389,2020-02-15,Niger,Africa,24,0.0,0,0
 4390,2020-02-15,Nigeria,Africa,24,0.0,0,0
@@ -4395,7 +4395,7 @@
 4393,2020-02-15,Oman,Asia,24,0.0,0,0
 4394,2020-02-15,Pakistan,Asia,24,0.0,0,0
 4395,2020-02-15,Panama,North America,24,0.0,0,0
-4396,2020-02-15,Papua New Guinea,Australia,24,0.0,0,0
+4396,2020-02-15,Papua New Guinea,Australasia,24,0.0,0,0
 4397,2020-02-15,Paraguay,South America,24,0.0,0,0
 4398,2020-02-15,Peru,South America,24,0.0,0,0
 4399,2020-02-15,Philippines,Asia,24,0.0,0,3
@@ -4457,7 +4457,7 @@
 4455,2020-02-16,Antigua and Barbuda,North America,25,0.0,0,0
 4456,2020-02-16,Argentina,South America,25,0.0,0,0
 4457,2020-02-16,Armenia,Asia,25,0.0,0,0
-4458,2020-02-16,Australia,Australia,25,0.0,0,15
+4458,2020-02-16,Australia,Australasia,25,0.0,0,15
 4459,2020-02-16,Austria,Europe,25,0.0,0,0
 4460,2020-02-16,Azerbaijan,Asia,25,0.0,0,0
 4461,2020-02-16,Bahamas,North America,25,0.0,0,0
@@ -4504,7 +4504,7 @@
 4502,2020-02-16,Estonia,Europe,25,0.0,0,0
 4503,2020-02-16,Eswatini,Africa,25,0.0,0,0
 4504,2020-02-16,Ethiopia,Africa,25,0.0,0,0
-4505,2020-02-16,Fiji,Australia,25,0.0,0,0
+4505,2020-02-16,Fiji,Australasia,25,0.0,0,0
 4506,2020-02-16,Finland,Europe,25,0.0,0,1
 4507,2020-02-16,France,Europe,25,1.7543859649122806,0,12
 4508,2020-02-16,Gabon,Africa,25,0.0,0,0
@@ -4564,7 +4564,7 @@
 4562,2020-02-16,Namibia,Africa,25,0.0,0,0
 4563,2020-02-16,Nepal,Asia,25,0.0,0,1
 4564,2020-02-16,Netherlands,Europe,25,0.0,0,0
-4565,2020-02-16,New Zealand,Australia,25,0.0,0,0
+4565,2020-02-16,New Zealand,Australasia,25,0.0,0,0
 4566,2020-02-16,Nicaragua,North America,25,0.0,0,0
 4567,2020-02-16,Niger,Africa,25,0.0,0,0
 4568,2020-02-16,Nigeria,Africa,25,0.0,0,0
@@ -4573,7 +4573,7 @@
 4571,2020-02-16,Oman,Asia,25,0.0,0,0
 4572,2020-02-16,Pakistan,Asia,25,0.0,0,0
 4573,2020-02-16,Panama,North America,25,0.0,0,0
-4574,2020-02-16,Papua New Guinea,Australia,25,0.0,0,0
+4574,2020-02-16,Papua New Guinea,Australasia,25,0.0,0,0
 4575,2020-02-16,Paraguay,South America,25,0.0,0,0
 4576,2020-02-16,Peru,South America,25,0.0,0,0
 4577,2020-02-16,Philippines,Asia,25,0.0,0,3
@@ -4635,7 +4635,7 @@
 4633,2020-02-17,Antigua and Barbuda,North America,26,0.0,0,0
 4634,2020-02-17,Argentina,South America,26,0.0,0,0
 4635,2020-02-17,Armenia,Asia,26,0.0,0,0
-4636,2020-02-17,Australia,Australia,26,0.0,0,15
+4636,2020-02-17,Australia,Australasia,26,0.0,0,15
 4637,2020-02-17,Austria,Europe,26,0.0,0,0
 4638,2020-02-17,Azerbaijan,Asia,26,0.0,0,0
 4639,2020-02-17,Bahamas,North America,26,0.0,0,0
@@ -4682,7 +4682,7 @@
 4680,2020-02-17,Estonia,Europe,26,0.0,0,0
 4681,2020-02-17,Eswatini,Africa,26,0.0,0,0
 4682,2020-02-17,Ethiopia,Africa,26,0.0,0,0
-4683,2020-02-17,Fiji,Australia,26,0.0,0,0
+4683,2020-02-17,Fiji,Australasia,26,0.0,0,0
 4684,2020-02-17,Finland,Europe,26,0.0,0,1
 4685,2020-02-17,France,Europe,26,1.7241379310344827,0,12
 4686,2020-02-17,Gabon,Africa,26,0.0,0,0
@@ -4742,7 +4742,7 @@
 4740,2020-02-17,Namibia,Africa,26,0.0,0,0
 4741,2020-02-17,Nepal,Asia,26,0.0,0,1
 4742,2020-02-17,Netherlands,Europe,26,0.0,0,0
-4743,2020-02-17,New Zealand,Australia,26,0.0,0,0
+4743,2020-02-17,New Zealand,Australasia,26,0.0,0,0
 4744,2020-02-17,Nicaragua,North America,26,0.0,0,0
 4745,2020-02-17,Niger,Africa,26,0.0,0,0
 4746,2020-02-17,Nigeria,Africa,26,0.0,0,0
@@ -4751,7 +4751,7 @@
 4749,2020-02-17,Oman,Asia,26,0.0,0,0
 4750,2020-02-17,Pakistan,Asia,26,0.0,0,0
 4751,2020-02-17,Panama,North America,26,0.0,0,0
-4752,2020-02-17,Papua New Guinea,Australia,26,0.0,0,0
+4752,2020-02-17,Papua New Guinea,Australasia,26,0.0,0,0
 4753,2020-02-17,Paraguay,South America,26,0.0,0,0
 4754,2020-02-17,Peru,South America,26,0.0,0,0
 4755,2020-02-17,Philippines,Asia,26,0.0,0,3
@@ -4813,7 +4813,7 @@
 4811,2020-02-18,Antigua and Barbuda,North America,27,0.0,0,0
 4812,2020-02-18,Argentina,South America,27,0.0,0,0
 4813,2020-02-18,Armenia,Asia,27,0.0,0,0
-4814,2020-02-18,Australia,Australia,27,0.0,0,15
+4814,2020-02-18,Australia,Australasia,27,0.0,0,15
 4815,2020-02-18,Austria,Europe,27,0.0,0,0
 4816,2020-02-18,Azerbaijan,Asia,27,0.0,0,0
 4817,2020-02-18,Bahamas,North America,27,0.0,0,0
@@ -4860,7 +4860,7 @@
 4858,2020-02-18,Estonia,Europe,27,0.0,0,0
 4859,2020-02-18,Eswatini,Africa,27,0.0,0,0
 4860,2020-02-18,Ethiopia,Africa,27,0.0,0,0
-4861,2020-02-18,Fiji,Australia,27,0.0,0,0
+4861,2020-02-18,Fiji,Australasia,27,0.0,0,0
 4862,2020-02-18,Finland,Europe,27,0.0,0,1
 4863,2020-02-18,France,Europe,27,1.694915254237288,0,12
 4864,2020-02-18,Gabon,Africa,27,0.0,0,0
@@ -4920,7 +4920,7 @@
 4918,2020-02-18,Namibia,Africa,27,0.0,0,0
 4919,2020-02-18,Nepal,Asia,27,0.0,0,1
 4920,2020-02-18,Netherlands,Europe,27,0.0,0,0
-4921,2020-02-18,New Zealand,Australia,27,0.0,0,0
+4921,2020-02-18,New Zealand,Australasia,27,0.0,0,0
 4922,2020-02-18,Nicaragua,North America,27,0.0,0,0
 4923,2020-02-18,Niger,Africa,27,0.0,0,0
 4924,2020-02-18,Nigeria,Africa,27,0.0,0,0
@@ -4929,7 +4929,7 @@
 4927,2020-02-18,Oman,Asia,27,0.0,0,0
 4928,2020-02-18,Pakistan,Asia,27,0.0,0,0
 4929,2020-02-18,Panama,North America,27,0.0,0,0
-4930,2020-02-18,Papua New Guinea,Australia,27,0.0,0,0
+4930,2020-02-18,Papua New Guinea,Australasia,27,0.0,0,0
 4931,2020-02-18,Paraguay,South America,27,0.0,0,0
 4932,2020-02-18,Peru,South America,27,0.0,0,0
 4933,2020-02-18,Philippines,Asia,27,0.0,0,3
@@ -4991,7 +4991,7 @@
 4989,2020-02-19,Antigua and Barbuda,North America,28,0.0,0,0
 4990,2020-02-19,Argentina,South America,28,0.0,0,0
 4991,2020-02-19,Armenia,Asia,28,0.0,0,0
-4992,2020-02-19,Australia,Australia,28,0.0,0,15
+4992,2020-02-19,Australia,Australasia,28,0.0,0,15
 4993,2020-02-19,Austria,Europe,28,0.0,0,0
 4994,2020-02-19,Azerbaijan,Asia,28,0.0,0,0
 4995,2020-02-19,Bahamas,North America,28,0.0,0,0
@@ -5038,7 +5038,7 @@
 5036,2020-02-19,Estonia,Europe,28,0.0,0,0
 5037,2020-02-19,Eswatini,Africa,28,0.0,0,0
 5038,2020-02-19,Ethiopia,Africa,28,0.0,0,0
-5039,2020-02-19,Fiji,Australia,28,0.0,0,0
+5039,2020-02-19,Fiji,Australasia,28,0.0,0,0
 5040,2020-02-19,Finland,Europe,28,0.0,0,1
 5041,2020-02-19,France,Europe,28,1.6666666666666667,0,12
 5042,2020-02-19,Gabon,Africa,28,0.0,0,0
@@ -5098,7 +5098,7 @@
 5096,2020-02-19,Namibia,Africa,28,0.0,0,0
 5097,2020-02-19,Nepal,Asia,28,0.0,0,1
 5098,2020-02-19,Netherlands,Europe,28,0.0,0,0
-5099,2020-02-19,New Zealand,Australia,28,0.0,0,0
+5099,2020-02-19,New Zealand,Australasia,28,0.0,0,0
 5100,2020-02-19,Nicaragua,North America,28,0.0,0,0
 5101,2020-02-19,Niger,Africa,28,0.0,0,0
 5102,2020-02-19,Nigeria,Africa,28,0.0,0,0
@@ -5107,7 +5107,7 @@
 5105,2020-02-19,Oman,Asia,28,0.0,0,0
 5106,2020-02-19,Pakistan,Asia,28,0.0,0,0
 5107,2020-02-19,Panama,North America,28,0.0,0,0
-5108,2020-02-19,Papua New Guinea,Australia,28,0.0,0,0
+5108,2020-02-19,Papua New Guinea,Australasia,28,0.0,0,0
 5109,2020-02-19,Paraguay,South America,28,0.0,0,0
 5110,2020-02-19,Peru,South America,28,0.0,0,0
 5111,2020-02-19,Philippines,Asia,28,0.0,0,3
@@ -5169,7 +5169,7 @@
 5167,2020-02-20,Antigua and Barbuda,North America,29,0.0,0,0
 5168,2020-02-20,Argentina,South America,29,0.0,0,0
 5169,2020-02-20,Armenia,Asia,29,0.0,0,0
-5170,2020-02-20,Australia,Australia,29,0.0,0,15
+5170,2020-02-20,Australia,Australasia,29,0.0,0,15
 5171,2020-02-20,Austria,Europe,29,0.0,0,0
 5172,2020-02-20,Azerbaijan,Asia,29,0.0,0,0
 5173,2020-02-20,Bahamas,North America,29,0.0,0,0
@@ -5216,7 +5216,7 @@
 5214,2020-02-20,Estonia,Europe,29,0.0,0,0
 5215,2020-02-20,Eswatini,Africa,29,0.0,0,0
 5216,2020-02-20,Ethiopia,Africa,29,0.0,0,0
-5217,2020-02-20,Fiji,Australia,29,0.0,0,0
+5217,2020-02-20,Fiji,Australasia,29,0.0,0,0
 5218,2020-02-20,Finland,Europe,29,0.0,0,1
 5219,2020-02-20,France,Europe,29,0.0,0,12
 5220,2020-02-20,Gabon,Africa,29,0.0,0,0
@@ -5276,7 +5276,7 @@
 5274,2020-02-20,Namibia,Africa,29,0.0,0,0
 5275,2020-02-20,Nepal,Asia,29,0.0,0,1
 5276,2020-02-20,Netherlands,Europe,29,0.0,0,0
-5277,2020-02-20,New Zealand,Australia,29,0.0,0,0
+5277,2020-02-20,New Zealand,Australasia,29,0.0,0,0
 5278,2020-02-20,Nicaragua,North America,29,0.0,0,0
 5279,2020-02-20,Niger,Africa,29,0.0,0,0
 5280,2020-02-20,Nigeria,Africa,29,0.0,0,0
@@ -5285,7 +5285,7 @@
 5283,2020-02-20,Oman,Asia,29,0.0,0,0
 5284,2020-02-20,Pakistan,Asia,29,0.0,0,0
 5285,2020-02-20,Panama,North America,29,0.0,0,0
-5286,2020-02-20,Papua New Guinea,Australia,29,0.0,0,0
+5286,2020-02-20,Papua New Guinea,Australasia,29,0.0,0,0
 5287,2020-02-20,Paraguay,South America,29,0.0,0,0
 5288,2020-02-20,Peru,South America,29,0.0,0,0
 5289,2020-02-20,Philippines,Asia,29,0.0,0,3
@@ -5347,7 +5347,7 @@
 5345,2020-02-21,Antigua and Barbuda,North America,30,0.0,0,0
 5346,2020-02-21,Argentina,South America,30,0.0,0,0
 5347,2020-02-21,Armenia,Asia,30,0.0,0,0
-5348,2020-02-21,Australia,Australia,30,0.0,0,15
+5348,2020-02-21,Australia,Australasia,30,0.0,0,15
 5349,2020-02-21,Austria,Europe,30,0.0,0,0
 5350,2020-02-21,Azerbaijan,Asia,30,0.0,0,0
 5351,2020-02-21,Bahamas,North America,30,0.0,0,0
@@ -5394,7 +5394,7 @@
 5392,2020-02-21,Estonia,Europe,30,0.0,0,0
 5393,2020-02-21,Eswatini,Africa,30,0.0,0,0
 5394,2020-02-21,Ethiopia,Africa,30,0.0,0,0
-5395,2020-02-21,Fiji,Australia,30,0.0,0,0
+5395,2020-02-21,Fiji,Australasia,30,0.0,0,0
 5396,2020-02-21,Finland,Europe,30,0.0,0,1
 5397,2020-02-21,France,Europe,30,0.0,0,12
 5398,2020-02-21,Gabon,Africa,30,0.0,0,0
@@ -5454,7 +5454,7 @@
 5452,2020-02-21,Namibia,Africa,30,0.0,0,0
 5453,2020-02-21,Nepal,Asia,30,0.0,0,1
 5454,2020-02-21,Netherlands,Europe,30,0.0,0,0
-5455,2020-02-21,New Zealand,Australia,30,0.0,0,0
+5455,2020-02-21,New Zealand,Australasia,30,0.0,0,0
 5456,2020-02-21,Nicaragua,North America,30,0.0,0,0
 5457,2020-02-21,Niger,Africa,30,0.0,0,0
 5458,2020-02-21,Nigeria,Africa,30,0.0,0,0
@@ -5463,7 +5463,7 @@
 5461,2020-02-21,Oman,Asia,30,0.0,0,0
 5462,2020-02-21,Pakistan,Asia,30,0.0,0,0
 5463,2020-02-21,Panama,North America,30,0.0,0,0
-5464,2020-02-21,Papua New Guinea,Australia,30,0.0,0,0
+5464,2020-02-21,Papua New Guinea,Australasia,30,0.0,0,0
 5465,2020-02-21,Paraguay,South America,30,0.0,0,0
 5466,2020-02-21,Peru,South America,30,0.0,0,0
 5467,2020-02-21,Philippines,Asia,30,0.0,0,3
@@ -5525,7 +5525,7 @@
 5523,2020-02-22,Antigua and Barbuda,North America,31,0.0,0,0
 5524,2020-02-22,Argentina,South America,31,0.0,0,0
 5525,2020-02-22,Armenia,Asia,31,0.0,0,0
-5526,2020-02-22,Australia,Australia,31,0.0,0,15
+5526,2020-02-22,Australia,Australasia,31,0.0,0,15
 5527,2020-02-22,Austria,Europe,31,0.0,0,0
 5528,2020-02-22,Azerbaijan,Asia,31,0.0,0,0
 5529,2020-02-22,Bahamas,North America,31,0.0,0,0
@@ -5572,7 +5572,7 @@
 5570,2020-02-22,Estonia,Europe,31,0.0,0,0
 5571,2020-02-22,Eswatini,Africa,31,0.0,0,0
 5572,2020-02-22,Ethiopia,Africa,31,0.0,0,0
-5573,2020-02-22,Fiji,Australia,31,0.0,0,0
+5573,2020-02-22,Fiji,Australasia,31,0.0,0,0
 5574,2020-02-22,Finland,Europe,31,0.0,0,1
 5575,2020-02-22,France,Europe,31,0.0,0,12
 5576,2020-02-22,Gabon,Africa,31,0.0,0,0
@@ -5632,7 +5632,7 @@
 5630,2020-02-22,Namibia,Africa,31,0.0,0,0
 5631,2020-02-22,Nepal,Asia,31,0.0,0,1
 5632,2020-02-22,Netherlands,Europe,31,0.0,0,0
-5633,2020-02-22,New Zealand,Australia,31,0.0,0,0
+5633,2020-02-22,New Zealand,Australasia,31,0.0,0,0
 5634,2020-02-22,Nicaragua,North America,31,0.0,0,0
 5635,2020-02-22,Niger,Africa,31,0.0,0,0
 5636,2020-02-22,Nigeria,Africa,31,0.0,0,0
@@ -5641,7 +5641,7 @@
 5639,2020-02-22,Oman,Asia,31,0.0,0,0
 5640,2020-02-22,Pakistan,Asia,31,0.0,0,0
 5641,2020-02-22,Panama,North America,31,0.0,0,0
-5642,2020-02-22,Papua New Guinea,Australia,31,0.0,0,0
+5642,2020-02-22,Papua New Guinea,Australasia,31,0.0,0,0
 5643,2020-02-22,Paraguay,South America,31,0.0,0,0
 5644,2020-02-22,Peru,South America,31,0.0,0,0
 5645,2020-02-22,Philippines,Asia,31,0.0,0,3
@@ -5703,7 +5703,7 @@
 5701,2020-02-23,Antigua and Barbuda,North America,32,0.0,0,0
 5702,2020-02-23,Argentina,South America,32,0.0,0,0
 5703,2020-02-23,Armenia,Asia,32,0.0,0,0
-5704,2020-02-23,Australia,Australia,32,0.0,0,15
+5704,2020-02-23,Australia,Australasia,32,0.0,0,15
 5705,2020-02-23,Austria,Europe,32,0.0,0,0
 5706,2020-02-23,Azerbaijan,Asia,32,0.0,0,0
 5707,2020-02-23,Bahamas,North America,32,0.0,0,0
@@ -5750,7 +5750,7 @@
 5748,2020-02-23,Estonia,Europe,32,0.0,0,0
 5749,2020-02-23,Eswatini,Africa,32,0.0,0,0
 5750,2020-02-23,Ethiopia,Africa,32,0.0,0,0
-5751,2020-02-23,Fiji,Australia,32,0.0,0,0
+5751,2020-02-23,Fiji,Australasia,32,0.0,0,0
 5752,2020-02-23,Finland,Europe,32,0.0,0,1
 5753,2020-02-23,France,Europe,32,0.0,0,12
 5754,2020-02-23,Gabon,Africa,32,0.0,0,0
@@ -5810,7 +5810,7 @@
 5808,2020-02-23,Namibia,Africa,32,0.0,0,0
 5809,2020-02-23,Nepal,Asia,32,0.0,0,1
 5810,2020-02-23,Netherlands,Europe,32,0.0,0,0
-5811,2020-02-23,New Zealand,Australia,32,0.0,0,0
+5811,2020-02-23,New Zealand,Australasia,32,0.0,0,0
 5812,2020-02-23,Nicaragua,North America,32,0.0,0,0
 5813,2020-02-23,Niger,Africa,32,0.0,0,0
 5814,2020-02-23,Nigeria,Africa,32,0.0,0,0
@@ -5819,7 +5819,7 @@
 5817,2020-02-23,Oman,Asia,32,0.0,0,0
 5818,2020-02-23,Pakistan,Asia,32,0.0,0,0
 5819,2020-02-23,Panama,North America,32,0.0,0,0
-5820,2020-02-23,Papua New Guinea,Australia,32,0.0,0,0
+5820,2020-02-23,Papua New Guinea,Australasia,32,0.0,0,0
 5821,2020-02-23,Paraguay,South America,32,0.0,0,0
 5822,2020-02-23,Peru,South America,32,0.0,0,0
 5823,2020-02-23,Philippines,Asia,32,0.0,0,3
@@ -5881,7 +5881,7 @@
 5879,2020-02-24,Antigua and Barbuda,North America,33,0.0,0,0
 5880,2020-02-24,Argentina,South America,33,0.0,0,0
 5881,2020-02-24,Armenia,Asia,33,0.0,0,0
-5882,2020-02-24,Australia,Australia,33,0.0,0,15
+5882,2020-02-24,Australia,Australasia,33,0.0,0,15
 5883,2020-02-24,Austria,Europe,33,0.0,0,0
 5884,2020-02-24,Azerbaijan,Asia,33,0.0,0,0
 5885,2020-02-24,Bahamas,North America,33,0.0,0,0
@@ -5928,7 +5928,7 @@
 5926,2020-02-24,Estonia,Europe,33,0.0,0,0
 5927,2020-02-24,Eswatini,Africa,33,0.0,0,0
 5928,2020-02-24,Ethiopia,Africa,33,0.0,0,0
-5929,2020-02-24,Fiji,Australia,33,0.0,0,0
+5929,2020-02-24,Fiji,Australasia,33,0.0,0,0
 5930,2020-02-24,Finland,Europe,33,0.0,0,1
 5931,2020-02-24,France,Europe,33,0.0,0,12
 5932,2020-02-24,Gabon,Africa,33,0.0,0,0
@@ -5988,7 +5988,7 @@
 5986,2020-02-24,Namibia,Africa,33,0.0,0,0
 5987,2020-02-24,Nepal,Asia,33,0.0,0,1
 5988,2020-02-24,Netherlands,Europe,33,0.0,0,0
-5989,2020-02-24,New Zealand,Australia,33,0.0,0,0
+5989,2020-02-24,New Zealand,Australasia,33,0.0,0,0
 5990,2020-02-24,Nicaragua,North America,33,0.0,0,0
 5991,2020-02-24,Niger,Africa,33,0.0,0,0
 5992,2020-02-24,Nigeria,Africa,33,0.0,0,0
@@ -5997,7 +5997,7 @@
 5995,2020-02-24,Oman,Asia,33,100.0,2,2
 5996,2020-02-24,Pakistan,Asia,33,0.0,0,0
 5997,2020-02-24,Panama,North America,33,0.0,0,0
-5998,2020-02-24,Papua New Guinea,Australia,33,0.0,0,0
+5998,2020-02-24,Papua New Guinea,Australasia,33,0.0,0,0
 5999,2020-02-24,Paraguay,South America,33,0.0,0,0
 6000,2020-02-24,Peru,South America,33,0.0,0,0
 6001,2020-02-24,Philippines,Asia,33,0.0,0,3
@@ -6059,7 +6059,7 @@
 6057,2020-02-25,Antigua and Barbuda,North America,34,0.0,0,0
 6058,2020-02-25,Argentina,South America,34,0.0,0,0
 6059,2020-02-25,Armenia,Asia,34,0.0,0,0
-6060,2020-02-25,Australia,Australia,34,0.0,0,15
+6060,2020-02-25,Australia,Australasia,34,0.0,0,15
 6061,2020-02-25,Austria,Europe,34,100.0,2,2
 6062,2020-02-25,Azerbaijan,Asia,34,0.0,0,0
 6063,2020-02-25,Bahamas,North America,34,0.0,0,0
@@ -6106,7 +6106,7 @@
 6104,2020-02-25,Estonia,Europe,34,0.0,0,0
 6105,2020-02-25,Eswatini,Africa,34,0.0,0,0
 6106,2020-02-25,Ethiopia,Africa,34,0.0,0,0
-6107,2020-02-25,Fiji,Australia,34,0.0,0,0
+6107,2020-02-25,Fiji,Australasia,34,0.0,0,0
 6108,2020-02-25,Finland,Europe,34,0.0,0,1
 6109,2020-02-25,France,Europe,34,3.225806451612903,2,14
 6110,2020-02-25,Gabon,Africa,34,0.0,0,0
@@ -6166,7 +6166,7 @@
 6164,2020-02-25,Namibia,Africa,34,0.0,0,0
 6165,2020-02-25,Nepal,Asia,34,0.0,0,1
 6166,2020-02-25,Netherlands,Europe,34,0.0,0,0
-6167,2020-02-25,New Zealand,Australia,34,0.0,0,0
+6167,2020-02-25,New Zealand,Australasia,34,0.0,0,0
 6168,2020-02-25,Nicaragua,North America,34,0.0,0,0
 6169,2020-02-25,Niger,Africa,34,0.0,0,0
 6170,2020-02-25,Nigeria,Africa,34,0.0,0,0
@@ -6175,7 +6175,7 @@
 6173,2020-02-25,Oman,Asia,34,50.0,0,2
 6174,2020-02-25,Pakistan,Asia,34,0.0,0,0
 6175,2020-02-25,Panama,North America,34,0.0,0,0
-6176,2020-02-25,Papua New Guinea,Australia,34,0.0,0,0
+6176,2020-02-25,Papua New Guinea,Australasia,34,0.0,0,0
 6177,2020-02-25,Paraguay,South America,34,0.0,0,0
 6178,2020-02-25,Peru,South America,34,0.0,0,0
 6179,2020-02-25,Philippines,Asia,34,0.0,0,3
@@ -6237,7 +6237,7 @@
 6235,2020-02-26,Antigua and Barbuda,North America,35,0.0,0,0
 6236,2020-02-26,Argentina,South America,35,0.0,0,0
 6237,2020-02-26,Armenia,Asia,35,0.0,0,0
-6238,2020-02-26,Australia,Australia,35,0.0,0,15
+6238,2020-02-26,Australia,Australasia,35,0.0,0,15
 6239,2020-02-26,Austria,Europe,35,50.0,0,2
 6240,2020-02-26,Azerbaijan,Asia,35,0.0,0,0
 6241,2020-02-26,Bahamas,North America,35,0.0,0,0
@@ -6284,7 +6284,7 @@
 6282,2020-02-26,Estonia,Europe,35,0.0,0,0
 6283,2020-02-26,Eswatini,Africa,35,0.0,0,0
 6284,2020-02-26,Ethiopia,Africa,35,0.0,0,0
-6285,2020-02-26,Fiji,Australia,35,0.0,0,0
+6285,2020-02-26,Fiji,Australasia,35,0.0,0,0
 6286,2020-02-26,Finland,Europe,35,16.666666666666668,1,2
 6287,2020-02-26,France,Europe,35,8.823529411764707,4,18
 6288,2020-02-26,Gabon,Africa,35,0.0,0,0
@@ -6344,7 +6344,7 @@
 6342,2020-02-26,Namibia,Africa,35,0.0,0,0
 6343,2020-02-26,Nepal,Asia,35,0.0,0,1
 6344,2020-02-26,Netherlands,Europe,35,0.0,0,0
-6345,2020-02-26,New Zealand,Australia,35,0.0,0,0
+6345,2020-02-26,New Zealand,Australasia,35,0.0,0,0
 6346,2020-02-26,Nicaragua,North America,35,0.0,0,0
 6347,2020-02-26,Niger,Africa,35,0.0,0,0
 6348,2020-02-26,Nigeria,Africa,35,0.0,0,0
@@ -6353,7 +6353,7 @@
 6351,2020-02-26,Oman,Asia,35,50.0,2,4
 6352,2020-02-26,Pakistan,Asia,35,100.0,2,2
 6353,2020-02-26,Panama,North America,35,0.0,0,0
-6354,2020-02-26,Papua New Guinea,Australia,35,0.0,0,0
+6354,2020-02-26,Papua New Guinea,Australasia,35,0.0,0,0
 6355,2020-02-26,Paraguay,South America,35,0.0,0,0
 6356,2020-02-26,Peru,South America,35,0.0,0,0
 6357,2020-02-26,Philippines,Asia,35,0.0,0,3
@@ -6415,7 +6415,7 @@
 6413,2020-02-27,Antigua and Barbuda,North America,36,0.0,0,0
 6414,2020-02-27,Argentina,South America,36,0.0,0,0
 6415,2020-02-27,Armenia,Asia,36,0.0,0,0
-6416,2020-02-27,Australia,Australia,36,0.0,0,15
+6416,2020-02-27,Australia,Australasia,36,0.0,0,15
 6417,2020-02-27,Austria,Europe,36,42.85714285714286,1,3
 6418,2020-02-27,Azerbaijan,Asia,36,0.0,0,0
 6419,2020-02-27,Bahamas,North America,36,0.0,0,0
@@ -6462,7 +6462,7 @@
 6460,2020-02-27,Estonia,Europe,36,100.0,1,1
 6461,2020-02-27,Eswatini,Africa,36,0.0,0,0
 6462,2020-02-27,Ethiopia,Africa,36,0.0,0,0
-6463,2020-02-27,Fiji,Australia,36,0.0,0,0
+6463,2020-02-27,Fiji,Australasia,36,0.0,0,0
 6464,2020-02-27,Finland,Europe,36,14.285714285714288,0,2
 6465,2020-02-27,France,Europe,36,27.659574468085108,20,38
 6466,2020-02-27,Gabon,Africa,36,0.0,0,0
@@ -6522,7 +6522,7 @@
 6520,2020-02-27,Namibia,Africa,36,0.0,0,0
 6521,2020-02-27,Nepal,Asia,36,0.0,0,1
 6522,2020-02-27,Netherlands,Europe,36,100.0,1,1
-6523,2020-02-27,New Zealand,Australia,36,0.0,0,0
+6523,2020-02-27,New Zealand,Australasia,36,0.0,0,0
 6524,2020-02-27,Nicaragua,North America,36,0.0,0,0
 6525,2020-02-27,Niger,Africa,36,0.0,0,0
 6526,2020-02-27,Nigeria,Africa,36,0.0,0,0
@@ -6531,7 +6531,7 @@
 6529,2020-02-27,Oman,Asia,36,33.333333333333336,0,4
 6530,2020-02-27,Pakistan,Asia,36,50.0,0,2
 6531,2020-02-27,Panama,North America,36,0.0,0,0
-6532,2020-02-27,Papua New Guinea,Australia,36,0.0,0,0
+6532,2020-02-27,Papua New Guinea,Australasia,36,0.0,0,0
 6533,2020-02-27,Paraguay,South America,36,0.0,0,0
 6534,2020-02-27,Peru,South America,36,0.0,0,0
 6535,2020-02-27,Philippines,Asia,36,0.0,0,3
@@ -6593,7 +6593,7 @@
 6591,2020-02-28,Antigua and Barbuda,North America,37,0.0,0,0
 6592,2020-02-28,Argentina,South America,37,0.0,0,0
 6593,2020-02-28,Armenia,Asia,37,0.0,0,0
-6594,2020-02-28,Australia,Australia,37,0.0,0,15
+6594,2020-02-28,Australia,Australasia,37,0.0,0,15
 6595,2020-02-28,Austria,Europe,37,30.0,0,3
 6596,2020-02-28,Azerbaijan,Asia,37,0.0,0,0
 6597,2020-02-28,Bahamas,North America,37,0.0,0,0
@@ -6640,7 +6640,7 @@
 6638,2020-02-28,Estonia,Europe,37,50.0,0,1
 6639,2020-02-28,Eswatini,Africa,37,0.0,0,0
 6640,2020-02-28,Ethiopia,Africa,37,0.0,0,0
-6641,2020-02-28,Fiji,Australia,37,0.0,0,0
+6641,2020-02-28,Fiji,Australasia,37,0.0,0,0
 6642,2020-02-28,Finland,Europe,37,12.5,0,2
 6643,2020-02-28,France,Europe,37,32.37410071942446,19,57
 6644,2020-02-28,Gabon,Africa,37,0.0,0,0
@@ -6700,7 +6700,7 @@
 6698,2020-02-28,Namibia,Africa,37,0.0,0,0
 6699,2020-02-28,Nepal,Asia,37,0.0,0,1
 6700,2020-02-28,Netherlands,Europe,37,50.0,0,1
-6701,2020-02-28,New Zealand,Australia,37,100.0,1,1
+6701,2020-02-28,New Zealand,Australasia,37,100.0,1,1
 6702,2020-02-28,Nicaragua,North America,37,0.0,0,0
 6703,2020-02-28,Niger,Africa,37,0.0,0,0
 6704,2020-02-28,Nigeria,Africa,37,100.0,1,1
@@ -6709,7 +6709,7 @@
 6707,2020-02-28,Oman,Asia,37,25.0,0,4
 6708,2020-02-28,Pakistan,Asia,37,33.333333333333336,0,2
 6709,2020-02-28,Panama,North America,37,0.0,0,0
-6710,2020-02-28,Papua New Guinea,Australia,37,0.0,0,0
+6710,2020-02-28,Papua New Guinea,Australasia,37,0.0,0,0
 6711,2020-02-28,Paraguay,South America,37,0.0,0,0
 6712,2020-02-28,Peru,South America,37,0.0,0,0
 6713,2020-02-28,Philippines,Asia,37,0.0,0,3
@@ -6771,7 +6771,7 @@
 6769,2020-02-29,Antigua and Barbuda,North America,38,0.0,0,0
 6770,2020-02-29,Argentina,South America,38,0.0,0,0
 6771,2020-02-29,Armenia,Asia,38,0.0,0,0
-6772,2020-02-29,Australia,Australia,38,11.76470588235294,10,25
+6772,2020-02-29,Australia,Australasia,38,11.76470588235294,10,25
 6773,2020-02-29,Austria,Europe,38,47.36842105263158,6,9
 6774,2020-02-29,Azerbaijan,Asia,38,0.0,0,0
 6775,2020-02-29,Bahamas,North America,38,0.0,0,0
@@ -6818,7 +6818,7 @@
 6816,2020-02-29,Estonia,Europe,38,33.333333333333336,0,1
 6817,2020-02-29,Eswatini,Africa,38,0.0,0,0
 6818,2020-02-29,Ethiopia,Africa,38,0.0,0,0
-6819,2020-02-29,Fiji,Australia,38,0.0,0,0
+6819,2020-02-29,Fiji,Australasia,38,0.0,0,0
 6820,2020-02-29,Finland,Europe,38,20.0,1,3
 6821,2020-02-29,France,Europe,38,38.766519823788556,43,100
 6822,2020-02-29,Gabon,Africa,38,0.0,0,0
@@ -6878,7 +6878,7 @@
 6876,2020-02-29,Namibia,Africa,38,0.0,0,0
 6877,2020-02-29,Nepal,Asia,38,0.0,0,1
 6878,2020-02-29,Netherlands,Europe,38,74.99999999999999,5,6
-6879,2020-02-29,New Zealand,Australia,38,50.0,0,1
+6879,2020-02-29,New Zealand,Australasia,38,50.0,0,1
 6880,2020-02-29,Nicaragua,North America,38,0.0,0,0
 6881,2020-02-29,Niger,Africa,38,0.0,0,0
 6882,2020-02-29,Nigeria,Africa,38,50.0,0,1
@@ -6887,7 +6887,7 @@
 6885,2020-02-29,Oman,Asia,38,20.0,2,6
 6886,2020-02-29,Pakistan,Asia,38,40.0,2,4
 6887,2020-02-29,Panama,North America,38,0.0,0,0
-6888,2020-02-29,Papua New Guinea,Australia,38,0.0,0,0
+6888,2020-02-29,Papua New Guinea,Australasia,38,0.0,0,0
 6889,2020-02-29,Paraguay,South America,38,0.0,0,0
 6890,2020-02-29,Peru,South America,38,0.0,0,0
 6891,2020-02-29,Philippines,Asia,38,0.0,0,3
@@ -6949,7 +6949,7 @@
 6947,2020-03-01,Antigua and Barbuda,North America,39,0.0,0,0
 6948,2020-03-01,Argentina,South America,39,0.0,0,0
 6949,2020-03-01,Armenia,Asia,39,100.0,1,1
-6950,2020-03-01,Australia,Australia,39,12.371134020618557,2,27
+6950,2020-03-01,Australia,Australasia,39,12.371134020618557,2,27
 6951,2020-03-01,Austria,Europe,39,38.70967741935484,5,14
 6952,2020-03-01,Azerbaijan,Asia,39,100.0,3,3
 6953,2020-03-01,Bahamas,North America,39,0.0,0,0
@@ -6996,7 +6996,7 @@
 6994,2020-03-01,Estonia,Europe,39,25.0,0,1
 6995,2020-03-01,Eswatini,Africa,39,0.0,0,0
 6996,2020-03-01,Ethiopia,Africa,39,0.0,0,0
-6997,2020-03-01,Fiji,Australia,39,0.0,0,0
+6997,2020-03-01,Fiji,Australasia,39,0.0,0,0
 6998,2020-03-01,Finland,Europe,39,33.33333333333333,3,6
 6999,2020-03-01,France,Europe,39,33.81924198250729,30,130
 7000,2020-03-01,Gabon,Africa,39,0.0,0,0
@@ -7056,7 +7056,7 @@
 7054,2020-03-01,Namibia,Africa,39,0.0,0,0
 7055,2020-03-01,Nepal,Asia,39,0.0,0,1
 7056,2020-03-01,Netherlands,Europe,39,55.55555555555556,4,10
-7057,2020-03-01,New Zealand,Australia,39,33.333333333333336,0,1
+7057,2020-03-01,New Zealand,Australasia,39,33.333333333333336,0,1
 7058,2020-03-01,Nicaragua,North America,39,0.0,0,0
 7059,2020-03-01,Niger,Africa,39,0.0,0,0
 7060,2020-03-01,Nigeria,Africa,39,33.333333333333336,0,1
@@ -7065,7 +7065,7 @@
 7063,2020-03-01,Oman,Asia,39,16.666666666666668,0,6
 7064,2020-03-01,Pakistan,Asia,39,28.571428571428577,0,4
 7065,2020-03-01,Panama,North America,39,0.0,0,0
-7066,2020-03-01,Papua New Guinea,Australia,39,0.0,0,0
+7066,2020-03-01,Papua New Guinea,Australasia,39,0.0,0,0
 7067,2020-03-01,Paraguay,South America,39,0.0,0,0
 7068,2020-03-01,Peru,South America,39,0.0,0,0
 7069,2020-03-01,Philippines,Asia,39,0.0,0,3
@@ -7127,7 +7127,7 @@
 7125,2020-03-02,Antigua and Barbuda,North America,40,0.0,0,0
 7126,2020-03-02,Argentina,South America,40,0.0,0,0
 7127,2020-03-02,Armenia,Asia,40,50.0,0,1
-7128,2020-03-02,Australia,Australia,40,13.392857142857142,3,30
+7128,2020-03-02,Australia,Australasia,40,13.392857142857142,3,30
 7129,2020-03-02,Austria,Europe,40,34.04255319148936,4,18
 7130,2020-03-02,Azerbaijan,Asia,40,50.0,0,3
 7131,2020-03-02,Bahamas,North America,40,0.0,0,0
@@ -7174,7 +7174,7 @@
 7172,2020-03-02,Estonia,Europe,40,20.0,0,1
 7173,2020-03-02,Eswatini,Africa,40,0.0,0,0
 7174,2020-03-02,Ethiopia,Africa,40,0.0,0,0
-7175,2020-03-02,Fiji,Australia,40,0.0,0,0
+7175,2020-03-02,Fiji,Australasia,40,0.0,0,0
 7176,2020-03-02,Finland,Europe,40,21.05263157894737,0,6
 7177,2020-03-02,France,Europe,40,33.52713178294574,61,191
 7178,2020-03-02,Gabon,Africa,40,0.0,0,0
@@ -7234,7 +7234,7 @@
 7232,2020-03-02,Namibia,Africa,40,0.0,0,0
 7233,2020-03-02,Nepal,Asia,40,0.0,0,1
 7234,2020-03-02,Netherlands,Europe,40,50.0,8,18
-7235,2020-03-02,New Zealand,Australia,40,25.0,0,1
+7235,2020-03-02,New Zealand,Australasia,40,25.0,0,1
 7236,2020-03-02,Nicaragua,North America,40,0.0,0,0
 7237,2020-03-02,Niger,Africa,40,0.0,0,0
 7238,2020-03-02,Nigeria,Africa,40,25.0,0,1
@@ -7243,7 +7243,7 @@
 7241,2020-03-02,Oman,Asia,40,7.6923076923076925,0,6
 7242,2020-03-02,Pakistan,Asia,40,12.5,0,4
 7243,2020-03-02,Panama,North America,40,0.0,0,0
-7244,2020-03-02,Papua New Guinea,Australia,40,0.0,0,0
+7244,2020-03-02,Papua New Guinea,Australasia,40,0.0,0,0
 7245,2020-03-02,Paraguay,South America,40,0.0,0,0
 7246,2020-03-02,Peru,South America,40,0.0,0,0
 7247,2020-03-02,Philippines,Asia,40,0.0,0,3
@@ -7305,7 +7305,7 @@
 7303,2020-03-03,Antigua and Barbuda,North America,41,0.0,0,0
 7304,2020-03-03,Argentina,South America,41,100.0,1,1
 7305,2020-03-03,Armenia,Asia,41,33.333333333333336,0,1
-7306,2020-03-03,Australia,Australia,41,17.647058823529413,9,39
+7306,2020-03-03,Australia,Australasia,41,17.647058823529413,9,39
 7307,2020-03-03,Austria,Europe,41,27.692307692307693,3,21
 7308,2020-03-03,Azerbaijan,Asia,41,33.33333333333333,0,3
 7309,2020-03-03,Bahamas,North America,41,0.0,0,0
@@ -7352,7 +7352,7 @@
 7350,2020-03-03,Estonia,Europe,41,16.666666666666668,1,2
 7351,2020-03-03,Eswatini,Africa,41,0.0,0,0
 7352,2020-03-03,Ethiopia,Africa,41,0.0,0,0
-7353,2020-03-03,Fiji,Australia,41,0.0,0,0
+7353,2020-03-03,Fiji,Australasia,41,0.0,0,0
 7354,2020-03-03,Finland,Europe,41,17.39130434782609,0,6
 7355,2020-03-03,France,Europe,41,24.34017595307918,13,204
 7356,2020-03-03,Gabon,Africa,41,0.0,0,0
@@ -7412,7 +7412,7 @@
 7410,2020-03-03,Namibia,Africa,41,0.0,0,0
 7411,2020-03-03,Nepal,Asia,41,0.0,0,1
 7412,2020-03-03,Netherlands,Europe,41,38.983050847457626,6,24
-7413,2020-03-03,New Zealand,Australia,41,20.0,0,1
+7413,2020-03-03,New Zealand,Australasia,41,20.0,0,1
 7414,2020-03-03,Nicaragua,North America,41,0.0,0,0
 7415,2020-03-03,Niger,Africa,41,0.0,0,0
 7416,2020-03-03,Nigeria,Africa,41,20.0,0,1
@@ -7421,7 +7421,7 @@
 7419,2020-03-03,Oman,Asia,41,23.529411764705884,6,12
 7420,2020-03-03,Pakistan,Asia,41,15.789473684210526,1,5
 7421,2020-03-03,Panama,North America,41,0.0,0,0
-7422,2020-03-03,Papua New Guinea,Australia,41,0.0,0,0
+7422,2020-03-03,Papua New Guinea,Australasia,41,0.0,0,0
 7423,2020-03-03,Paraguay,South America,41,0.0,0,0
 7424,2020-03-03,Peru,South America,41,0.0,0,0
 7425,2020-03-03,Philippines,Asia,41,0.0,0,3
@@ -7483,7 +7483,7 @@
 7481,2020-03-04,Antigua and Barbuda,North America,42,0.0,0,0
 7482,2020-03-04,Argentina,South America,42,50.0,0,1
 7483,2020-03-04,Armenia,Asia,42,25.0,0,1
-7484,2020-03-04,Australia,Australia,42,21.38728323699422,13,52
+7484,2020-03-04,Australia,Australasia,42,21.38728323699422,13,52
 7485,2020-03-04,Austria,Europe,42,28.571428571428577,8,29
 7486,2020-03-04,Azerbaijan,Asia,42,25.0,0,3
 7487,2020-03-04,Bahamas,North America,42,0.0,0,0
@@ -7530,7 +7530,7 @@
 7528,2020-03-04,Estonia,Europe,42,14.285714285714288,0,2
 7529,2020-03-04,Eswatini,Africa,42,0.0,0,0
 7530,2020-03-04,Ethiopia,Africa,42,0.0,0,0
-7531,2020-03-04,Fiji,Australia,42,0.0,0,0
+7531,2020-03-04,Fiji,Australasia,42,0.0,0,0
 7532,2020-03-04,Finland,Europe,42,14.814814814814813,0,6
 7533,2020-03-04,France,Europe,42,25.30120481927711,84,288
 7534,2020-03-04,Gabon,Africa,42,0.0,0,0
@@ -7590,7 +7590,7 @@
 7588,2020-03-04,Namibia,Africa,42,0.0,0,0
 7589,2020-03-04,Nepal,Asia,42,0.0,0,1
 7590,2020-03-04,Netherlands,Europe,42,38.54166666666667,14,38
-7591,2020-03-04,New Zealand,Australia,42,28.571428571428577,2,3
+7591,2020-03-04,New Zealand,Australasia,42,28.571428571428577,2,3
 7592,2020-03-04,Nicaragua,North America,42,0.0,0,0
 7593,2020-03-04,Niger,Africa,42,0.0,0,0
 7594,2020-03-04,Nigeria,Africa,42,0.0,0,1
@@ -7599,7 +7599,7 @@
 7597,2020-03-04,Oman,Asia,42,24.444444444444446,3,15
 7598,2020-03-04,Pakistan,Asia,42,13.636363636363635,0,5
 7599,2020-03-04,Panama,North America,42,0.0,0,0
-7600,2020-03-04,Papua New Guinea,Australia,42,0.0,0,0
+7600,2020-03-04,Papua New Guinea,Australasia,42,0.0,0,0
 7601,2020-03-04,Paraguay,South America,42,0.0,0,0
 7602,2020-03-04,Peru,South America,42,0.0,0,0
 7603,2020-03-04,Philippines,Asia,42,0.0,0,3
@@ -7661,7 +7661,7 @@
 7659,2020-03-05,Antigua and Barbuda,North America,43,0.0,0,0
 7660,2020-03-05,Argentina,South America,43,33.333333333333336,0,1
 7661,2020-03-05,Armenia,Asia,43,20.0,0,1
-7662,2020-03-05,Australia,Australia,43,14.778325123152708,3,55
+7662,2020-03-05,Australia,Australasia,43,14.778325123152708,3,55
 7663,2020-03-05,Austria,Europe,43,26.016260162601622,12,41
 7664,2020-03-05,Azerbaijan,Asia,43,33.33333333333333,3,6
 7665,2020-03-05,Bahamas,North America,43,0.0,0,0
@@ -7708,7 +7708,7 @@
 7706,2020-03-05,Estonia,Europe,43,22.222222222222225,1,3
 7707,2020-03-05,Eswatini,Africa,43,0.0,0,0
 7708,2020-03-05,Ethiopia,Africa,43,0.0,0,0
-7709,2020-03-05,Fiji,Australia,43,0.0,0,0
+7709,2020-03-05,Fiji,Australasia,43,0.0,0,0
 7710,2020-03-05,Finland,Europe,43,25.0,6,12
 7711,2020-03-05,France,Europe,43,23.47024308466052,92,380
 7712,2020-03-05,Gabon,Africa,43,0.0,0,0
@@ -7768,7 +7768,7 @@
 7766,2020-03-05,Namibia,Africa,43,0.0,0,0
 7767,2020-03-05,Nepal,Asia,43,0.0,0,1
 7768,2020-03-05,Netherlands,Europe,43,44.18604651162791,44,82
-7769,2020-03-05,New Zealand,Australia,43,22.222222222222225,0,3
+7769,2020-03-05,New Zealand,Australasia,43,22.222222222222225,0,3
 7770,2020-03-05,Nicaragua,North America,43,0.0,0,0
 7771,2020-03-05,Niger,Africa,43,0.0,0,0
 7772,2020-03-05,Nigeria,Africa,43,0.0,0,1
@@ -7777,7 +7777,7 @@
 7775,2020-03-05,Oman,Asia,43,18.181818181818183,1,16
 7776,2020-03-05,Pakistan,Asia,43,4.347826086956522,0,5
 7777,2020-03-05,Panama,North America,43,0.0,0,0
-7778,2020-03-05,Papua New Guinea,Australia,43,0.0,0,0
+7778,2020-03-05,Papua New Guinea,Australasia,43,0.0,0,0
 7779,2020-03-05,Paraguay,South America,43,0.0,0,0
 7780,2020-03-05,Peru,South America,43,0.0,0,0
 7781,2020-03-05,Philippines,Asia,43,0.0,0,3
@@ -7839,7 +7839,7 @@
 7837,2020-03-06,Antigua and Barbuda,North America,44,0.0,0,0
 7838,2020-03-06,Argentina,South America,44,40.0,1,2
 7839,2020-03-06,Armenia,Asia,44,0.0,0,1
-7840,2020-03-06,Australia,Australia,44,13.983050847457626,5,60
+7840,2020-03-06,Australia,Australasia,44,13.983050847457626,5,60
 7841,2020-03-06,Austria,Europe,44,25.0,14,55
 7842,2020-03-06,Azerbaijan,Asia,44,14.285714285714285,0,6
 7843,2020-03-06,Bahamas,North America,44,0.0,0,0
@@ -7886,7 +7886,7 @@
 7884,2020-03-06,Estonia,Europe,44,50.0,7,10
 7885,2020-03-06,Eswatini,Africa,44,0.0,0,0
 7886,2020-03-06,Ethiopia,Africa,44,0.0,0,0
-7887,2020-03-06,Fiji,Australia,44,0.0,0,0
+7887,2020-03-06,Fiji,Australasia,44,0.0,0,0
 7888,2020-03-06,Finland,Europe,44,20.0,3,15
 7889,2020-03-06,France,Europe,44,30.599185573007563,276,656
 7890,2020-03-06,Gabon,Africa,44,0.0,0,0
@@ -7946,7 +7946,7 @@
 7944,2020-03-06,Namibia,Africa,44,0.0,0,0
 7945,2020-03-06,Nepal,Asia,44,0.0,0,1
 7946,2020-03-06,Netherlands,Europe,44,40.689655172413794,46,128
-7947,2020-03-06,New Zealand,Australia,44,25.0,1,4
+7947,2020-03-06,New Zealand,Australasia,44,25.0,1,4
 7948,2020-03-06,Nicaragua,North America,44,0.0,0,0
 7949,2020-03-06,Niger,Africa,44,0.0,0,0
 7950,2020-03-06,Nigeria,Africa,44,0.0,0,1
@@ -7955,7 +7955,7 @@
 7953,2020-03-06,Oman,Asia,44,15.384615384615385,0,16
 7954,2020-03-06,Pakistan,Asia,44,8.0,1,6
 7955,2020-03-06,Panama,North America,44,0.0,0,0
-7956,2020-03-06,Papua New Guinea,Australia,44,0.0,0,0
+7956,2020-03-06,Papua New Guinea,Australasia,44,0.0,0,0
 7957,2020-03-06,Paraguay,South America,44,0.0,0,0
 7958,2020-03-06,Peru,South America,44,100.0,1,1
 7959,2020-03-06,Philippines,Asia,44,11.764705882352942,2,5
@@ -8017,7 +8017,7 @@
 8015,2020-03-07,Antigua and Barbuda,North America,45,0.0,0,0
 8016,2020-03-07,Argentina,South America,45,61.53846153846154,6,8
 8017,2020-03-07,Armenia,Asia,45,0.0,0,1
-8018,2020-03-07,Australia,Australia,45,12.267657992565056,3,63
+8018,2020-03-07,Australia,Australasia,45,12.267657992565056,3,63
 8019,2020-03-07,Austria,Europe,45,27.111111111111107,24,79
 8020,2020-03-07,Azerbaijan,Asia,45,22.22222222222222,3,9
 8021,2020-03-07,Bahamas,North America,45,0.0,0,0
@@ -8064,7 +8064,7 @@
 8062,2020-03-07,Estonia,Europe,45,33.33333333333333,0,10
 8063,2020-03-07,Eswatini,Africa,45,0.0,0,0
 8064,2020-03-07,Ethiopia,Africa,45,0.0,0,0
-8065,2020-03-07,Fiji,Australia,45,0.0,0,0
+8065,2020-03-07,Fiji,Australasia,45,0.0,0,0
 8066,2020-03-07,Finland,Europe,45,16.666666666666664,0,15
 8067,2020-03-07,France,Europe,45,30.88057901085645,303,959
 8068,2020-03-07,Gabon,Africa,45,0.0,0,0
@@ -8124,7 +8124,7 @@
 8122,2020-03-07,Namibia,Africa,45,0.0,0,0
 8123,2020-03-07,Nepal,Asia,45,0.0,0,1
 8124,2020-03-07,Netherlands,Europe,45,36.95652173913043,60,188
-8125,2020-03-07,New Zealand,Australia,45,25.0,1,5
+8125,2020-03-07,New Zealand,Australasia,45,25.0,1,5
 8126,2020-03-07,Nicaragua,North America,45,0.0,0,0
 8127,2020-03-07,Niger,Africa,45,0.0,0,0
 8128,2020-03-07,Nigeria,Africa,45,0.0,0,1
@@ -8133,7 +8133,7 @@
 8131,2020-03-07,Oman,Asia,45,13.333333333333334,0,16
 8132,2020-03-07,Pakistan,Asia,45,7.4074074074074066,0,6
 8133,2020-03-07,Panama,North America,45,0.0,0,0
-8134,2020-03-07,Papua New Guinea,Australia,45,0.0,0,0
+8134,2020-03-07,Papua New Guinea,Australasia,45,0.0,0,0
 8135,2020-03-07,Paraguay,South America,45,0.0,0,0
 8136,2020-03-07,Peru,South America,45,50.0,0,1
 8137,2020-03-07,Philippines,Asia,45,15.0,1,6
@@ -8195,7 +8195,7 @@
 8193,2020-03-08,Antigua and Barbuda,North America,46,0.0,0,0
 8194,2020-03-08,Argentina,South America,46,45.833333333333336,4,12
 8195,2020-03-08,Armenia,Asia,46,0.0,0,1
-8196,2020-03-08,Australia,Australia,46,12.091503267973856,13,76
+8196,2020-03-08,Australia,Australasia,46,12.091503267973856,13,76
 8197,2020-03-08,Austria,Europe,46,26.948051948051948,25,104
 8198,2020-03-08,Azerbaijan,Asia,46,18.181818181818183,0,9
 8199,2020-03-08,Bahamas,North America,46,0.0,0,0
@@ -8242,7 +8242,7 @@
 8240,2020-03-08,Estonia,Europe,46,22.857142857142858,0,10
 8241,2020-03-08,Eswatini,Africa,46,0.0,0,0
 8242,2020-03-08,Ethiopia,Africa,46,0.0,0,0
-8243,2020-03-08,Fiji,Australia,46,0.0,0,0
+8243,2020-03-08,Fiji,Australasia,46,0.0,0,0
 8244,2020-03-08,Finland,Europe,46,23.943661971830988,8,23
 8245,2020-03-08,France,Europe,46,27.259432582626502,177,1136
 8246,2020-03-08,Gabon,Africa,46,0.0,0,0
@@ -8302,7 +8302,7 @@
 8300,2020-03-08,Namibia,Africa,46,0.0,0,0
 8301,2020-03-08,Nepal,Asia,46,0.0,0,1
 8302,2020-03-08,Netherlands,Europe,46,34.37945791726106,77,265
-8303,2020-03-08,New Zealand,Australia,46,20.0,0,5
+8303,2020-03-08,New Zealand,Australasia,46,20.0,0,5
 8304,2020-03-08,Nicaragua,North America,46,0.0,0,0
 8305,2020-03-08,Niger,Africa,46,0.0,0,0
 8306,2020-03-08,Nigeria,Africa,46,0.0,0,1
@@ -8311,7 +8311,7 @@
 8309,2020-03-08,Oman,Asia,46,5.063291139240507,0,16
 8310,2020-03-08,Pakistan,Asia,46,3.571428571428572,0,6
 8311,2020-03-08,Panama,North America,46,0.0,0,0
-8312,2020-03-08,Papua New Guinea,Australia,46,0.0,0,0
+8312,2020-03-08,Papua New Guinea,Australasia,46,0.0,0,0
 8313,2020-03-08,Paraguay,South America,46,100.0,1,1
 8314,2020-03-08,Peru,South America,46,74.99999999999999,5,6
 8315,2020-03-08,Philippines,Asia,46,25.925925925925924,4,10
@@ -8373,7 +8373,7 @@
 8371,2020-03-09,Antigua and Barbuda,North America,47,0.0,0,0
 8372,2020-03-09,Argentina,South America,47,31.428571428571434,0,12
 8373,2020-03-09,Armenia,Asia,47,0.0,0,1
-8374,2020-03-09,Australia,Australia,47,11.304347826086957,15,91
+8374,2020-03-09,Australia,Australasia,47,11.304347826086957,15,91
 8375,2020-03-09,Austria,Europe,47,24.878048780487802,27,131
 8376,2020-03-09,Azerbaijan,Asia,47,15.384615384615385,0,9
 8377,2020-03-09,Bahamas,North America,47,0.0,0,0
@@ -8420,7 +8420,7 @@
 8418,2020-03-09,Estonia,Europe,47,18.6046511627907,0,10
 8419,2020-03-09,Eswatini,Africa,47,0.0,0,0
 8420,2020-03-09,Ethiopia,Africa,47,0.0,0,0
-8421,2020-03-09,Fiji,Australia,47,0.0,0,0
+8421,2020-03-09,Fiji,Australasia,47,0.0,0,0
 8422,2020-03-09,Finland,Europe,47,25.263157894736842,7,30
 8423,2020-03-09,France,Europe,47,21.40229885057471,83,1219
 8424,2020-03-09,Gabon,Africa,47,0.0,0,0
@@ -8480,7 +8480,7 @@
 8478,2020-03-09,Namibia,Africa,47,0.0,0,0
 8479,2020-03-09,Nepal,Asia,47,0.0,0,1
 8480,2020-03-09,Netherlands,Europe,47,28.760162601626014,56,321
-8481,2020-03-09,New Zealand,Australia,47,9.090909090909092,0,5
+8481,2020-03-09,New Zealand,Australasia,47,9.090909090909092,0,5
 8482,2020-03-09,Nicaragua,North America,47,0.0,0,0
 8483,2020-03-09,Niger,Africa,47,0.0,0,0
 8484,2020-03-09,Nigeria,Africa,47,16.666666666666668,1,2
@@ -8489,7 +8489,7 @@
 8487,2020-03-09,Oman,Asia,47,1.25,0,16
 8488,2020-03-09,Pakistan,Asia,47,3.4482758620689653,0,6
 8489,2020-03-09,Panama,North America,47,0.0,0,0
-8490,2020-03-09,Papua New Guinea,Australia,47,0.0,0,0
+8490,2020-03-09,Papua New Guinea,Australasia,47,0.0,0,0
 8491,2020-03-09,Paraguay,South America,47,50.0,0,1
 8492,2020-03-09,Peru,South America,47,46.666666666666664,1,7
 8493,2020-03-09,Philippines,Asia,47,38.63636363636363,10,20
@@ -8551,7 +8551,7 @@
 8549,2020-03-10,Antigua and Barbuda,North America,48,0.0,0,0
 8550,2020-03-10,Argentina,South America,48,31.37254901960785,5,17
 8551,2020-03-10,Armenia,Asia,48,0.0,0,1
-8552,2020-03-10,Australia,Australia,48,13.09823677581864,16,107
+8552,2020-03-10,Australia,Australasia,48,13.09823677581864,16,107
 8553,2020-03-10,Austria,Europe,48,25.58983666061706,51,182
 8554,2020-03-10,Azerbaijan,Asia,48,11.363636363636363,2,11
 8555,2020-03-10,Bahamas,North America,48,0.0,0,0
@@ -8598,7 +8598,7 @@
 8596,2020-03-10,Estonia,Europe,48,17.307692307692307,2,12
 8597,2020-03-10,Eswatini,Africa,48,0.0,0,0
 8598,2020-03-10,Ethiopia,Africa,48,0.0,0,0
-8599,2020-03-10,Fiji,Australia,48,0.0,0,0
+8599,2020-03-10,Fiji,Australasia,48,0.0,0,0
 8600,2020-03-10,Finland,Europe,48,22.76422764227642,10,40
 8601,2020-03-10,France,Europe,48,24.531575294934076,575,1794
 8602,2020-03-10,Gabon,Africa,48,0.0,0,0
@@ -8658,7 +8658,7 @@
 8656,2020-03-10,Namibia,Africa,48,0.0,0,0
 8657,2020-03-10,Nepal,Asia,48,0.0,0,1
 8658,2020-03-10,Netherlands,Europe,48,23.364485981308412,61,382
-8659,2020-03-10,New Zealand,Australia,48,8.333333333333334,0,5
+8659,2020-03-10,New Zealand,Australasia,48,8.333333333333334,0,5
 8660,2020-03-10,Nicaragua,North America,48,0.0,0,0
 8661,2020-03-10,Niger,Africa,48,0.0,0,0
 8662,2020-03-10,Nigeria,Africa,48,14.285714285714288,0,2
@@ -8667,7 +8667,7 @@
 8665,2020-03-10,Oman,Asia,48,2.439024390243903,2,18
 8666,2020-03-10,Pakistan,Asia,48,27.500000000000004,10,16
 8667,2020-03-10,Panama,North America,48,100.0,1,1
-8668,2020-03-10,Papua New Guinea,Australia,48,0.0,0,0
+8668,2020-03-10,Papua New Guinea,Australasia,48,0.0,0,0
 8669,2020-03-10,Paraguay,South America,48,33.333333333333336,0,1
 8670,2020-03-10,Peru,South America,48,42.30769230769231,4,11
 8671,2020-03-10,Philippines,Asia,48,40.54054054054054,13,33
@@ -8729,7 +8729,7 @@
 8727,2020-03-11,Antigua and Barbuda,North America,49,0.0,0,0
 8728,2020-03-11,Argentina,South America,49,25.0,2,19
 8729,2020-03-11,Armenia,Asia,49,0.0,0,1
-8730,2020-03-11,Australia,Australia,49,14.623655913978496,21,128
+8730,2020-03-11,Australia,Australasia,49,14.623655913978496,21,128
 8731,2020-03-11,Austria,Europe,49,25.741239892183287,64,246
 8732,2020-03-11,Azerbaijan,Asia,49,10.20408163265306,0,11
 8733,2020-03-11,Bahamas,North America,49,0.0,0,0
@@ -8776,7 +8776,7 @@
 8774,2020-03-11,Estonia,Europe,49,10.344827586206897,4,16
 8775,2020-03-11,Eswatini,Africa,49,0.0,0,0
 8776,2020-03-11,Ethiopia,Africa,49,0.0,0,0
-8777,2020-03-11,Fiji,Australia,49,0.0,0,0
+8777,2020-03-11,Fiji,Australasia,49,0.0,0,0
 8778,2020-03-11,Finland,Europe,49,26.34730538922156,19,59
 8779,2020-03-11,France,Europe,49,22.118632617213887,499,2293
 8780,2020-03-11,Gabon,Africa,49,0.0,0,0
@@ -8836,7 +8836,7 @@
 8834,2020-03-11,Namibia,Africa,49,0.0,0,0
 8835,2020-03-11,Nepal,Asia,49,0.0,0,1
 8836,2020-03-11,Netherlands,Europe,49,22.60397830018083,121,503
-8837,2020-03-11,New Zealand,Australia,49,4.0,0,5
+8837,2020-03-11,New Zealand,Australasia,49,4.0,0,5
 8838,2020-03-11,Nicaragua,North America,49,0.0,0,0
 8839,2020-03-11,Niger,Africa,49,0.0,0,0
 8840,2020-03-11,Nigeria,Africa,49,12.5,0,2
@@ -8845,7 +8845,7 @@
 8843,2020-03-11,Oman,Asia,49,2.380952380952381,0,18
 8844,2020-03-11,Pakistan,Asia,49,24.528301886792455,3,19
 8845,2020-03-11,Panama,North America,49,88.8888888888889,7,8
-8846,2020-03-11,Papua New Guinea,Australia,49,0.0,0,0
+8846,2020-03-11,Papua New Guinea,Australasia,49,0.0,0,0
 8847,2020-03-11,Paraguay,South America,49,62.5,4,5
 8848,2020-03-11,Peru,South America,49,27.77777777777778,0,11
 8849,2020-03-11,Philippines,Asia,49,37.28813559322034,16,49
@@ -8907,7 +8907,7 @@
 8905,2020-03-12,Antigua and Barbuda,North America,50,0.0,0,0
 8906,2020-03-12,Argentina,South America,50,13.924050632911392,0,19
 8907,2020-03-12,Armenia,Asia,50,37.49999999999999,3,4
-8908,2020-03-12,Australia,Australia,50,12.264150943396226,0,128
+8908,2020-03-12,Australia,Australasia,50,12.264150943396226,0,128
 8909,2020-03-12,Austria,Europe,50,23.10880829015544,56,302
 8910,2020-03-12,Azerbaijan,Asia,50,3.921568627450981,0,11
 8911,2020-03-12,Bahamas,North America,50,0.0,0,0
@@ -8954,7 +8954,7 @@
 8952,2020-03-12,Estonia,Europe,50,9.374999999999998,0,16
 8953,2020-03-12,Eswatini,Africa,50,0.0,0,0
 8954,2020-03-12,Ethiopia,Africa,50,0.0,0,0
-8955,2020-03-12,Fiji,Australia,50,0.0,0,0
+8955,2020-03-12,Fiji,Australasia,50,0.0,0,0
 8956,2020-03-12,Finland,Europe,50,20.85308056872038,0,59
 8957,2020-03-12,France,Europe,50,15.271894676588438,0,2293
 8958,2020-03-12,Gabon,Africa,50,0.0,0,0
@@ -9014,7 +9014,7 @@
 9012,2020-03-12,Namibia,Africa,50,0.0,0,0
 9013,2020-03-12,Nepal,Asia,50,0.0,0,1
 9014,2020-03-12,Netherlands,Europe,50,15.957446808510639,0,503
-9015,2020-03-12,New Zealand,Australia,50,0.0,0,5
+9015,2020-03-12,New Zealand,Australasia,50,0.0,0,5
 9016,2020-03-12,Nicaragua,North America,50,0.0,0,0
 9017,2020-03-12,Niger,Africa,50,0.0,0,0
 9018,2020-03-12,Nigeria,Africa,50,11.111111111111112,0,2
@@ -9023,7 +9023,7 @@
 9021,2020-03-12,Oman,Asia,50,2.3255813953488373,0,18
 9022,2020-03-12,Pakistan,Asia,50,20.8955223880597,1,20
 9023,2020-03-12,Panama,North America,50,55.00000000000001,3,11
-9024,2020-03-12,Papua New Guinea,Australia,50,0.0,0,0
+9024,2020-03-12,Papua New Guinea,Australasia,50,0.0,0,0
 9025,2020-03-12,Paraguay,South America,50,38.46153846153846,0,5
 9026,2020-03-12,Peru,South America,50,27.999999999999996,4,15
 9027,2020-03-12,Philippines,Asia,50,28.04878048780488,3,52
@@ -9085,7 +9085,7 @@
 9083,2020-03-13,Antigua and Barbuda,North America,51,100.0,1,1
 9084,2020-03-13,Argentina,South America,51,19.387755102040813,12,31
 9085,2020-03-13,Armenia,Asia,51,46.666666666666664,4,8
-9086,2020-03-13,Australia,Australia,51,18.960244648318042,72,200
+9086,2020-03-13,Australia,Australasia,51,18.960244648318042,72,200
 9087,2020-03-13,Austria,Europe,51,29.304029304029307,202,504
 9088,2020-03-13,Azerbaijan,Asia,51,10.526315789473683,4,15
 9089,2020-03-13,Bahamas,North America,51,0.0,0,0
@@ -9132,7 +9132,7 @@
 9130,2020-03-13,Estonia,Europe,51,51.8796992481203,63,79
 9131,2020-03-13,Eswatini,Africa,51,0.0,0,0
 9132,2020-03-13,Ethiopia,Africa,51,100.0,1,1
-9133,2020-03-13,Fiji,Australia,51,0.0,0,0
+9133,2020-03-13,Fiji,Australasia,51,0.0,0,0
 9134,2020-03-13,Finland,Europe,51,38.48396501457726,96,155
 9135,2020-03-13,France,Europe,51,22.562056737588655,1388,3681
 9136,2020-03-13,Gabon,Africa,51,0.0,0,0
@@ -9192,7 +9192,7 @@
 9190,2020-03-13,Namibia,Africa,51,0.0,0,0
 9191,2020-03-13,Nepal,Asia,51,0.0,0,1
 9192,2020-03-13,Netherlands,Europe,51,21.51093439363817,303,806
-9193,2020-03-13,New Zealand,Australia,51,0.0,0,5
+9193,2020-03-13,New Zealand,Australasia,51,0.0,0,5
 9194,2020-03-13,Nicaragua,North America,51,0.0,0,0
 9195,2020-03-13,Niger,Africa,51,0.0,0,0
 9196,2020-03-13,Nigeria,Africa,51,10.0,0,2
@@ -9201,7 +9201,7 @@
 9199,2020-03-13,Oman,Asia,51,3.3707865168539324,1,19
 9200,2020-03-13,Pakistan,Asia,51,24.719101123595507,8,28
 9201,2020-03-13,Panama,North America,51,57.446808510638306,16,27
-9202,2020-03-13,Papua New Guinea,Australia,51,0.0,0,0
+9202,2020-03-13,Papua New Guinea,Australasia,51,0.0,0,0
 9203,2020-03-13,Paraguay,South America,51,27.77777777777778,1,6
 9204,2020-03-13,Peru,South America,51,30.555555555555557,13,28
 9205,2020-03-13,Philippines,Asia,51,24.770642201834864,12,64
@@ -9263,7 +9263,7 @@
 9261,2020-03-14,Antigua and Barbuda,North America,52,50.0,0,1
 9262,2020-03-14,Argentina,South America,52,18.333333333333336,3,34
 9263,2020-03-14,Armenia,Asia,52,53.125,10,18
-9264,2020-03-14,Australia,Australia,52,19.55719557195572,50,250
+9264,2020-03-14,Australia,Australasia,52,19.55719557195572,50,250
 9265,2020-03-14,Austria,Europe,52,27.739544732662786,151,655
 9266,2020-03-14,Azerbaijan,Asia,52,9.523809523809524,0,15
 9267,2020-03-14,Bahamas,North America,52,0.0,0,0
@@ -9310,7 +9310,7 @@
 9308,2020-03-14,Estonia,Europe,52,44.11764705882353,36,115
 9309,2020-03-14,Eswatini,Africa,52,100.0,1,1
 9310,2020-03-14,Ethiopia,Africa,52,50.0,0,1
-9311,2020-03-14,Fiji,Australia,52,0.0,0,0
+9311,2020-03-14,Fiji,Australasia,52,0.0,0,0
 9312,2020-03-14,Finland,Europe,52,36.2453531598513,70,225
 9313,2020-03-14,France,Europe,52,22.511506491722194,815,4496
 9314,2020-03-14,Gabon,Africa,52,100.0,1,1
@@ -9370,7 +9370,7 @@
 9368,2020-03-14,Namibia,Africa,52,100.0,2,2
 9369,2020-03-14,Nepal,Asia,52,0.0,0,1
 9370,2020-03-14,Netherlands,Europe,52,20.310519645120404,156,962
-9371,2020-03-14,New Zealand,Australia,52,3.8461538461538463,1,6
+9371,2020-03-14,New Zealand,Australasia,52,3.8461538461538463,1,6
 9372,2020-03-14,Nicaragua,North America,52,0.0,0,0
 9373,2020-03-14,Niger,Africa,52,0.0,0,0
 9374,2020-03-14,Nigeria,Africa,52,0.0,0,2
@@ -9379,7 +9379,7 @@
 9377,2020-03-14,Oman,Asia,52,3.260869565217391,0,19
 9378,2020-03-14,Pakistan,Asia,52,21.929824561403507,3,31
 9379,2020-03-14,Panama,North America,52,43.37349397590361,9,36
-9380,2020-03-14,Papua New Guinea,Australia,52,0.0,0,0
+9380,2020-03-14,Papua New Guinea,Australasia,52,0.0,0,0
 9381,2020-03-14,Paraguay,South America,52,21.73913043478261,0,6
 9382,2020-03-14,Peru,South America,52,30.097087378640776,10,38
 9383,2020-03-14,Philippines,Asia,52,29.449838187702266,47,111
@@ -9441,7 +9441,7 @@
 9439,2020-03-15,Antigua and Barbuda,North America,53,33.333333333333336,0,1
 9440,2020-03-15,Argentina,South America,53,18.918918918918916,11,45
 9441,2020-03-15,Armenia,Asia,53,43.859649122807014,8,26
-9442,2020-03-15,Australia,Australia,53,18.943170488534395,47,297
+9442,2020-03-15,Australia,Australasia,53,18.943170488534395,47,297
 9443,2020-03-15,Austria,Europe,53,26.41215426567978,205,860
 9444,2020-03-15,Azerbaijan,Asia,53,16.0,8,23
 9445,2020-03-15,Bahamas,North America,53,0.0,0,0
@@ -9488,7 +9488,7 @@
 9486,2020-03-15,Estonia,Europe,53,40.050377833753146,56,171
 9487,2020-03-15,Eswatini,Africa,53,50.0,0,1
 9488,2020-03-15,Ethiopia,Africa,53,33.333333333333336,0,1
-9489,2020-03-15,Fiji,Australia,53,0.0,0,0
+9489,2020-03-15,Fiji,Australasia,53,0.0,0,0
 9490,2020-03-15,Finland,Europe,53,27.4932614555256,19,244
 9491,2020-03-15,France,Europe,53,15.83116507661174,36,4532
 9492,2020-03-15,Gabon,Africa,53,50.0,0,1
@@ -9548,7 +9548,7 @@
 9546,2020-03-15,Namibia,Africa,53,50.0,0,2
 9547,2020-03-15,Nepal,Asia,53,0.0,0,1
 9548,2020-03-15,Netherlands,Europe,53,19.32515337423313,176,1138
-9549,2020-03-15,New Zealand,Australia,53,10.344827586206897,2,8
+9549,2020-03-15,New Zealand,Australasia,53,10.344827586206897,2,8
 9550,2020-03-15,Nicaragua,North America,53,0.0,0,0
 9551,2020-03-15,Niger,Africa,53,0.0,0,0
 9552,2020-03-15,Nigeria,Africa,53,0.0,0,2
@@ -9557,7 +9557,7 @@
 9555,2020-03-15,Oman,Asia,53,4.166666666666667,3,22
 9556,2020-03-15,Pakistan,Asia,53,24.50331125827815,22,53
 9557,2020-03-15,Panama,North America,53,33.6,7,43
-9558,2020-03-15,Papua New Guinea,Australia,53,0.0,0,0
+9558,2020-03-15,Papua New Guinea,Australasia,53,0.0,0,0
 9559,2020-03-15,Paraguay,South America,53,17.857142857142858,0,6
 9560,2020-03-15,Peru,South America,53,23.703703703703706,5,43
 9561,2020-03-15,Philippines,Asia,53,25.721153846153843,29,140
@@ -9619,7 +9619,7 @@
 9617,2020-03-16,Antigua and Barbuda,North America,54,25.0,0,1
 9618,2020-03-16,Argentina,South America,54,20.0,11,56
 9619,2020-03-16,Armenia,Asia,54,47.222222222222214,26,52
-9620,2020-03-16,Australia,Australia,54,19.888178913738017,80,377
+9620,2020-03-16,Australia,Australasia,54,19.888178913738017,80,377
 9621,2020-03-16,Austria,Europe,54,23.12069481880803,158,1018
 9622,2020-03-16,Azerbaijan,Asia,54,18.47826086956522,5,28
 9623,2020-03-16,Bahamas,North America,54,100.0,1,1
@@ -9666,7 +9666,7 @@
 9664,2020-03-16,Estonia,Europe,54,32.25255972696245,34,205
 9665,2020-03-16,Eswatini,Africa,54,33.333333333333336,0,1
 9666,2020-03-16,Ethiopia,Africa,54,62.5,4,5
-9667,2020-03-16,Fiji,Australia,54,0.0,0,0
+9667,2020-03-16,Fiji,Australasia,54,0.0,0,0
 9668,2020-03-16,Finland,Europe,54,22.708333333333332,33,277
 9669,2020-03-16,France,Europe,54,20.24440857735762,2151,6683
 9670,2020-03-16,Gabon,Africa,54,33.333333333333336,0,1
@@ -9726,7 +9726,7 @@
 9724,2020-03-16,Namibia,Africa,54,33.333333333333336,0,2
 9725,2020-03-16,Nepal,Asia,54,0.0,0,1
 9726,2020-03-16,Netherlands,Europe,54,18.922279792746114,278,1416
-9727,2020-03-16,New Zealand,Australia,54,9.374999999999998,0,8
+9727,2020-03-16,New Zealand,Australasia,54,9.374999999999998,0,8
 9728,2020-03-16,Nicaragua,North America,54,0.0,0,0
 9729,2020-03-16,Niger,Africa,54,0.0,0,0
 9730,2020-03-16,Nigeria,Africa,54,0.0,0,2
@@ -9735,7 +9735,7 @@
 9733,2020-03-16,Oman,Asia,54,4.0,0,22
 9734,2020-03-16,Pakistan,Asia,54,43.656716417910445,83,136
 9735,2020-03-16,Panama,North America,54,27.32558139534884,12,55
-9736,2020-03-16,Papua New Guinea,Australia,54,0.0,0,0
+9736,2020-03-16,Papua New Guinea,Australasia,54,0.0,0,0
 9737,2020-03-16,Paraguay,South America,54,9.67741935483871,2,8
 9738,2020-03-16,Peru,South America,54,35.714285714285715,43,86
 9739,2020-03-16,Philippines,Asia,54,18.27111984282908,2,142
@@ -9797,7 +9797,7 @@
 9795,2020-03-17,Antigua and Barbuda,North America,55,20.0,0,1
 9796,2020-03-17,Argentina,South America,55,20.940170940170944,12,68
 9797,2020-03-17,Armenia,Asia,55,40.659340659340664,26,78
-9798,2020-03-17,Australia,Australia,55,20.558375634517766,75,452
+9798,2020-03-17,Australia,Australasia,55,20.558375634517766,75,452
 9799,2020-03-17,Austria,Europe,55,23.575188830395973,314,1332
 9800,2020-03-17,Azerbaijan,Asia,55,15.596330275229356,0,28
 9801,2020-03-17,Bahamas,North America,55,50.0,0,1
@@ -9844,7 +9844,7 @@
 9842,2020-03-17,Estonia,Europe,55,26.28930817610063,20,225
 9843,2020-03-17,Eswatini,Africa,55,25.0,0,1
 9844,2020-03-17,Ethiopia,Africa,55,38.46153846153846,0,5
-9845,2020-03-17,Fiji,Australia,55,0.0,0,0
+9845,2020-03-17,Fiji,Australasia,55,0.0,0,0
 9846,2020-03-17,Finland,Europe,55,21.44026186579378,44,321
 9847,2020-03-17,France,Europe,55,20.00221345040027,1032,7715
 9848,2020-03-17,Gabon,Africa,55,25.0,0,1
@@ -9904,7 +9904,7 @@
 9902,2020-03-17,Namibia,Africa,55,25.0,0,2
 9903,2020-03-17,Nepal,Asia,55,0.0,0,1
 9904,2020-03-17,Netherlands,Europe,55,20.023205701972486,295,1711
-9905,2020-03-17,New Zealand,Australia,55,17.94871794871795,4,12
+9905,2020-03-17,New Zealand,Australasia,55,17.94871794871795,4,12
 9906,2020-03-17,Nicaragua,North America,55,0.0,0,0
 9907,2020-03-17,Niger,Africa,55,0.0,0,0
 9908,2020-03-17,Nigeria,Africa,55,9.090909090909092,1,3
@@ -9913,7 +9913,7 @@
 9911,2020-03-17,Oman,Asia,55,5.660377358490567,2,24
 9912,2020-03-17,Pakistan,Asia,55,44.62809917355373,100,236
 9913,2020-03-17,Panama,North America,55,25.217391304347824,14,69
-9914,2020-03-17,Papua New Guinea,Australia,55,0.0,0,0
+9914,2020-03-17,Papua New Guinea,Australasia,55,0.0,0,0
 9915,2020-03-17,Paraguay,South America,55,11.428571428571429,1,9
 9916,2020-03-17,Peru,South America,55,32.69230769230769,31,117
 9917,2020-03-17,Philippines,Asia,55,20.962732919254655,45,187
@@ -9975,7 +9975,7 @@
 9973,2020-03-18,Antigua and Barbuda,North America,56,0.0,0,1
 9974,2020-03-18,Argentina,South America,56,17.02127659574468,11,79
 9975,2020-03-18,Armenia,Asia,56,29.457364341085267,6,84
-9976,2020-03-18,Australia,Australia,56,18.93004115226337,116,568
+9976,2020-03-18,Australia,Australasia,56,18.93004115226337,116,568
 9977,2020-03-18,Austria,Europe,56,20.72219197967701,314,1646
 9978,2020-03-18,Azerbaijan,Asia,56,10.655737704918034,0,28
 9979,2020-03-18,Bahamas,North America,56,33.333333333333336,0,1
@@ -10022,7 +10022,7 @@
 10020,2020-03-18,Estonia,Europe,56,18.377823408624227,33,258
 10021,2020-03-18,Eswatini,Africa,56,20.0,0,1
 10022,2020-03-18,Ethiopia,Africa,56,27.77777777777778,1,6
-10023,2020-03-18,Fiji,Australia,56,0.0,0,0
+10023,2020-03-18,Fiji,Australasia,56,0.0,0,0
 10024,2020-03-18,Finland,Europe,56,12.900926585887385,15,336
 10025,2020-03-18,France,Europe,56,16.721966205837173,1409,9124
 10026,2020-03-18,Gabon,Africa,56,20.0,0,1
@@ -10082,7 +10082,7 @@
 10080,2020-03-18,Namibia,Africa,56,20.0,0,2
 10081,2020-03-18,Nepal,Asia,56,0.0,0,1
 10082,2020-03-18,Netherlands,Europe,56,17.185998627316405,347,2058
-10083,2020-03-18,New Zealand,Australia,56,27.777777777777775,8,20
+10083,2020-03-18,New Zealand,Australasia,56,27.777777777777775,8,20
 10084,2020-03-18,Nicaragua,North America,56,0.0,0,0
 10085,2020-03-18,Niger,Africa,56,0.0,0,0
 10086,2020-03-18,Nigeria,Africa,56,35.294117647058826,5,8
@@ -10091,7 +10091,7 @@
 10089,2020-03-18,Oman,Asia,56,15.873015873015872,15,39
 10090,2020-03-18,Pakistan,Asia,56,35.89403973509934,63,299
 10091,2020-03-18,Panama,North America,56,20.41522491349481,17,86
-10092,2020-03-18,Papua New Guinea,Australia,56,0.0,0,0
+10092,2020-03-18,Papua New Guinea,Australasia,56,0.0,0,0
 10093,2020-03-18,Paraguay,South America,56,12.5,2,11
 10094,2020-03-18,Peru,South America,56,27.27272727272727,28,145
 10095,2020-03-18,Philippines,Asia,56,17.647058823529413,15,202
@@ -10153,7 +10153,7 @@
 10151,2020-03-19,Antigua and Barbuda,North America,57,0.0,0,1
 10152,2020-03-19,Argentina,South America,57,18.26086956521739,18,97
 10153,2020-03-19,Armenia,Asia,57,27.32394366197183,31,115
-10154,2020-03-19,Australia,Australia,57,18.147368421052633,113,681
+10154,2020-03-19,Australia,Australasia,57,18.147368421052633,113,681
 10155,2020-03-19,Austria,Europe,57,19.7699810743922,367,2013
 10156,2020-03-19,Azerbaijan,Asia,57,19.205298013245034,16,44
 10157,2020-03-19,Bahamas,North America,57,50.0,2,3
@@ -10200,7 +10200,7 @@
 10198,2020-03-19,Estonia,Europe,57,13.49911190053286,9,267
 10199,2020-03-19,Eswatini,Africa,57,0.0,0,1
 10200,2020-03-19,Ethiopia,Africa,57,21.73913043478261,0,6
-10201,2020-03-19,Fiji,Australia,57,100.0,1,1
+10201,2020-03-19,Fiji,Australasia,57,100.0,1,1
 10202,2020-03-19,Finland,Europe,57,11.08998732572877,64,400
 10203,2020-03-19,France,Europe,57,16.58979089790898,1846,10970
 10204,2020-03-19,Gabon,Africa,57,0.0,0,1
@@ -10260,7 +10260,7 @@
 10258,2020-03-19,Namibia,Africa,57,9.090909090909092,1,3
 10259,2020-03-19,Nepal,Asia,57,0.0,0,1
 10260,2020-03-19,Netherlands,Europe,57,17.121729237770193,409,2467
-10261,2020-03-19,New Zealand,Australia,57,28.947368421052634,8,28
+10261,2020-03-19,New Zealand,Australasia,57,28.947368421052634,8,28
 10262,2020-03-19,Nicaragua,North America,57,100.0,1,1
 10263,2020-03-19,Niger,Africa,57,0.0,0,0
 10264,2020-03-19,Nigeria,Africa,57,26.08695652173913,0,8
@@ -10269,7 +10269,7 @@
 10267,2020-03-19,Oman,Asia,57,18.70967741935484,9,48
 10268,2020-03-19,Pakistan,Asia,57,35.908319185059426,155,454
 10269,2020-03-19,Panama,North America,57,20.16574585635359,23,109
-10270,2020-03-19,Papua New Guinea,Australia,57,0.0,0,0
+10270,2020-03-19,Papua New Guinea,Australasia,57,0.0,0,0
 10271,2020-03-19,Paraguay,South America,57,11.11111111111111,0,11
 10272,2020-03-19,Peru,South America,57,31.360000000000003,89,234
 10273,2020-03-19,Philippines,Asia,57,11.936936936936938,15,217
@@ -10331,7 +10331,7 @@
 10329,2020-03-20,Antigua and Barbuda,North America,58,0.0,0,1
 10330,2020-03-20,Argentina,South America,58,19.392523364485985,31,128
 10331,2020-03-20,Armenia,Asia,58,23.655913978494624,21,136
-10332,2020-03-20,Australia,Australia,58,17.218543046357617,110,791
+10332,2020-03-20,Australia,Australasia,58,17.218543046357617,110,791
 10333,2020-03-20,Austria,Europe,58,18.19697511015839,375,2388
 10334,2020-03-20,Azerbaijan,Asia,58,12.209302325581396,0,44
 10335,2020-03-20,Bahamas,North America,58,33.33333333333333,0,3
@@ -10378,7 +10378,7 @@
 10376,2020-03-20,Estonia,Europe,58,9.046849757673666,16,283
 10377,2020-03-20,Eswatini,Africa,58,0.0,0,1
 10378,2020-03-20,Ethiopia,Africa,58,25.806451612903224,3,9
-10379,2020-03-20,Fiji,Australia,58,50.0,0,1
+10379,2020-03-20,Fiji,Australasia,58,50.0,0,1
 10380,2020-03-20,Finland,Europe,58,11.547085201793722,50,450
 10381,2020-03-20,France,Europe,58,17.40952380952381,1788,12758
 10382,2020-03-20,Gabon,Africa,58,28.571428571428577,2,3
@@ -10438,7 +10438,7 @@
 10436,2020-03-20,Namibia,Africa,58,8.333333333333334,0,3
 10437,2020-03-20,Nepal,Asia,58,0.0,0,1
 10438,2020-03-20,Netherlands,Europe,58,17.503519474425154,536,3003
-10439,2020-03-20,New Zealand,Australia,58,28.971962616822434,11,39
+10439,2020-03-20,New Zealand,Australasia,58,28.971962616822434,11,39
 10440,2020-03-20,Nicaragua,North America,58,50.0,0,1
 10441,2020-03-20,Niger,Africa,58,100.0,1,1
 10442,2020-03-20,Nigeria,Africa,58,30.303030303030305,4,12
@@ -10447,7 +10447,7 @@
 10445,2020-03-20,Oman,Asia,58,14.3646408839779,0,48
 10446,2020-03-20,Pakistan,Asia,58,27.552275522755227,47,501
 10447,2020-03-20,Panama,North America,58,20.614035087719298,28,137
-10448,2020-03-20,Papua New Guinea,Australia,58,100.0,1,1
+10448,2020-03-20,Papua New Guinea,Australasia,58,100.0,1,1
 10449,2020-03-20,Paraguay,South America,58,13.461538461538462,2,13
 10450,2020-03-20,Peru,South America,58,23.406862745098042,0,234
 10451,2020-03-20,Philippines,Asia,58,9.202453987730062,13,230
@@ -10509,7 +10509,7 @@
 10507,2020-03-21,Antigua and Barbuda,North America,59,0.0,0,1
 10508,2020-03-21,Argentina,South America,59,19.245283018867923,30,158
 10509,2020-03-21,Armenia,Asia,59,18.84816753926702,24,160
-10510,2020-03-21,Australia,Australia,59,19.4779680044906,280,1071
+10510,2020-03-21,Australia,Australasia,59,19.4779680044906,280,1071
 10511,2020-03-21,Austria,Europe,59,17.619935249681156,426,2814
 10512,2020-03-21,Azerbaijan,Asia,59,12.690355329949238,9,53
 10513,2020-03-21,Bahamas,North America,59,25.0,1,4
@@ -10556,7 +10556,7 @@
 10554,2020-03-21,Estonia,Europe,59,7.542942494398805,23,306
 10555,2020-03-21,Eswatini,Africa,59,0.0,0,1
 10556,2020-03-21,Ethiopia,Africa,59,11.428571428571429,0,9
-10557,2020-03-21,Fiji,Australia,59,33.333333333333336,0,1
+10557,2020-03-21,Fiji,Australasia,59,33.333333333333336,0,1
 10558,2020-03-21,Finland,Europe,59,12.118226600985222,73,523
 10559,2020-03-21,France,Europe,59,14.137743049245866,1705,14463
 10560,2020-03-21,Gabon,Africa,59,30.0,1,4
@@ -10616,7 +10616,7 @@
 10614,2020-03-21,Namibia,Africa,59,7.6923076923076925,0,3
 10615,2020-03-21,Nepal,Asia,59,0.0,0,1
 10616,2020-03-21,Netherlands,Europe,59,17.268421461293578,637,3640
-10617,2020-03-21,New Zealand,Australia,59,29.139072847682122,13,52
+10617,2020-03-21,New Zealand,Australasia,59,29.139072847682122,13,52
 10618,2020-03-21,Nicaragua,North America,59,50.0,1,2
 10619,2020-03-21,Niger,Africa,59,50.0,0,1
 10620,2020-03-21,Nigeria,Africa,59,37.735849056603776,10,22
@@ -10625,7 +10625,7 @@
 10623,2020-03-21,Oman,Asia,59,14.218009478672986,4,52
 10624,2020-03-21,Pakistan,Asia,59,26.756756756756754,229,730
 10625,2020-03-21,Panama,North America,59,24.126455906821963,63,200
-10626,2020-03-21,Papua New Guinea,Australia,59,50.0,0,1
+10626,2020-03-21,Papua New Guinea,Australasia,59,50.0,0,1
 10627,2020-03-21,Paraguay,South America,59,16.129032258064516,5,18
 10628,2020-03-21,Peru,South America,59,22.137404580152673,84,318
 10629,2020-03-21,Philippines,Asia,59,14.435695538057743,77,307
@@ -10687,7 +10687,7 @@
 10685,2020-03-22,Antigua and Barbuda,North America,60,0.0,0,1
 10686,2020-03-22,Argentina,South America,60,27.1978021978022,108,266
 10687,2020-03-22,Armenia,Asia,60,16.83599419448476,34,194
-10688,2020-03-22,Australia,Australia,60,23.540772532188843,478,1549
+10688,2020-03-22,Australia,Australasia,60,23.540772532188843,478,1549
 10689,2020-03-22,Austria,Europe,60,18.08245599935707,768,3582
 10690,2020-03-22,Azerbaijan,Asia,60,15.811965811965814,12,65
 10691,2020-03-22,Bahamas,North America,60,20.0,0,4
@@ -10734,7 +10734,7 @@
 10732,2020-03-22,Estonia,Europe,60,7.013888888888889,20,326
 10733,2020-03-22,Eswatini,Africa,60,37.49999999999999,3,4
 10734,2020-03-22,Ethiopia,Africa,60,14.634146341463417,2,11
-10735,2020-03-22,Fiji,Australia,60,40.0,1,2
+10735,2020-03-22,Fiji,Australasia,60,40.0,1,2
 10736,2020-03-22,Finland,Europe,60,13.062098501070663,103,626
 10737,2020-03-22,France,Europe,60,13.417665754114353,1780,16243
 10738,2020-03-22,Gabon,Africa,60,28.571428571428577,1,5
@@ -10794,7 +10794,7 @@
 10792,2020-03-22,Namibia,Africa,60,7.142857142857144,0,3
 10793,2020-03-22,Nepal,Asia,60,0.0,0,1
 10794,2020-03-22,Netherlands,Europe,60,16.28859278518037,577,4217
-10795,2020-03-22,New Zealand,Australia,60,37.344398340248965,50,102
+10795,2020-03-22,New Zealand,Australasia,60,37.344398340248965,50,102
 10796,2020-03-22,Nicaragua,North America,60,33.333333333333336,0,2
 10797,2020-03-22,Niger,Africa,60,50.0,1,2
 10798,2020-03-22,Nigeria,Africa,60,33.75,8,30
@@ -10803,7 +10803,7 @@
 10801,2020-03-22,Oman,Asia,60,12.809917355371903,3,55
 10802,2020-03-22,Pakistan,Asia,60,19.565217391304348,46,776
 10803,2020-03-22,Panama,North America,60,28.87573964497041,113,313
-10804,2020-03-22,Papua New Guinea,Australia,60,33.333333333333336,0,1
+10804,2020-03-22,Papua New Guinea,Australasia,60,33.333333333333336,0,1
 10805,2020-03-22,Paraguay,South America,60,17.333333333333336,4,22
 10806,2020-03-22,Peru,South America,60,19.01081916537867,45,363
 10807,2020-03-22,Philippines,Asia,60,14.446107784431138,73,380
@@ -10865,7 +10865,7 @@
 10863,2020-03-23,Antigua and Barbuda,North America,61,28.571428571428577,2,3
 10864,2020-03-23,Argentina,South America,61,23.36842105263158,35,301
 10865,2020-03-23,Armenia,Asia,61,17.976190476190474,41,235
-10866,2020-03-23,Australia,Australia,61,19.29338413578109,133,1682
+10866,2020-03-23,Australia,Australasia,61,19.29338413578109,133,1682
 10867,2020-03-23,Austria,Europe,61,18.51876105035689,892,4474
 10868,2020-03-23,Azerbaijan,Asia,61,15.827338129496404,7,72
 10869,2020-03-23,Bahamas,North America,61,16.666666666666664,0,4
@@ -10912,7 +10912,7 @@
 10910,2020-03-23,Estonia,Europe,61,6.127770534550195,26,352
 10911,2020-03-23,Eswatini,Africa,61,27.27272727272727,0,4
 10912,2020-03-23,Ethiopia,Africa,61,10.869565217391305,0,11
-10913,2020-03-23,Fiji,Australia,61,37.49999999999999,1,3
+10913,2020-03-23,Fiji,Australasia,61,37.49999999999999,1,3
 10914,2020-03-23,Finland,Europe,61,13.486476472767691,74,700
 10915,2020-03-23,France,Europe,61,14.75247126359698,3880,20123
 10916,2020-03-23,Gabon,Africa,61,22.222222222222225,0,5
@@ -10972,7 +10972,7 @@
 10970,2020-03-23,Namibia,Africa,61,12.5,1,4
 10971,2020-03-23,Nepal,Asia,61,16.666666666666668,1,2
 10972,2020-03-23,Netherlands,Europe,61,14.957713780332766,547,4764
-10973,2020-03-23,New Zealand,Australia,61,25.386996904024766,0,102
+10973,2020-03-23,New Zealand,Australasia,61,25.386996904024766,0,102
 10974,2020-03-23,Nicaragua,North America,61,25.0,0,2
 10975,2020-03-23,Niger,Africa,61,42.85714285714286,1,3
 10976,2020-03-23,Nigeria,Africa,61,28.571428571428577,10,40
@@ -10981,7 +10981,7 @@
 10979,2020-03-23,Oman,Asia,61,10.037174721189594,11,66
 10980,2020-03-23,Pakistan,Asia,61,17.26618705035971,99,875
 10981,2020-03-23,Panama,North America,61,23.46014492753623,32,345
-10982,2020-03-23,Papua New Guinea,Australia,61,25.0,0,1
+10982,2020-03-23,Papua New Guinea,Australasia,61,25.0,0,1
 10983,2020-03-23,Paraguay,South America,61,12.790697674418606,0,22
 10984,2020-03-23,Peru,South America,61,16.191709844559586,32,395
 10985,2020-03-23,Philippines,Asia,61,16.290726817042607,82,462
@@ -11043,7 +11043,7 @@
 11041,2020-03-24,Antigua and Barbuda,North America,62,22.222222222222225,0,3
 11042,2020-03-24,Argentina,South America,62,23.387096774193548,86,387
 11043,2020-03-24,Armenia,Asia,62,13.757700205338807,14,249
-11044,2020-03-24,Australia,Australia,62,19.09766008126664,362,2044
+11044,2020-03-24,Australia,Australasia,62,19.09766008126664,362,2044
 11045,2020-03-24,Austria,Europe,62,17.63658918073459,809,5283
 11046,2020-03-24,Azerbaijan,Asia,62,13.395638629283487,15,87
 11047,2020-03-24,Bahamas,North America,62,10.0,1,5
@@ -11090,7 +11090,7 @@
 11088,2020-03-24,Estonia,Europe,62,6.234718826405867,17,369
 11089,2020-03-24,Eswatini,Africa,62,21.42857142857143,0,4
 11090,2020-03-24,Ethiopia,Africa,62,11.538461538461538,1,12
-11091,2020-03-24,Fiji,Australia,62,27.27272727272727,1,4
+11091,2020-03-24,Fiji,Australasia,62,27.27272727272727,1,4
 11092,2020-03-24,Finland,Europe,62,12.68197994176642,92,792
 11093,2020-03-24,France,Europe,62,13.515990209838883,2499,22622
 11094,2020-03-24,Gabon,Africa,62,21.73913043478261,1,6
@@ -11150,7 +11150,7 @@
 11148,2020-03-24,Namibia,Africa,62,20.0,3,7
 11149,2020-03-24,Nepal,Asia,62,14.285714285714288,0,2
 11150,2020-03-24,Netherlands,Europe,62,14.681192227881532,816,5580
-11151,2020-03-24,New Zealand,Australia,62,28.22222222222222,53,155
+11151,2020-03-24,New Zealand,Australasia,62,28.22222222222222,53,155
 11152,2020-03-24,Nicaragua,North America,62,11.111111111111112,0,2
 11153,2020-03-24,Niger,Africa,62,30.0,0,3
 11154,2020-03-24,Nigeria,Africa,62,24.324324324324323,4,44
@@ -11159,7 +11159,7 @@
 11157,2020-03-24,Oman,Asia,62,11.80327868852459,18,84
 11158,2020-03-24,Pakistan,Asia,62,13.44058121432278,97,972
 11159,2020-03-24,Panama,North America,62,17.611940298507463,0,345
-11160,2020-03-24,Papua New Guinea,Australia,62,20.0,0,1
+11160,2020-03-24,Papua New Guinea,Australasia,62,20.0,0,1
 11161,2020-03-24,Paraguay,South America,62,15.686274509803924,5,27
 11162,2020-03-24,Peru,South America,62,10.544611819235227,21,416
 11163,2020-03-24,Philippines,Asia,62,17.348524080787158,90,552
@@ -11221,7 +11221,7 @@
 11219,2020-03-25,Antigua and Barbuda,North America,63,18.181818181818183,0,3
 11220,2020-03-25,Argentina,South America,63,17.27818545697131,0,387
 11221,2020-03-25,Armenia,Asia,63,11.695376246600182,16,265
-11222,2020-03-25,Australia,Australia,63,18.059701492537314,320,2364
+11222,2020-03-25,Australia,Australasia,63,18.059701492537314,320,2364
 11223,2020-03-25,Austria,Europe,63,14.718734188859758,305,5588
 11224,2020-03-25,Azerbaijan,Asia,63,13.243243243243244,6,93
 11225,2020-03-25,Bahamas,North America,63,9.090909090909092,0,5
@@ -11268,7 +11268,7 @@
 11266,2020-03-25,Estonia,Europe,63,6.88673875924872,35,404
 11267,2020-03-25,Eswatini,Africa,63,17.647058823529413,0,4
 11268,2020-03-25,Ethiopia,Africa,63,5.454545454545454,0,12
-11269,2020-03-25,Fiji,Australia,63,26.666666666666668,1,5
+11269,2020-03-25,Fiji,Australasia,63,26.666666666666668,1,5
 11270,2020-03-25,Finland,Europe,63,12.21243964782732,88,880
 11271,2020-03-25,France,Europe,63,12.965038212637934,2978,25600
 11272,2020-03-25,Gabon,Africa,63,11.538461538461538,0,6
@@ -11328,7 +11328,7 @@
 11326,2020-03-25,Namibia,Africa,63,16.666666666666668,0,7
 11327,2020-03-25,Nepal,Asia,63,22.222222222222225,1,3
 11328,2020-03-25,Netherlands,Europe,63,13.941312553269206,858,6438
-11329,2020-03-25,New Zealand,Australia,63,26.948051948051948,50,205
+11329,2020-03-25,New Zealand,Australasia,63,26.948051948051948,50,205
 11330,2020-03-25,Nicaragua,North America,63,10.0,0,2
 11331,2020-03-25,Niger,Africa,63,37.49999999999999,4,7
 11332,2020-03-25,Nigeria,Africa,63,20.855614973262032,7,51
@@ -11337,7 +11337,7 @@
 11335,2020-03-25,Oman,Asia,63,14.325842696629213,15,99
 11336,2020-03-25,Pakistan,Asia,63,12.72644927536232,91,1063
 11337,2020-03-25,Panama,North America,63,18.590522478736332,98,443
-11338,2020-03-25,Papua New Guinea,Australia,63,0.0,0,1
+11338,2020-03-25,Papua New Guinea,Australasia,63,0.0,0,1
 11339,2020-03-25,Paraguay,South America,63,19.047619047619047,10,37
 11340,2020-03-25,Peru,South America,63,12.474645030425965,64,480
 11341,2020-03-25,Philippines,Asia,63,17.372700042789905,84,636
@@ -11399,7 +11399,7 @@
 11397,2020-03-26,Antigua and Barbuda,North America,64,35.294117647058826,4,7
 11398,2020-03-26,Argentina,South America,64,18.665219750406944,115,502
 11399,2020-03-26,Armenia,Asia,64,10.543390105433902,25,290
-11400,2020-03-26,Australia,Australia,64,16.642740932146616,446,2810
+11400,2020-03-26,Australia,Australasia,64,16.642740932146616,446,2810
 11401,2020-03-26,Austria,Europe,64,15.849976776590804,1321,6909
 11402,2020-03-26,Azerbaijan,Asia,64,15.717539863325742,29,122
 11403,2020-03-26,Bahamas,North America,64,18.51851851851852,4,9
@@ -11446,7 +11446,7 @@
 11444,2020-03-26,Estonia,Europe,64,11.664152840623428,134,538
 11445,2020-03-26,Eswatini,Africa,64,22.727272727272727,2,6
 11446,2020-03-26,Ethiopia,Africa,64,5.172413793103448,0,12
-11447,2020-03-26,Fiji,Australia,64,21.05263157894737,0,5
+11447,2020-03-26,Fiji,Australasia,64,21.05263157894737,0,5
 11448,2020-03-26,Finland,Europe,64,10.995955510616785,78,958
 11449,2020-03-26,France,Europe,64,13.21896985254821,3951,29551
 11450,2020-03-26,Gabon,Africa,64,10.344827586206897,1,7
@@ -11506,7 +11506,7 @@
 11504,2020-03-26,Namibia,Africa,64,17.24137931034483,1,8
 11505,2020-03-26,Nepal,Asia,64,18.181818181818183,0,3
 11506,2020-03-26,Netherlands,Europe,64,13.44714933080409,1030,7468
-11507,2020-03-26,New Zealand,Australia,64,27.272727272727277,78,283
+11507,2020-03-26,New Zealand,Australasia,64,27.272727272727277,78,283
 11508,2020-03-26,Nicaragua,North America,64,0.0,0,2
 11509,2020-03-26,Niger,Africa,64,36.0,3,10
 11510,2020-03-26,Nigeria,Africa,64,18.695652173913043,14,65
@@ -11515,7 +11515,7 @@
 11513,2020-03-26,Oman,Asia,64,13.801452784503635,10,109
 11514,2020-03-26,Pakistan,Asia,64,9.6378146101903,138,1201
 11515,2020-03-26,Panama,North America,64,17.864271457085827,115,558
-11516,2020-03-26,Papua New Guinea,Australia,64,0.0,0,1
+11516,2020-03-26,Papua New Guinea,Australasia,64,0.0,0,1
 11517,2020-03-26,Paraguay,South America,64,15.436241610738252,4,41
 11518,2020-03-26,Peru,South America,64,11.727842435094,100,580
 11519,2020-03-26,Philippines,Asia,64,14.614541468761418,71,707
@@ -11577,7 +11577,7 @@
 11575,2020-03-27,Antigua and Barbuda,North America,65,26.08695652173913,0,7
 11576,2020-03-27,Argentina,South America,65,14.912280701754385,87,589
 11577,2020-03-27,Armenia,Asia,65,9.868421052631577,39,329
-11578,2020-03-27,Australia,Australia,65,13.235904674914888,333,3143
+11578,2020-03-27,Australia,Australasia,65,13.235904674914888,333,3143
 11579,2020-03-27,Austria,Europe,65,13.623750459697101,748,7657
 11580,2020-03-27,Azerbaijan,Asia,65,18.55287569573284,43,165
 11581,2020-03-27,Bahamas,North America,65,18.181818181818183,1,10
@@ -11624,7 +11624,7 @@
 11622,2020-03-27,Estonia,Europe,65,11.126005361930295,37,575
 11623,2020-03-27,Eswatini,Africa,65,18.51851851851852,3,9
 11624,2020-03-27,Ethiopia,Africa,65,7.936507936507936,4,16
-11625,2020-03-27,Fiji,Australia,65,13.636363636363635,0,5
+11625,2020-03-27,Fiji,Australasia,65,13.636363636363635,0,5
 11626,2020-03-27,Finland,Europe,65,9.494394875314573,83,1041
 11627,2020-03-27,France,Europe,65,13.068744383006598,3851,33402
 11628,2020-03-27,Gabon,Africa,65,6.451612903225806,0,7
@@ -11684,7 +11684,7 @@
 11682,2020-03-27,Namibia,Africa,65,14.705882352941178,0,8
 11683,2020-03-27,Nepal,Asia,65,21.42857142857143,1,4
 11684,2020-03-27,Netherlands,Europe,65,13.4662735203818,1179,8647
-11685,2020-03-27,New Zealand,Australia,65,23.899371069182394,85,368
+11685,2020-03-27,New Zealand,Australasia,65,23.899371069182394,85,368
 11686,2020-03-27,Nicaragua,North America,65,0.0,0,2
 11687,2020-03-27,Niger,Africa,65,24.242424242424246,0,10
 11688,2020-03-27,Nigeria,Africa,65,14.814814814814813,5,70
@@ -11693,7 +11693,7 @@
 11691,2020-03-27,Oman,Asia,65,15.541922290388548,22,131
 11692,2020-03-27,Pakistan,Asia,65,10.886214442013129,172,1373
 11693,2020-03-27,Panama,North America,65,15.264270613107822,116,674
-11694,2020-03-27,Papua New Guinea,Australia,65,0.0,0,1
+11694,2020-03-27,Papua New Guinea,Australasia,65,0.0,0,1
 11695,2020-03-27,Paraguay,South America,65,16.759776536312852,11,52
 11696,2020-03-27,Peru,South America,65,10.853950518754989,55,635
 11697,2020-03-27,Philippines,Asia,65,13.386075949367088,96,803
@@ -11755,7 +11755,7 @@
 11753,2020-03-28,Antigua and Barbuda,North America,66,14.814814814814813,0,7
 11754,2020-03-28,Argentina,South America,66,15.22504892367906,101,690
 11755,2020-03-28,Armenia,Asia,66,11.168831168831169,78,407
-11756,2020-03-28,Australia,Australia,66,13.984715377473039,497,3640
+11756,2020-03-28,Australia,Australasia,66,13.984715377473039,497,3640
 11757,2020-03-28,Austria,Europe,66,11.26438827578023,614,8271
 11758,2020-03-28,Azerbaijan,Asia,66,16.94915254237288,17,182
 11759,2020-03-28,Bahamas,North America,66,15.384615384615385,0,10
@@ -11802,7 +11802,7 @@
 11800,2020-03-28,Estonia,Europe,66,11.576451995258791,70,645
 11801,2020-03-28,Eswatini,Africa,66,15.625,0,9
 11802,2020-03-28,Ethiopia,Africa,66,7.352941176470589,0,16
-11803,2020-03-28,Fiji,Australia,66,8.333333333333334,0,5
+11803,2020-03-28,Fiji,Australasia,66,8.333333333333334,0,5
 11804,2020-03-28,Finland,Europe,66,9.652749069863582,126,1167
 11805,2020-03-28,France,Europe,66,12.045819935691318,4703,38105
 11806,2020-03-28,Gabon,Africa,66,6.060606060606061,0,7
@@ -11862,7 +11862,7 @@
 11860,2020-03-28,Namibia,Africa,66,10.526315789473685,0,8
 11861,2020-03-28,Nepal,Asia,66,17.647058823529413,1,5
 11862,2020-03-28,Netherlands,Europe,66,13.319456155143339,1172,9819
-11863,2020-03-28,New Zealand,Australia,66,23.871409028727772,83,451
+11863,2020-03-28,New Zealand,Australasia,66,23.871409028727772,83,451
 11864,2020-03-28,Nicaragua,North America,66,16.666666666666668,2,4
 11865,2020-03-28,Niger,Africa,66,17.5,0,10
 11866,2020-03-28,Nigeria,Africa,66,15.36050156739812,19,89
@@ -11871,7 +11871,7 @@
 11869,2020-03-28,Oman,Asia,66,14.956521739130435,21,152
 11870,2020-03-28,Pakistan,Asia,66,10.15727391874181,122,1495
 11871,2020-03-28,Panama,North America,66,15.71632216678546,112,786
-11872,2020-03-28,Papua New Guinea,Australia,66,0.0,0,1
+11872,2020-03-28,Papua New Guinea,Australasia,66,0.0,0,1
 11873,2020-03-28,Paraguay,South America,66,15.96244131455399,4,56
 11874,2020-03-28,Peru,South America,66,9.920920201294035,36,671
 11875,2020-03-28,Philippines,Asia,66,16.247018287834614,272,1075
@@ -11933,7 +11933,7 @@
 11931,2020-03-29,Antigua and Barbuda,North America,67,12.903225806451612,0,7
 11932,2020-03-29,Argentina,South America,67,12.289735667696531,55,745
 11933,2020-03-29,Armenia,Asia,67,10.204081632653061,17,424
-11934,2020-03-29,Australia,Australia,67,12.169876419296155,344,3984
+11934,2020-03-29,Australia,Australasia,67,12.169876419296155,344,3984
 11935,2020-03-29,Austria,Europe,67,9.418751511568537,517,8788
 11936,2020-03-29,Azerbaijan,Asia,67,15.823605706874188,27,209
 11937,2020-03-29,Bahamas,North America,67,13.333333333333334,1,11
@@ -11980,7 +11980,7 @@
 11978,2020-03-29,Estonia,Europe,67,10.91165082717353,34,679
 11979,2020-03-29,Eswatini,Africa,67,13.513513513513512,0,9
 11980,2020-03-29,Ethiopia,Africa,67,11.688311688311687,5,21
-11981,2020-03-29,Fiji,Australia,67,4.0,0,5
+11981,2020-03-29,Fiji,Australasia,67,4.0,0,5
 11982,2020-03-29,Finland,Europe,67,8.475217555807793,73,1240
 11983,2020-03-29,France,Europe,67,10.806256945855191,2603,40708
 11984,2020-03-29,Gabon,Africa,67,2.9411764705882355,0,7
@@ -12040,7 +12040,7 @@
 12038,2020-03-29,Namibia,Africa,67,9.523809523809524,3,11
 12039,2020-03-29,Nepal,Asia,67,15.0,0,5
 12040,2020-03-29,Netherlands,Europe,67,12.355087524825644,1111,10930
-12041,2020-03-29,New Zealand,Australia,67,19.71444261394838,63,514
+12041,2020-03-29,New Zealand,Australasia,67,19.71444261394838,63,514
 12042,2020-03-29,Nicaragua,North America,67,14.285714285714288,0,4
 12043,2020-03-29,Niger,Africa,67,27.27272727272727,8,18
 12044,2020-03-29,Nigeria,Africa,67,17.357512953367877,22,111
@@ -12049,7 +12049,7 @@
 12047,2020-03-29,Oman,Asia,67,12.613981762917934,15,167
 12048,2020-03-29,Pakistan,Asia,67,9.288155743795512,102,1597
 12049,2020-03-29,Panama,North America,67,16.5377751338489,115,901
-12050,2020-03-29,Papua New Guinea,Australia,67,0.0,0,1
+12050,2020-03-29,Papua New Guinea,Australasia,67,0.0,0,1
 12051,2020-03-29,Paraguay,South America,67,13.061224489795919,3,59
 12052,2020-03-29,Peru,South America,67,13.548788067122436,181,852
 12053,2020-03-29,Philippines,Asia,67,18.66781633972839,343,1418
@@ -12111,7 +12111,7 @@
 12109,2020-03-30,Antigua and Barbuda,North America,68,11.428571428571429,0,7
 12110,2020-03-30,Argentina,South America,68,12.940824865511056,75,820
 12111,2020-03-30,Armenia,Asia,68,11.231884057971014,58,482
-12112,2020-03-30,Australia,Australia,68,11.132790723603522,377,4361
+12112,2020-03-30,Australia,Australasia,68,11.132790723603522,377,4361
 12113,2020-03-30,Austria,Europe,68,9.7713551390539,830,9618
 12114,2020-03-30,Azerbaijan,Asia,68,18.927444794952685,64,273
 12115,2020-03-30,Bahamas,North America,68,16.666666666666664,3,14
@@ -12158,7 +12158,7 @@
 12156,2020-03-30,Estonia,Europe,68,9.866751269035534,36,715
 12157,2020-03-30,Eswatini,Africa,68,11.904761904761903,0,9
 12158,2020-03-30,Ethiopia,Africa,68,12.5,2,23
-12159,2020-03-30,Fiji,Australia,68,0.0,0,5
+12159,2020-03-30,Fiji,Australasia,68,0.0,0,5
 12160,2020-03-30,Finland,Europe,68,8.19729072594651,112,1352
 12161,2020-03-30,France,Europe,68,10.468823554585526,4462,45170
 12162,2020-03-30,Gabon,Africa,68,2.857142857142857,0,7
@@ -12218,7 +12218,7 @@
 12216,2020-03-30,Namibia,Africa,68,8.695652173913045,0,11
 12217,2020-03-30,Nepal,Asia,68,9.090909090909092,0,5
 12218,2020-03-30,Netherlands,Europe,68,11.049485425525358,887,11817
-12219,2020-03-30,New Zealand,Australia,68,17.414965986394556,75,589
+12219,2020-03-30,New Zealand,Australasia,68,17.414965986394556,75,589
 12220,2020-03-30,Nicaragua,North America,68,12.5,0,4
 12221,2020-03-30,Niger,Africa,68,26.666666666666668,9,27
 12222,2020-03-30,Nigeria,Africa,68,17.167381974248926,20,131
@@ -12227,7 +12227,7 @@
 12225,2020-03-30,Oman,Asia,68,10.840108401084011,12,179
 12226,2020-03-30,Pakistan,Asia,68,8.858187728565625,120,1717
 12227,2020-03-30,Panama,North America,68,13.971340839303991,88,989
-12228,2020-03-30,Papua New Guinea,Australia,68,0.0,0,1
+12228,2020-03-30,Papua New Guinea,Australasia,68,0.0,0,1
 12229,2020-03-30,Paraguay,South America,68,9.926470588235295,5,64
 12230,2020-03-30,Peru,South America,68,12.74403470715835,98,950
 12231,2020-03-30,Philippines,Asia,68,16.39935123445666,128,1546
@@ -12289,7 +12289,7 @@
 12287,2020-03-31,Antigua and Barbuda,North America,69,0.0,0,7
 12288,2020-03-31,Argentina,South America,69,14.161108260646484,234,1054
 12289,2020-03-31,Armenia,Asia,69,11.131554737810486,50,532
-12290,2020-03-31,Australia,Australia,69,8.88403515009905,198,4559
+12290,2020-03-31,Australia,Australasia,69,8.88403515009905,198,4559
 12291,2020-03-31,Austria,Europe,69,7.34824998876758,562,10180
 12292,2020-03-31,Azerbaijan,Asia,69,15.616681455190772,25,298
 12293,2020-03-31,Bahamas,North America,69,8.47457627118644,0,14
@@ -12336,7 +12336,7 @@
 12334,2020-03-31,Estonia,Europe,69,6.162548377493302,30,745
 12335,2020-03-31,Eswatini,Africa,69,6.666666666666667,0,9
 12336,2020-03-31,Ethiopia,Africa,69,13.725490196078432,3,26
-12337,2020-03-31,Fiji,Australia,69,0.0,0,5
+12337,2020-03-31,Fiji,Australasia,69,0.0,0,5
 12338,2020-03-31,Finland,Europe,69,7.397877130910262,66,1418
 12339,2020-03-31,France,Europe,69,11.072631438738036,7657,52827
 12340,2020-03-31,Gabon,Africa,69,20.454545454545453,9,16
@@ -12396,7 +12396,7 @@
 12394,2020-03-31,Namibia,Africa,69,6.1224489795918355,0,11
 12395,2020-03-31,Nepal,Asia,69,8.333333333333334,0,5
 12396,2020-03-31,Netherlands,Europe,69,9.649220489977727,850,12667
-12397,2020-03-31,New Zealand,Australia,69,14.168937329700274,58,647
+12397,2020-03-31,New Zealand,Australasia,69,14.168937329700274,58,647
 12398,2020-03-31,Nicaragua,North America,69,15.789473684210526,1,5
 12399,2020-03-31,Niger,Africa,69,18.47826086956522,0,27
 12400,2020-03-31,Nigeria,Africa,69,13.059701492537313,4,135
@@ -12405,7 +12405,7 @@
 12403,2020-03-31,Oman,Asia,69,10.109622411693058,13,192
 12404,2020-03-31,Pakistan,Asia,69,9.076354679802956,221,1938
 12405,2020-03-31,Panama,North America,69,13.749724122710216,192,1181
-12406,2020-03-31,Papua New Guinea,Australia,69,0.0,0,1
+12406,2020-03-31,Papua New Guinea,Australasia,69,0.0,0,1
 12407,2020-03-31,Paraguay,South America,69,8.108108108108107,1,65
 12408,2020-03-31,Peru,South America,69,11.622334052240594,115,1065
 12409,2020-03-31,Philippines,Asia,69,19.881605544325726,538,2084
@@ -12467,7 +12467,7 @@
 12465,2020-04-01,Antigua and Barbuda,North America,70,0.0,0,7
 12466,2020-04-01,Argentina,South America,70,10.657804263121704,0,1054
 12467,2020-04-01,Armenia,Asia,70,10.016556291390728,39,571
-12468,2020-04-01,Australia,Australia,70,8.030458749883211,303,4862
+12468,2020-04-01,Australia,Australasia,70,8.030458749883211,303,4862
 12469,2020-04-01,Austria,Europe,70,6.420282542885973,531,10711
 12470,2020-04-01,Azerbaijan,Asia,70,14.685844057532172,61,359
 12471,2020-04-01,Bahamas,North America,70,15.714285714285717,7,21
@@ -12514,7 +12514,7 @@
 12512,2020-04-01,Estonia,Europe,70,5.725512208812797,34,779
 12513,2020-04-01,Eswatini,Africa,70,0.0,0,9
 12514,2020-04-01,Ethiopia,Africa,70,11.304347826086957,3,29
-12515,2020-04-01,Fiji,Australia,70,0.0,0,5
+12515,2020-04-01,Fiji,Australasia,70,0.0,0,5
 12516,2020-04-01,Finland,Europe,70,6.115053601087121,28,1446
 12517,2020-04-01,France,Europe,70,10.37990441637285,4922,57749
 12518,2020-04-01,Gabon,Africa,70,20.0,2,18
@@ -12574,7 +12574,7 @@
 12572,2020-04-01,Namibia,Africa,70,10.909090909090908,3,14
 12573,2020-04-01,Nepal,Asia,70,4.0,0,5
 12574,2020-04-01,Netherlands,Europe,70,8.567937687725907,1029,13696
-12575,2020-04-01,New Zealand,Australia,70,11.687865245788933,61,708
+12575,2020-04-01,New Zealand,Australasia,70,11.687865245788933,61,708
 12576,2020-04-01,Nicaragua,North America,70,13.636363636363635,0,5
 12577,2020-04-01,Niger,Africa,70,41.02564102564103,47,74
 12578,2020-04-01,Nigeria,Africa,70,16.25,39,174
@@ -12583,7 +12583,7 @@
 12581,2020-04-01,Oman,Asia,70,8.777777777777779,18,210
 12582,2020-04-01,Pakistan,Asia,70,8.403835307388608,180,2118
 12583,2020-04-01,Panama,North America,70,10.063517268757444,0,1181
-12584,2020-04-01,Papua New Guinea,Australia,70,0.0,0,1
+12584,2020-04-01,Papua New Guinea,Australasia,70,0.0,0,1
 12585,2020-04-01,Paraguay,South America,70,5.431309904153355,4,69
 12586,2020-04-01,Peru,South America,70,14.153466364945483,258,1323
 12587,2020-04-01,Philippines,Asia,70,17.880009485416174,227,2311
@@ -12645,7 +12645,7 @@
 12643,2020-04-02,Antigua and Barbuda,North America,71,5.405405405405405,2,9
 12644,2020-04-02,Argentina,South America,71,9.217644610903037,79,1133
 12645,2020-04-02,Armenia,Asia,71,9.580838323353294,92,663
-12646,2020-04-02,Australia,Australia,71,6.450485097456517,254,5116
+12646,2020-04-02,Australia,Australasia,71,6.450485097456517,254,5116
 12647,2020-04-02,Austria,Europe,71,5.667711101415937,418,11129
 12648,2020-04-02,Azerbaijan,Asia,71,14.165042235217673,41,400
 12649,2020-04-02,Bahamas,North America,71,16.666666666666664,3,24
@@ -12692,7 +12692,7 @@
 12690,2020-04-02,Estonia,Europe,71,5.640889830508474,79,858
 12691,2020-04-02,Eswatini,Africa,71,0.0,0,9
 12692,2020-04-02,Ethiopia,Africa,71,10.15625,0,29
-12693,2020-04-02,Fiji,Australia,71,7.4074074074074066,2,7
+12693,2020-04-02,Fiji,Australasia,71,7.4074074074074066,2,7
 12694,2020-04-02,Finland,Europe,71,5.0329796386578725,72,1518
 12695,2020-04-02,France,Europe,71,8.512264853753955,2180,59929
 12696,2020-04-02,Gabon,Africa,71,20.289855072463766,3,21
@@ -12752,7 +12752,7 @@
 12750,2020-04-02,Namibia,Africa,71,9.836065573770492,0,14
 12751,2020-04-02,Nepal,Asia,71,3.8461538461538463,1,6
 12752,2020-04-02,Netherlands,Europe,71,7.776456227111959,1092,14788
-12753,2020-04-02,New Zealand,Australia,71,10.629800307219663,89,797
+12753,2020-04-02,New Zealand,Australasia,71,10.629800307219663,89,797
 12754,2020-04-02,Nicaragua,North America,71,4.347826086956522,0,5
 12755,2020-04-02,Niger,Africa,71,36.06557377049181,24,98
 12756,2020-04-02,Nigeria,Africa,71,12.925170068027212,10,184
@@ -12761,7 +12761,7 @@
 12759,2020-04-02,Oman,Asia,71,8.069458631256383,21,231
 12760,2020-04-02,Pakistan,Asia,71,9.457665202737207,303,2421
 12761,2020-04-02,Panama,North America,71,9.534925480337582,136,1317
-12762,2020-04-02,Papua New Guinea,Australia,71,0.0,0,1
+12762,2020-04-02,Papua New Guinea,Australasia,71,0.0,0,1
 12763,2020-04-02,Paraguay,South America,71,6.2874251497006,8,77
 12764,2020-04-02,Peru,South America,71,13.25838686652391,91,1414
 12765,2020-04-02,Philippines,Asia,71,15.592473979183346,322,2633
@@ -12823,7 +12823,7 @@
 12821,2020-04-03,Antigua and Barbuda,North America,72,17.77777777777778,6,15
 12822,2020-04-03,Argentina,South America,72,9.76342470897484,132,1265
 12823,2020-04-03,Armenia,Asia,72,10.455764075067025,73,736
-12824,2020-04-03,Australia,Australia,72,5.555555555555555,214,5330
+12824,2020-04-03,Australia,Australasia,72,5.555555555555555,214,5330
 12825,2020-04-03,Austria,Europe,72,5.146533238027163,395,11524
 12826,2020-04-03,Azerbaijan,Asia,72,13.197969543147206,43,443
 12827,2020-04-03,Bahamas,North America,72,13.402061855670105,0,24
@@ -12870,7 +12870,7 @@
 12868,2020-04-03,Estonia,Europe,72,6.949236076885165,103,961
 12869,2020-04-03,Eswatini,Africa,72,0.0,0,9
 12870,2020-04-03,Ethiopia,Africa,72,9.859154929577464,6,35
-12871,2020-04-03,Fiji,Australia,72,6.896551724137931,0,7
+12871,2020-04-03,Fiji,Australasia,72,6.896551724137931,0,7
 12872,2020-04-03,Finland,Europe,72,5.102735065995374,97,1615
 12873,2020-04-03,France,Europe,72,8.72054315590098,5273,65202
 12874,2020-04-03,Gabon,Africa,72,16.867469879518072,0,21
@@ -12930,7 +12930,7 @@
 12928,2020-04-03,Namibia,Africa,72,4.687499999999999,0,14
 12929,2020-04-03,Nepal,Asia,72,3.7037037037037033,0,6
 12930,2020-04-03,Netherlands,Europe,72,7.110148424893516,1033,15821
-12931,2020-04-03,New Zealand,Australia,72,9.808811305070657,71,868
+12931,2020-04-03,New Zealand,Australasia,72,9.808811305070657,71,868
 12932,2020-04-03,Nicaragua,North America,72,4.166666666666667,0,5
 12933,2020-04-03,Niger,Africa,72,29.479768786127163,22,120
 12934,2020-04-03,Nigeria,Africa,72,11.870503597122301,26,210
@@ -12939,7 +12939,7 @@
 12937,2020-04-03,Oman,Asia,72,7.988721804511279,21,252
 12938,2020-04-03,Pakistan,Asia,72,10.009191176470589,265,2686
 12939,2020-04-03,Panama,North America,72,9.343968744912909,158,1475
-12940,2020-04-03,Papua New Guinea,Australia,72,0.0,0,1
+12940,2020-04-03,Papua New Guinea,Australasia,72,0.0,0,1
 12941,2020-04-03,Paraguay,South America,72,8.991825613079017,15,92
 12942,2020-04-03,Peru,South America,72,11.706317945486056,181,1595
 12943,2020-04-03,Philippines,Asia,72,13.802622498274673,385,3018
@@ -13001,7 +13001,7 @@
 12999,2020-04-04,Antigua and Barbuda,North America,73,15.094339622641511,0,15
 13000,2020-04-04,Argentina,South America,73,10.59258015779755,186,1451
 13001,2020-04-04,Armenia,Asia,73,8.80195599022005,34,770
-13002,2020-04-04,Australia,Australia,73,4.6779714364401785,220,5550
+13002,2020-04-04,Australia,Australasia,73,4.6779714364401785,220,5550
 13003,2020-04-04,Austria,Europe,73,3.9096249435155896,257,11781
 13004,2020-04-04,Azerbaijan,Asia,73,12.271152894606631,78,521
 13005,2020-04-04,Bahamas,North America,73,12.612612612612612,4,28
@@ -13048,7 +13048,7 @@
 13046,2020-04-04,Estonia,Europe,73,7.3938840712003655,78,1039
 13047,2020-04-04,Eswatini,Africa,73,0.0,0,9
 13048,2020-04-04,Ethiopia,Africa,73,9.554140127388536,3,38
-13049,2020-04-04,Fiji,Australia,73,19.444444444444443,5,12
+13049,2020-04-04,Fiji,Australasia,73,19.444444444444443,5,12
 13050,2020-04-04,Finland,Europe,73,6.726741972331514,267,1882
 13051,2020-04-04,France,Europe,73,7.97163892047037,4298,69500
 13052,2020-04-04,Gabon,Africa,73,14.432989690721651,0,21
@@ -13108,7 +13108,7 @@
 13106,2020-04-04,Namibia,Africa,73,4.477611940298507,0,14
 13107,2020-04-04,Nepal,Asia,73,12.903225806451612,3,9
 13108,2020-04-04,Netherlands,Europe,73,6.662234222988101,906,16727
-13109,2020-04-04,New Zealand,Australia,73,9.093198992443325,82,950
+13109,2020-04-04,New Zealand,Australasia,73,9.093198992443325,82,950
 13110,2020-04-04,Nicaragua,North America,73,4.0,0,5
 13111,2020-04-04,Niger,Africa,73,25.26997840172786,24,144
 13112,2020-04-04,Nigeria,Africa,73,9.051254089422029,4,214
@@ -13117,7 +13117,7 @@
 13115,2020-04-04,Oman,Asia,73,8.433734939759036,25,277
 13116,2020-04-04,Pakistan,Asia,73,9.189550121024956,132,2818
 13117,2020-04-04,Panama,North America,73,10.019042038962942,198,1673
-13118,2020-04-04,Papua New Guinea,Australia,73,0.0,0,1
+13118,2020-04-04,Papua New Guinea,Australasia,73,0.0,0,1
 13119,2020-04-04,Paraguay,South America,73,8.020050125313285,4,96
 13120,2020-04-04,Peru,South America,73,11.143777124457511,151,1746
 13121,2020-04-04,Philippines,Asia,73,11.78082191780822,76,3094
@@ -13179,7 +13179,7 @@
 13177,2020-04-05,Antigua and Barbuda,North America,74,13.114754098360656,0,15
 13178,2020-04-05,Argentina,South America,74,6.248032735284861,0,1451
 13179,2020-04-05,Armenia,Asia,74,8.141493542953397,52,822
-13180,2020-04-05,Australia,Australia,74,4.249387831983424,137,5687
+13180,2020-04-05,Australia,Australasia,74,4.249387831983424,137,5687
 13181,2020-04-05,Austria,Europe,74,3.271207776767606,270,12051
 13182,2020-04-05,Azerbaijan,Asia,74,12.397052449068054,63,584
 13183,2020-04-05,Bahamas,North America,74,11.2,0,28
@@ -13226,7 +13226,7 @@
 13224,2020-04-05,Estonia,Europe,74,7.435572454583863,58,1097
 13225,2020-04-05,Eswatini,Africa,74,0.0,0,9
 13226,2020-04-05,Ethiopia,Africa,74,9.770114942528735,5,43
-13227,2020-04-05,Fiji,Australia,74,16.279069767441857,0,12
+13227,2020-04-05,Fiji,Australasia,74,16.279069767441857,0,12
 13228,2020-04-05,Finland,Europe,74,6.068192656175489,45,1927
 13229,2020-04-05,France,Europe,74,5.7397959183673475,1912,71412
 13230,2020-04-05,Gabon,Africa,74,4.901960784313726,0,21
@@ -13286,7 +13286,7 @@
 13284,2020-04-05,Namibia,Africa,74,6.944444444444445,2,16
 13285,2020-04-05,Nepal,Asia,74,11.428571428571429,0,9
 13286,2020-04-05,Netherlands,Europe,74,6.692409951256568,1226,17953
-13287,2020-04-05,New Zealand,Australia,74,8.986703347088493,89,1039
+13287,2020-04-05,New Zealand,Australasia,74,8.986703347088493,89,1039
 13288,2020-04-05,Nicaragua,North America,74,3.8461538461538463,1,6
 13289,2020-04-05,Niger,Africa,74,25.322580645161292,40,184
 13290,2020-04-05,Nigeria,Africa,74,9.566074950690334,18,232
@@ -13295,7 +13295,7 @@
 13293,2020-04-05,Oman,Asia,74,8.3596214511041,21,298
 13294,2020-04-05,Pakistan,Asia,74,9.234848484848484,339,3157
 13295,2020-04-05,Panama,North America,74,8.325500201423392,128,1801
-13296,2020-04-05,Papua New Guinea,Australia,74,0.0,0,1
+13296,2020-04-05,Papua New Guinea,Australasia,74,0.0,0,1
 13297,2020-04-05,Paraguay,South America,74,8.904109589041097,8,104
 13298,2020-04-05,Peru,South America,74,14.547194640507238,535,2281
 13299,2020-04-05,Philippines,Asia,74,8.124737798909242,152,3246
@@ -13357,7 +13357,7 @@
 13355,2020-04-06,Antigua and Barbuda,North America,75,11.594202898550725,0,15
 13356,2020-04-06,Argentina,South America,75,7.295010213014298,103,1554
 13357,2020-04-06,Armenia,Asia,75,6.851464435146444,11,833
-13358,2020-04-06,Australia,Australia,75,3.4024745269286756,110,5797
+13358,2020-04-06,Australia,Australasia,75,3.4024745269286756,110,5797
 13359,2020-04-06,Austria,Europe,75,2.698104862032595,246,12297
 13360,2020-04-06,Azerbaijan,Asia,75,10.89223638470452,57,641
 13361,2020-04-06,Bahamas,North America,75,6.015037593984962,1,29
@@ -13404,7 +13404,7 @@
 13402,2020-04-06,Estonia,Europe,75,6.498123642109421,11,1108
 13403,2020-04-06,Eswatini,Africa,75,2.173913043478261,1,10
 13404,2020-04-06,Ethiopia,Africa,75,7.936507936507938,1,44
-13405,2020-04-06,Fiji,Australia,75,17.307692307692307,2,14
+13405,2020-04-06,Fiji,Australasia,75,17.307692307692307,2,14
 13406,2020-04-06,Finland,Europe,75,8.006141697740734,249,2176
 13407,2020-04-06,France,Europe,75,5.15369698816003,3931,75343
 13408,2020-04-06,Gabon,Africa,75,5.555555555555555,3,24
@@ -13464,7 +13464,7 @@
 13462,2020-04-06,Namibia,Africa,75,2.7027027027027026,0,16
 13463,2020-04-06,Nepal,Asia,75,10.256410256410257,0,9
 13464,2020-04-06,Netherlands,Europe,75,6.210295078073978,973,18926
-13465,2020-04-06,New Zealand,Australia,75,8.361344537815125,67,1106
+13465,2020-04-06,New Zealand,Australasia,75,8.361344537815125,67,1106
 13466,2020-04-06,Nicaragua,North America,75,3.7037037037037033,0,6
 13467,2020-04-06,Niger,Africa,75,22.403003754693362,69,253
 13468,2020-04-06,Nigeria,Africa,75,5.936920222634509,6,238
@@ -13473,7 +13473,7 @@
 13471,2020-04-06,Oman,Asia,75,8.711303095752339,33,331
 13472,2020-04-06,Pakistan,Asia,75,11.099137931034484,609,3766
 13473,2020-04-06,Panama,North America,75,9.777077780470075,187,1988
-13474,2020-04-06,Papua New Guinea,Australia,75,16.666666666666668,1,2
+13474,2020-04-06,Papua New Guinea,Australasia,75,16.666666666666668,1,2
 13475,2020-04-06,Paraguay,South America,75,9.128630705394192,9,113
 13476,2020-04-06,Peru,South America,75,12.899864541002396,280,2561
 13477,2020-04-06,Philippines,Asia,75,8.619257555427769,414,3660
@@ -13535,7 +13535,7 @@
 13533,2020-04-07,Antigua and Barbuda,North America,76,12.658227848101264,4,19
 13534,2020-04-07,Argentina,South America,76,6.735610287113893,74,1628
 13535,2020-04-07,Armenia,Asia,76,4.733432984554061,20,853
-13536,2020-04-07,Australia,Australia,76,2.7566439010580703,98,5895
+13536,2020-04-07,Australia,Australasia,76,2.7566439010580703,98,5895
 13537,2020-04-07,Austria,Europe,76,2.5044782060638227,342,12639
 13538,2020-04-07,Azerbaijan,Asia,76,10.908465244322091,76,717
 13539,2020-04-07,Bahamas,North America,76,6.338028169014084,4,33
@@ -13582,7 +13582,7 @@
 13580,2020-04-07,Estonia,Europe,76,5.435188644004483,41,1149
 13581,2020-04-07,Eswatini,Africa,76,2.127659574468085,0,10
 13582,2020-04-07,Ethiopia,Africa,76,10.849056603773583,8,52
-13583,2020-04-07,Fiji,Australia,76,13.333333333333334,1,15
+13583,2020-04-07,Fiji,Australasia,76,13.333333333333334,1,15
 13584,2020-04-07,Finland,Europe,76,7.973354864755754,132,2308
 13585,2020-04-07,France,Europe,76,5.333592146858189,3820,79163
 13586,2020-04-07,Gabon,Africa,76,7.6923076923076925,6,30
@@ -13642,7 +13642,7 @@
 13640,2020-04-07,Namibia,Africa,76,2.6315789473684212,0,16
 13641,2020-04-07,Nepal,Asia,76,7.142857142857142,0,9
 13642,2020-04-07,Netherlands,Europe,76,5.520777239274817,783,19709
-13643,2020-04-07,New Zealand,Australia,76,7.085691977357017,54,1160
+13643,2020-04-07,New Zealand,Australasia,76,7.085691977357017,54,1160
 13644,2020-04-07,Nicaragua,North America,76,3.571428571428572,0,6
 13645,2020-04-07,Niger,Africa,76,18.38610827374872,25,278
 13646,2020-04-07,Nigeria,Africa,76,6.097560975609756,16,254
@@ -13651,7 +13651,7 @@
 13649,2020-04-07,Oman,Asia,76,9.156311314584697,40,371
 13650,2020-04-07,Pakistan,Asia,76,9.804398007532498,269,4035
 13651,2020-04-07,Panama,North America,76,8.664379772048246,112,2100
-13652,2020-04-07,Papua New Guinea,Australia,76,14.285714285714288,0,2
+13652,2020-04-07,Papua New Guinea,Australasia,76,14.285714285714288,0,2
 13653,2020-04-07,Paraguay,South America,76,7.307692307692307,2,115
 13654,2020-04-07,Peru,South America,76,13.827781269641735,393,2954
 13655,2020-04-07,Philippines,Asia,76,6.73936360386128,104,3764
@@ -13713,7 +13713,7 @@
 13711,2020-04-08,Antigua and Barbuda,North America,77,4.8192771084337345,0,19
 13712,2020-04-08,Argentina,South America,77,5.769970509039621,87,1715
 13713,2020-04-08,Armenia,Asia,77,3.4864150036066364,28,881
-13714,2020-04-08,Australia,Australia,77,2.349770206296002,115,6010
+13714,2020-04-08,Australia,Australasia,77,2.349770206296002,115,6010
 13715,2020-04-08,Austria,Europe,77,2.2978447577378063,303,12942
 13716,2020-04-08,Azerbaijan,Asia,77,11.537290715372906,105,822
 13717,2020-04-08,Bahamas,North America,77,10.126582278481013,7,40
@@ -13760,7 +13760,7 @@
 13758,2020-04-08,Estonia,Europe,77,4.015776263893868,36,1185
 13759,2020-04-08,Eswatini,Africa,77,6.0,2,12
 13760,2020-04-08,Ethiopia,Africa,77,8.620689655172415,3,55
-13761,2020-04-08,Fiji,Australia,77,11.764705882352942,0,15
+13761,2020-04-08,Fiji,Australasia,77,11.764705882352942,0,15
 13762,2020-04-08,Finland,Europe,77,8.089053803339517,179,2487
 13763,2020-04-08,France,Europe,77,4.717616751436687,3894,83057
 13764,2020-04-08,Gabon,Africa,77,10.0,4,34
@@ -13820,7 +13820,7 @@
 13818,2020-04-08,Namibia,Africa,77,2.5641025641025643,0,16
 13819,2020-04-08,Nepal,Asia,77,6.666666666666667,0,9
 13820,2020-04-08,Netherlands,Europe,77,5.171441641754524,973,20682
-13821,2020-04-08,New Zealand,Australia,77,6.2580054894785,50,1210
+13821,2020-04-08,New Zealand,Australasia,77,6.2580054894785,50,1210
 13822,2020-04-08,Nicaragua,North America,77,3.4482758620689653,0,6
 13823,2020-04-08,Niger,Africa,77,18.484596169858452,64,342
 13824,2020-04-08,Nigeria,Africa,77,5.43657331136738,22,276
@@ -13829,7 +13829,7 @@
 13827,2020-04-08,Oman,Asia,77,9.846698113207546,48,419
 13828,2020-04-08,Pakistan,Asia,77,8.742169743333887,228,4263
 13829,2020-04-08,Panama,North America,77,7.889104066863725,149,2249
-13830,2020-04-08,Papua New Guinea,Australia,77,12.5,0,2
+13830,2020-04-08,Papua New Guinea,Australasia,77,12.5,0,2
 13831,2020-04-08,Paraguay,South America,77,4.93601462522852,4,119
 13832,2020-04-08,Peru,South America,77,19.785364448285794,1388,4342
 13833,2020-04-08,Philippines,Asia,77,4.831575365770671,106,3870
@@ -13891,7 +13891,7 @@
 13889,2020-04-09,Antigua and Barbuda,North America,78,4.597701149425288,0,19
 13890,2020-04-09,Argentina,South America,78,4.224487289696672,80,1795
 13891,2020-04-09,Armenia,Asia,78,3.503480278422274,40,921
-13892,2020-04-09,Australia,Australia,78,1.8917178018103535,98,6108
+13892,2020-04-09,Australia,Australasia,78,1.8917178018103535,98,6108
 13893,2020-04-09,Austria,Europe,78,2.3158627894828485,302,13244
 13894,2020-04-09,Azerbaijan,Asia,78,10.975609756097562,104,926
 13895,2020-04-09,Bahamas,North America,78,7.602339181286549,1,41
@@ -13938,7 +13938,7 @@
 13936,2020-04-09,Estonia,Europe,78,2.923773059519666,22,1207
 13937,2020-04-09,Eswatini,Africa,78,5.660377358490567,0,12
 13938,2020-04-09,Ethiopia,Africa,78,7.200000000000001,1,56
-13939,2020-04-09,Fiji,Australia,78,4.225352112676056,0,15
+13939,2020-04-09,Fiji,Australasia,78,4.225352112676056,0,15
 13940,2020-04-09,Finland,Europe,78,6.285316873858992,118,2605
 13941,2020-04-09,France,Europe,78,4.507734501351109,4309,87366
 13942,2020-04-09,Gabon,Africa,78,15.032679738562091,10,44
@@ -13998,7 +13998,7 @@
 13996,2020-04-09,Namibia,Africa,78,2.5,0,16
 13997,2020-04-09,Nepal,Asia,78,0.0,0,9
 13998,2020-04-09,Netherlands,Europe,78,5.2191624736571445,1221,21903
-13999,2020-04-09,New Zealand,Australia,78,5.022592978797358,29,1239
+13999,2020-04-09,New Zealand,Australasia,78,5.022592978797358,29,1239
 14000,2020-04-09,Nicaragua,North America,78,6.451612903225806,1,7
 14001,2020-04-09,Niger,Africa,78,18.132242672119975,68,410
 14002,2020-04-09,Nigeria,Africa,78,5.745341614906832,12,288
@@ -14007,7 +14007,7 @@
 14005,2020-04-09,Oman,Asia,78,9.594882729211088,38,457
 14006,2020-04-09,Pakistan,Asia,78,8.4779299847793,226,4489
 14007,2020-04-09,Panama,North America,78,8.016126007875494,279,2528
-14008,2020-04-09,Papua New Guinea,Australia,78,11.111111111111112,0,2
+14008,2020-04-09,Papua New Guinea,Australasia,78,11.111111111111112,0,2
 14009,2020-04-09,Paraguay,South America,78,4.869565217391305,5,124
 14010,2020-04-09,Peru,South America,78,20.179372197309416,914,5256
 14011,2020-04-09,Philippines,Asia,78,5.275032230339494,206,4076
@@ -14069,7 +14069,7 @@
 14067,2020-04-10,Antigua and Barbuda,North America,79,4.395604395604396,0,19
 14068,2020-04-10,Argentina,South America,79,6.045921310718818,180,1975
 14069,2020-04-10,Armenia,Asia,79,2.598870056497175,16,937
-14070,2020-04-10,Australia,Australia,79,1.7585345545378848,107,6215
+14070,2020-04-10,Australia,Australasia,79,1.7585345545378848,107,6215
 14071,2020-04-10,Austria,Europe,79,2.325401611082765,311,13555
 14072,2020-04-10,Azerbaijan,Asia,79,9.934098120576031,65,991
 14073,2020-04-10,Bahamas,North America,79,7.567567567567567,1,42
@@ -14116,7 +14116,7 @@
 14114,2020-04-10,Estonia,Europe,79,2.7255798205518875,51,1258
 14115,2020-04-10,Eswatini,Africa,79,5.357142857142858,0,12
 14116,2020-04-10,Ethiopia,Africa,79,8.088235294117647,9,65
-14117,2020-04-10,Fiji,Australia,79,5.333333333333334,1,16
+14117,2020-04-10,Fiji,Australasia,79,5.333333333333334,1,16
 14118,2020-04-10,Finland,Europe,79,6.820575131632239,164,2769
 14119,2020-04-10,France,Europe,79,4.878236097411122,4372,91738
 14120,2020-04-10,Gabon,Africa,79,13.068181818181815,0,44
@@ -14176,7 +14176,7 @@
 14174,2020-04-10,Namibia,Africa,79,0.0,0,16
 14175,2020-04-10,Nepal,Asia,79,0.0,0,9
 14176,2020-04-10,Netherlands,Europe,79,5.069446438656444,1346,23249
-14177,2020-04-10,New Zealand,Australia,79,4.068022674224742,44,1283
+14177,2020-04-10,New Zealand,Australasia,79,4.068022674224742,44,1283
 14178,2020-04-10,Nicaragua,North America,79,3.125,0,7
 14179,2020-04-10,Niger,Africa,79,14.758861127251595,28,438
 14180,2020-04-10,Nigeria,Africa,79,5.363703159441587,17,305
@@ -14185,7 +14185,7 @@
 14183,2020-04-10,Oman,Asia,79,9.020368574199807,27,484
 14184,2020-04-10,Pakistan,Asia,79,7.238328313253012,206,4695
 14185,2020-04-10,Panama,North America,79,8.186278729448222,224,2752
-14186,2020-04-10,Papua New Guinea,Australia,79,10.0,0,2
+14186,2020-04-10,Papua New Guinea,Australasia,79,10.0,0,2
 14187,2020-04-10,Paraguay,South America,79,4.166666666666666,5,129
 14188,2020-04-10,Peru,South America,79,17.210851975249884,641,5897
 14189,2020-04-10,Philippines,Asia,79,4.850498338870432,119,4195
@@ -14247,7 +14247,7 @@
 14245,2020-04-11,Antigua and Barbuda,North America,80,6.185567010309279,2,21
 14246,2020-04-11,Argentina,South America,80,4.632482394366198,0,1975
 14247,2020-04-11,Armenia,Asia,80,2.939241061636324,30,967
-14248,2020-04-11,Australia,Australia,80,1.6573318921751665,88,6303
+14248,2020-04-11,Australia,Australasia,80,1.6573318921751665,88,6303
 14249,2020-04-11,Austria,Europe,80,2.2799383555434685,251,13806
 14250,2020-04-11,Azerbaijan,Asia,80,9.237926451041206,67,1058
 14251,2020-04-11,Bahamas,North America,80,8.415841584158416,4,46
@@ -14294,7 +14294,7 @@
 14292,2020-04-11,Estonia,Europe,80,3.2115353105030318,46,1304
 14293,2020-04-11,Eswatini,Africa,80,3.4482758620689653,0,12
 14294,2020-04-11,Ethiopia,Africa,80,8.417508417508419,4,69
-14295,2020-04-11,Fiji,Australia,80,2.5974025974025974,0,16
+14295,2020-04-11,Fiji,Australasia,80,2.5974025974025974,0,16
 14296,2020-04-11,Finland,Europe,80,5.575952271684259,136,2905
 14297,2020-04-11,France,Europe,80,4.475144834669535,3125,94863
 14298,2020-04-11,Gabon,Africa,80,11.111111111111112,2,46
@@ -14354,7 +14354,7 @@
 14352,2020-04-11,Namibia,Africa,80,0.0,0,16
 14353,2020-04-11,Nepal,Asia,80,0.0,0,9
 14354,2020-04-11,Netherlands,Europe,80,5.12650525818697,1322,24571
-14355,2020-04-11,New Zealand,Australia,80,3.320438426821406,29,1312
+14355,2020-04-11,New Zealand,Australasia,80,3.320438426821406,29,1312
 14356,2020-04-11,Nicaragua,North America,80,5.882352941176471,1,8
 14357,2020-04-11,Niger,Africa,80,12.149055640632977,53,491
 14358,2020-04-11,Nigeria,Africa,80,5.551700208188758,13,318
@@ -14363,7 +14363,7 @@
 14361,2020-04-11,Oman,Asia,80,9.442248572683356,62,546
 14362,2020-04-11,Pakistan,Asia,80,5.535055350553505,316,5011
 14363,2020-04-11,Panama,North America,80,7.823534079187495,222,2974
-14364,2020-04-11,Papua New Guinea,Australia,80,0.0,0,2
+14364,2020-04-11,Papua New Guinea,Australasia,80,0.0,0,2
 14365,2020-04-11,Paraguay,South America,80,3.225806451612903,4,133
 14366,2020-04-11,Peru,South America,80,16.946673518599045,951,6848
 14367,2020-04-11,Philippines,Asia,80,3.77711110018197,233,4428
@@ -14425,7 +14425,7 @@
 14423,2020-04-12,Antigua and Barbuda,North America,81,2.0202020202020203,0,21
 14424,2020-04-12,Argentina,South America,81,5.35305144761508,167,2142
 14425,2020-04-12,Armenia,Asia,81,3.3905488450942998,46,1013
-14426,2020-04-12,Australia,Australia,81,1.3569836192691676,12,6315
+14426,2020-04-12,Australia,Australasia,81,1.3569836192691676,12,6315
 14427,2020-04-12,Austria,Europe,81,1.9350441533811416,139,13945
 14428,2020-04-12,Azerbaijan,Asia,81,7.783452502553627,40,1098
 14429,2020-04-12,Bahamas,North America,81,6.046511627906977,0,46
@@ -14472,7 +14472,7 @@
 14470,2020-04-12,Estonia,Europe,81,2.5546862525946032,5,1309
 14471,2020-04-12,Eswatini,Africa,81,6.451612903225806,2,14
 14472,2020-04-12,Ethiopia,Africa,81,6.0126582278481004,2,71
-14473,2020-04-12,Fiji,Australia,81,1.2820512820512822,0,16
+14473,2020-04-12,Fiji,Australasia,81,1.2820512820512822,0,16
 14474,2020-04-12,Finland,Europe,81,4.847161572052401,69,2974
 14475,2020-04-12,France,Europe,81,8.887779485979747,26849,121712
 14476,2020-04-12,Gabon,Africa,81,8.755760368663594,3,49
@@ -14532,7 +14532,7 @@
 14530,2020-04-12,Namibia,Africa,81,0.0,0,16
 14531,2020-04-12,Nepal,Asia,81,6.25,3,12
 14532,2020-04-12,Netherlands,Europe,81,5.197544575595561,1175,25746
-14533,2020-04-12,New Zealand,Australia,81,2.6670850329463445,18,1330
+14533,2020-04-12,New Zealand,Australasia,81,2.6670850329463445,18,1330
 14534,2020-04-12,Nicaragua,North America,81,8.108108108108107,1,9
 14535,2020-04-12,Niger,Africa,81,11.357466063348417,38,529
 14536,2020-04-12,Nigeria,Africa,81,4.56953642384106,5,323
@@ -14541,7 +14541,7 @@
 14539,2020-04-12,Oman,Asia,81,9.10179640718563,53,599
 14540,2020-04-12,Pakistan,Asia,81,5.044748395812225,219,5230
 14541,2020-04-12,Panama,North America,81,8.255077527844508,260,3234
-14542,2020-04-12,Papua New Guinea,Australia,81,0.0,0,2
+14542,2020-04-12,Papua New Guinea,Australasia,81,0.0,0,2
 14543,2020-04-12,Paraguay,South America,81,2.97339593114241,1,134
 14544,2020-04-12,Peru,South America,81,15.286986805974148,671,7519
 14545,2020-04-12,Philippines,Asia,81,4.166470283263422,220,4648
@@ -14603,7 +14603,7 @@
 14601,2020-04-13,Antigua and Barbuda,North America,82,3.8834951456310676,2,23
 14602,2020-04-13,Argentina,South America,82,4.883605745418524,66,2208
 14603,2020-04-13,Armenia,Asia,82,3.2396965347549727,26,1039
-14604,2020-04-13,Australia,Australia,82,1.0897353956282756,36,6351
+14604,2020-04-13,Australia,Australasia,82,1.0897353956282756,36,6351
 14605,2020-04-13,Austria,Europe,82,1.6022510241868466,96,14041
 14606,2020-04-13,Azerbaijan,Asia,82,6.244014556598352,50,1148
 14607,2020-04-13,Bahamas,North America,82,3.153153153153153,1,47
@@ -14650,7 +14650,7 @@
 14648,2020-04-13,Estonia,Europe,82,2.2932917316692665,23,1332
 14649,2020-04-13,Eswatini,Africa,82,4.615384615384615,1,15
 14650,2020-04-13,Ethiopia,Africa,82,5.671641791044776,3,74
-14651,2020-04-13,Fiji,Australia,82,1.2658227848101267,0,16
+14651,2020-04-13,Fiji,Australasia,82,1.2658227848101267,0,16
 14652,2020-04-13,Finland,Europe,82,4.030173919117134,90,3064
 14653,2020-04-13,France,Europe,82,8.124965216006203,3682,125394
 14654,2020-04-13,Gabon,Africa,82,9.583333333333332,8,57
@@ -14710,7 +14710,7 @@
 14708,2020-04-13,Namibia,Africa,82,0.0,0,16
 14709,2020-04-13,Nepal,Asia,82,9.433962264150944,2,14
 14710,2020-04-13,Netherlands,Europe,82,4.933744751553049,964,26710
-14711,2020-04-13,New Zealand,Australia,82,2.1341931521572244,19,1349
+14711,2020-04-13,New Zealand,Australasia,82,2.1341931521572244,19,1349
 14712,2020-04-13,Nicaragua,North America,82,7.5,0,9
 14713,2020-04-13,Niger,Africa,82,7.801418439716312,0,529
 14714,2020-04-13,Nigeria,Africa,82,4.2485732403297405,20,343
@@ -14719,7 +14719,7 @@
 14717,2020-04-13,Oman,Asia,82,10.949164592961251,128,727
 14718,2020-04-13,Pakistan,Asia,82,4.947634525099314,266,5496
 14719,2020-04-13,Panama,North America,82,7.7310585706609345,166,3400
-14720,2020-04-13,Papua New Guinea,Australia,82,0.0,0,2
+14720,2020-04-13,Papua New Guinea,Australasia,82,0.0,0,2
 14721,2020-04-13,Paraguay,South America,82,4.197901049475262,13,147
 14722,2020-04-13,Peru,South America,82,15.414683888511219,2265,9784
 14723,2020-04-13,Philippines,Asia,82,4.766820772925176,284,4932
@@ -14781,7 +14781,7 @@
 14779,2020-04-14,Antigua and Barbuda,North America,83,3.738317757009346,0,23
 14780,2020-04-14,Argentina,South America,83,4.557057766852605,69,2277
 14781,2020-04-14,Armenia,Asia,83,2.9066295042803105,28,1067
-14782,2020-04-14,Australia,Australia,83,0.9715497325864741,64,6415
+14782,2020-04-14,Australia,Australasia,83,0.9715497325864741,64,6415
 14783,2020-04-14,Austria,Europe,83,1.4114670921190693,185,14226
 14784,2020-04-14,Azerbaijan,Asia,83,4.934450109249817,49,1197
 14785,2020-04-14,Bahamas,North America,83,3.4782608695652173,2,49
@@ -14828,7 +14828,7 @@
 14826,2020-04-14,Estonia,Europe,83,2.524330900243309,41,1373
 14827,2020-04-14,Eswatini,Africa,83,4.411764705882353,0,15
 14828,2020-04-14,Ethiopia,Africa,83,7.202216066481995,8,82
-14829,2020-04-14,Fiji,Australia,83,1.25,0,16
+14829,2020-04-14,Fiji,Australasia,83,1.25,0,16
 14830,2020-04-14,Finland,Europe,83,3.738317757009346,97,3161
 14831,2020-04-14,France,Europe,83,7.622963025996681,4971,130365
 14832,2020-04-14,Gabon,Africa,83,5.138339920948617,0,57
@@ -14888,7 +14888,7 @@
 14886,2020-04-14,Namibia,Africa,83,0.0,0,16
 14887,2020-04-14,Nepal,Asia,83,11.666666666666666,2,16
 14888,2020-04-14,Netherlands,Europe,83,4.440151420347892,870,27580
-14889,2020-04-14,New Zealand,Australia,83,1.9126506024096386,17,1366
+14889,2020-04-14,New Zealand,Australasia,83,1.9126506024096386,17,1366
 14890,2020-04-14,Nicaragua,North America,83,4.761904761904762,0,9
 14891,2020-04-14,Niger,Africa,83,6.257332811888933,41,570
 14892,2020-04-14,Nigeria,Africa,83,5.114320096269555,30,373
@@ -14897,7 +14897,7 @@
 14895,2020-04-14,Oman,Asia,83,11.233827705900916,86,813
 14896,2020-04-14,Pakistan,Asia,83,5.131523849404241,341,5837
 14897,2020-04-14,Panama,North America,83,5.962607377463366,72,3472
-14898,2020-04-14,Papua New Guinea,Australia,83,0.0,0,2
+14898,2020-04-14,Papua New Guinea,Australasia,83,0.0,0,2
 14899,2020-04-14,Paraguay,South America,83,4.985754985754986,12,159
 14900,2020-04-14,Peru,South America,83,12.507744541647048,519,10303
 14901,2020-04-14,Philippines,Asia,83,4.896269102706395,291,5223
@@ -14959,7 +14959,7 @@
 14957,2020-04-15,Antigua and Barbuda,North America,84,3.6036036036036037,0,23
 14958,2020-04-15,Argentina,South America,84,4.237211407876867,166,2443
 14959,2020-04-15,Armenia,Asia,84,3.348085433904175,44,1111
-14960,2020-04-15,Australia,Australia,84,0.7070135746606335,25,6440
+14960,2020-04-15,Australia,Australasia,84,0.7070135746606335,25,6440
 14961,2020-04-15,Austria,Europe,84,1.1101003496602895,110,14336
 14962,2020-04-15,Azerbaijan,Asia,84,4.553354188390685,56,1253
 14963,2020-04-15,Bahamas,North America,84,2.9535864978902953,0,49
@@ -15006,7 +15006,7 @@
 15004,2020-04-15,Estonia,Europe,84,2.1137243227150937,27,1400
 15005,2020-04-15,Eswatini,Africa,84,4.225352112676056,0,15
 15006,2020-04-15,Ethiopia,Africa,84,5.2493438320209975,3,85
-15007,2020-04-15,Fiji,Australia,84,0.0,0,16
+15007,2020-04-15,Fiji,Australasia,84,0.0,0,16
 15008,2020-04-15,Finland,Europe,84,3.0506485887491035,76,3237
 15009,2020-04-15,France,Europe,84,6.906368673040456,3220,133585
 15010,2020-04-15,Gabon,Africa,84,12.456747404844291,23,80
@@ -15066,7 +15066,7 @@
 15064,2020-04-15,Namibia,Africa,84,0.0,0,16
 15065,2020-04-15,Nepal,Asia,84,10.44776119402985,0,16
 15066,2020-04-15,Netherlands,Europe,84,3.8119813726744054,736,28316
-15067,2020-04-15,New Zealand,Australia,84,1.5275100103811363,20,1386
+15067,2020-04-15,New Zealand,Australasia,84,1.5275100103811363,20,1386
 15068,2020-04-15,Nicaragua,North America,84,4.545454545454546,0,9
 15069,2020-04-15,Niger,Africa,84,5.40140584535701,14,584
 15070,2020-04-15,Nigeria,Africa,84,5.782312925170068,34,407
@@ -15075,7 +15075,7 @@
 15073,2020-04-15,Oman,Asia,84,11.849791376912378,97,910
 15074,2020-04-15,Pakistan,Asia,84,6.0378438315985274,546,6383
 15075,2020-04-15,Panama,North America,84,4.935751170889876,102,3574
-15076,2020-04-15,Papua New Guinea,Australia,84,0.0,0,2
+15076,2020-04-15,Papua New Guinea,Australasia,84,0.0,0,2
 15077,2020-04-15,Paraguay,South America,84,4.35967302452316,2,161
 15078,2020-04-15,Peru,South America,84,12.144832241067736,1172,11475
 15079,2020-04-15,Philippines,Asia,84,5.096418732782369,230,5453
@@ -15137,7 +15137,7 @@
 15135,2020-04-16,Antigua and Barbuda,North America,85,1.7699115044247788,0,23
 15136,2020-04-16,Argentina,South America,85,5.119835065716004,128,2571
 15137,2020-04-16,Armenia,Asia,85,3.5628131378734462,48,1159
-15138,2020-04-16,Australia,Australia,85,0.49713910514961074,22,6462
+15138,2020-04-16,Australia,Australasia,85,0.49713910514961074,22,6462
 15139,2020-04-16,Austria,Europe,85,0.9433430952917324,140,14476
 15140,2020-04-16,Azerbaijan,Asia,85,3.763171098845961,30,1283
 15141,2020-04-16,Bahamas,North America,85,2.8688524590163933,4,53
@@ -15184,7 +15184,7 @@
 15182,2020-04-16,Estonia,Europe,85,1.8983644859813087,34,1434
 15183,2020-04-16,Eswatini,Africa,85,5.333333333333334,1,16
 15184,2020-04-16,Ethiopia,Africa,85,5.693069306930693,7,92
-15185,2020-04-16,Fiji,Australia,85,1.234567901234568,1,17
+15185,2020-04-16,Fiji,Australasia,85,1.234567901234568,1,17
 15186,2020-04-16,Finland,Europe,85,2.935779816513761,132,3369
 15187,2020-04-16,France,Europe,85,7.793271052499424,12490,146075
 15188,2020-04-16,Gabon,Africa,85,10.526315789473685,0,80
@@ -15244,7 +15244,7 @@
 15242,2020-04-16,Namibia,Africa,85,0.0,0,16
 15243,2020-04-16,Nepal,Asia,85,9.459459459459458,0,16
 15244,2020-04-16,Netherlands,Europe,85,3.4936653719098265,1067,29383
-15245,2020-04-16,New Zealand,Australia,85,1.3026932084309133,15,1401
+15245,2020-04-16,New Zealand,Australasia,85,1.3026932084309133,15,1401
 15246,2020-04-16,Nicaragua,North America,85,2.2222222222222223,0,9
 15247,2020-04-16,Niger,Africa,85,3.3261802575107295,0,584
 15248,2020-04-16,Nigeria,Africa,85,6.5677966101694905,35,442
@@ -15253,7 +15253,7 @@
 15251,2020-04-16,Oman,Asia,85,11.62733529990167,109,1019
 15252,2020-04-16,Pakistan,Asia,85,6.388749372174788,536,6919
 15253,2020-04-16,Panama,North America,85,4.4575755837301365,177,3751
-15254,2020-04-16,Papua New Guinea,Australia,85,33.33333333333333,5,7
+15254,2020-04-16,Papua New Guinea,Australasia,85,33.33333333333333,5,7
 15255,2020-04-16,Paraguay,South America,85,5.29032258064516,13,174
 15256,2020-04-16,Peru,South America,85,10.941984022337701,1016,12491
 15257,2020-04-16,Philippines,Asia,85,4.753820033955858,207,5660
@@ -15315,7 +15315,7 @@
 15313,2020-04-17,Antigua and Barbuda,North America,86,1.7391304347826086,0,23
 15314,2020-04-17,Argentina,South America,86,4.331032215647601,98,2669
 15315,2020-04-17,Armenia,Asia,86,3.3709879863726018,42,1201
-15316,2020-04-17,Australia,Australia,86,0.6430568499534017,60,6522
+15316,2020-04-17,Australia,Australasia,86,0.6430568499534017,60,6522
 15317,2020-04-17,Austria,Europe,86,0.9068839467589364,119,14595
 15318,2020-04-17,Azerbaijan,Asia,86,3.8900498312168454,57,1340
 15319,2020-04-17,Bahamas,North America,86,3.1746031746031753,1,54
@@ -15362,7 +15362,7 @@
 15360,2020-04-17,Estonia,Europe,86,2.1434695627322093,25,1459
 15361,2020-04-17,Eswatini,Africa,86,2.5974025974025974,0,16
 15362,2020-04-17,Ethiopia,Africa,86,5.827505827505828,4,96
-15363,2020-04-17,Fiji,Australia,86,1.2195121951219514,0,17
+15363,2020-04-17,Fiji,Australasia,86,1.2195121951219514,0,17
 15364,2020-04-17,Finland,Europe,86,3.1556372549019605,120,3489
 15365,2020-04-17,France,Europe,86,3.858359070845336,2009,148084
 15366,2020-04-17,Gabon,Africa,86,15.44502617801047,28,108
@@ -15422,7 +15422,7 @@
 15420,2020-04-17,Namibia,Africa,86,0.0,0,16
 15421,2020-04-17,Nepal,Asia,86,19.565217391304348,14,30
 15422,2020-04-17,Netherlands,Europe,86,3.4170593515090317,1236,30619
-15423,2020-04-17,New Zealand,Australia,86,1.1431051946172768,8,1409
+15423,2020-04-17,New Zealand,Australasia,86,1.1431051946172768,8,1409
 15424,2020-04-17,Nicaragua,North America,86,0.0,0,9
 15425,2020-04-17,Niger,Africa,86,3.386316516931583,43,627
 15426,2020-04-17,Nigeria,Africa,86,8.26044703595724,51,493
@@ -15431,7 +15431,7 @@
 15429,2020-04-17,Oman,Asia,86,10.356985456148083,50,1069
 15430,2020-04-17,Pakistan,Asia,86,5.669614655716993,106,7025
 15431,2020-04-17,Panama,North America,86,4.293636413550761,265,4016
-15432,2020-04-17,Papua New Guinea,Australia,86,25.0,0,7
+15432,2020-04-17,Papua New Guinea,Australasia,86,25.0,0,7
 15433,2020-04-17,Paraguay,South America,86,7.738095238095238,25,199
 15434,2020-04-17,Peru,South America,86,10.375030412568211,998,13489
 15435,2020-04-17,Philippines,Asia,86,4.531054298975908,218,5878
@@ -15493,7 +15493,7 @@
 15491,2020-04-18,Antigua and Barbuda,North America,87,0.0,0,23
 15492,2020-04-18,Argentina,South America,87,4.3245793363736444,89,2758
 15493,2020-04-18,Armenia,Asia,87,3.6121673003802277,47,1248
-15494,2020-04-18,Australia,Australia,87,0.669608417934397,46,6568
+15494,2020-04-18,Australia,Australasia,87,0.669608417934397,46,6568
 15495,2020-04-18,Austria,Europe,87,0.8713210887364462,76,14671
 15496,2020-04-18,Azerbaijan,Asia,87,3.4905367669872787,33,1373
 15497,2020-04-18,Bahamas,North America,87,3.076923076923077,1,55
@@ -15540,7 +15540,7 @@
 15538,2020-04-18,Estonia,Europe,87,2.5076623014767345,53,1512
 15539,2020-04-18,Eswatini,Africa,87,8.333333333333332,6,22
 15540,2020-04-18,Ethiopia,Africa,87,6.739130434782608,9,105
-15541,2020-04-18,Fiji,Australia,87,1.2048192771084336,0,17
+15541,2020-04-18,Fiji,Australasia,87,1.2048192771084336,0,17
 15542,2020-04-18,Finland,Europe,87,3.6429119678809707,192,3681
 15543,2020-04-18,France,Europe,87,3.2132767861567975,2,148086
 15544,2020-04-18,Gabon,Africa,87,11.778290993071593,0,108
@@ -15600,7 +15600,7 @@
 15598,2020-04-18,Namibia,Africa,87,0.0,0,16
 15599,2020-04-18,Nepal,Asia,87,15.596330275229356,1,31
 15600,2020-04-18,Netherlands,Europe,87,3.423989598006285,1147,31766
-15601,2020-04-18,New Zealand,Australia,87,1.04524627720504,13,1422
+15601,2020-04-18,New Zealand,Australasia,87,1.04524627720504,13,1422
 15602,2020-04-18,Nicaragua,North America,87,0.0,0,9
 15603,2020-04-18,Niger,Africa,87,3.661784287616512,12,639
 15604,2020-04-18,Nigeria,Africa,87,8.817013735046523,49,542
@@ -15609,7 +15609,7 @@
 15607,2020-04-18,Oman,Asia,87,9.076337407333199,111,1180
 15608,2020-04-18,Pakistan,Asia,87,6.336903141825928,613,7638
 15609,2020-04-18,Panama,North America,87,4.258003469484309,194,4210
-15610,2020-04-18,Papua New Guinea,Australia,87,20.0,0,7
+15610,2020-04-18,Papua New Guinea,Australasia,87,20.0,0,7
 15611,2020-04-18,Paraguay,South America,87,6.145251396648044,3,202
 15612,2020-04-18,Peru,South America,87,7.456013380938596,931,14420
 15613,2020-04-18,Philippines,Asia,87,4.081127875340094,209,6087
@@ -15671,7 +15671,7 @@
 15669,2020-04-19,Antigua and Barbuda,North America,88,0.0,0,23
 15670,2020-04-19,Argentina,South America,88,4.231927710843373,81,2839
 15671,2020-04-19,Armenia,Asia,88,3.7271214642262893,43,1291
-15672,2020-04-19,Australia,Australia,88,0.5981228145512546,42,6610
+15672,2020-04-19,Australia,Australasia,88,0.5981228145512546,42,6610
 15673,2020-04-19,Austria,Europe,88,0.7181402501819381,78,14749
 15674,2020-04-19,Azerbaijan,Asia,88,3.023920565668723,25,1398
 15675,2020-04-19,Bahamas,North America,88,2.2556390977443606,0,55
@@ -15718,7 +15718,7 @@
 15716,2020-04-19,Estonia,Europe,88,2.1137324423837445,16,1528
 15717,2020-04-19,Eswatini,Africa,88,7.6923076923076925,0,22
 15718,2020-04-19,Ethiopia,Africa,88,5.349794238683128,3,108
-15719,2020-04-19,Fiji,Australia,88,1.1904761904761905,0,17
+15719,2020-04-19,Fiji,Australasia,88,1.1904761904761905,0,17
 15720,2020-04-19,Finland,Europe,88,3.5423429580272225,102,3783
 15721,2020-04-19,France,Europe,88,3.107124873600689,4925,153011
 15722,2020-04-19,Gabon,Africa,88,10.721649484536083,1,109
@@ -15778,7 +15778,7 @@
 15776,2020-04-19,Namibia,Africa,88,0.0,0,16
 15777,2020-04-19,Nepal,Asia,88,12.096774193548386,0,31
 15778,2020-04-19,Netherlands,Europe,88,3.438354193641202,1072,32838
-15779,2020-04-19,New Zealand,Australia,88,0.9221166122854306,9,1431
+15779,2020-04-19,New Zealand,Australasia,88,0.9221166122854306,9,1431
 15780,2020-04-19,Nicaragua,North America,88,2.173913043478261,1,10
 15781,2020-04-19,Niger,Africa,88,2.5308241401687215,9,648
 15782,2020-04-19,Nigeria,Africa,88,10.115491835921944,85,627
@@ -15787,7 +15787,7 @@
 15785,2020-04-19,Oman,Asia,88,8.321087435709037,86,1266
 15786,2020-04-19,Pakistan,Asia,88,6.914878968964282,710,8348
 15787,2020-04-19,Panama,North America,88,4.040556900726392,63,4273
-15788,2020-04-19,Papua New Guinea,Australia,88,16.666666666666664,0,7
+15788,2020-04-19,Papua New Guinea,Australasia,88,16.666666666666664,0,7
 15789,2020-04-19,Paraguay,South America,88,4.989384288747346,4,206
 15790,2020-04-19,Peru,South America,88,7.888538287187235,1208,15628
 15791,2020-04-19,Philippines,Asia,88,3.531376759723216,172,6259
@@ -15849,7 +15849,7 @@
 15847,2020-04-20,Antigua and Barbuda,North America,89,0.0,0,23
 15848,2020-04-20,Argentina,South America,89,3.614457831325301,102,2941
 15849,2020-04-20,Armenia,Asia,89,3.655017633857006,48,1339
-15850,2020-04-20,Australia,Australia,89,0.5581820954704896,13,6623
+15850,2020-04-20,Australia,Australasia,89,0.5581820954704896,13,6623
 15851,2020-04-20,Austria,Europe,89,0.6263133477062467,46,14795
 15852,2020-04-20,Azerbaijan,Asia,89,2.679355783308931,38,1436
 15853,2020-04-20,Bahamas,North America,89,3.9711191335740073,5,60
@@ -15896,7 +15896,7 @@
 15894,2020-04-20,Estonia,Europe,89,1.8077129084092127,7,1535
 15895,2020-04-20,Eswatini,Africa,89,9.0,2,24
 15896,2020-04-20,Ethiopia,Africa,89,5.078125,3,111
-15897,2020-04-20,Fiji,Australia,89,2.3255813953488373,1,18
+15897,2020-04-20,Fiji,Australasia,89,2.3255813953488373,1,18
 15898,2020-04-20,Finland,Europe,89,3.468938977460143,85,3868
 15899,2020-04-20,France,Europe,89,2.9052193501889705,2382,155393
 15900,2020-04-20,Gabon,Africa,89,7.6190476190476195,11,120
@@ -15956,7 +15956,7 @@
 15954,2020-04-20,Namibia,Africa,89,0.0,0,16
 15955,2020-04-20,Nepal,Asia,89,10.79136690647482,0,31
 15956,2020-04-20,Netherlands,Europe,89,3.332616913410117,750,33588
-15957,2020-04-20,New Zealand,Australia,89,0.7602421512037169,9,1440
+15957,2020-04-20,New Zealand,Australasia,89,0.7602421512037169,9,1440
 15958,2020-04-20,Nicaragua,North America,89,2.127659574468085,0,10
 15959,2020-04-20,Niger,Africa,89,2.0343293070565798,0,648
 15960,2020-04-20,Nigeria,Africa,89,9.317443120260023,38,665
@@ -15965,7 +15965,7 @@
 15963,2020-04-20,Oman,Asia,89,8.41184387617766,144,1410
 15964,2020-04-20,Pakistan,Asia,89,5.30666527589444,70,8418
 15965,2020-04-20,Panama,North America,89,4.310469662595936,194,4467
-15966,2020-04-20,Papua New Guinea,Australia,89,14.285714285714285,0,7
+15966,2020-04-20,Papua New Guinea,Australasia,89,14.285714285714285,0,7
 15967,2020-04-20,Paraguay,South America,89,4.752275025278059,2,208
 15968,2020-04-20,Peru,South America,89,6.703246582726355,697,16325
 15969,2020-04-20,Philippines,Asia,89,3.3154269518505086,200,6459
@@ -16027,7 +16027,7 @@
 16025,2020-04-21,Antigua and Barbuda,North America,90,0.0,0,23
 16026,2020-04-21,Argentina,South America,90,3.23079084141031,90,3031
 16027,2020-04-21,Armenia,Asia,90,3.734567901234568,62,1401
-16028,2020-04-21,Australia,Australia,90,0.5550837175442853,22,6645
+16028,2020-04-21,Australia,Australasia,90,0.5550837175442853,22,6645
 16029,2020-04-21,Austria,Europe,90,0.5387945659107257,78,14873
 16030,2020-04-21,Azerbaijan,Asia,90,2.8034723210473884,44,1480
 16031,2020-04-21,Bahamas,North America,90,4.1522491349480966,5,65
@@ -16074,7 +16074,7 @@
 16072,2020-04-21,Estonia,Europe,90,1.55549696809913,17,1552
 16073,2020-04-21,Eswatini,Africa,90,13.043478260869565,7,31
 16074,2020-04-21,Ethiopia,Africa,90,4.119850187265918,3,114
-16075,2020-04-21,Fiji,Australia,90,1.149425287356322,0,18
+16075,2020-04-21,Fiji,Australasia,90,1.149425287356322,0,18
 16076,2020-04-21,Finland,Europe,90,3.424475710114149,146,4014
 16077,2020-04-21,France,Europe,90,1.5854640232214823,2775,158168
 16078,2020-04-21,Gabon,Africa,90,12.645590682196339,36,156
@@ -16134,7 +16134,7 @@
 16132,2020-04-21,Namibia,Africa,90,0.0,0,16
 16133,2020-04-21,Nepal,Asia,90,16.265060240963855,12,43
 16134,2020-04-21,Netherlands,Europe,90,3.024618704330342,729,34317
-16135,2020-04-21,New Zealand,Australia,90,0.6156429271022807,5,1445
+16135,2020-04-21,New Zealand,Australasia,90,0.6156429271022807,5,1445
 16136,2020-04-21,Nicaragua,North America,90,2.0833333333333335,0,10
 16137,2020-04-21,Niger,Africa,90,2.267785026405716,9,657
 16138,2020-04-21,Nigeria,Africa,90,7.453208556149733,0,665
@@ -16143,7 +16143,7 @@
 16141,2020-04-21,Oman,Asia,90,7.60143012591326,98,1508
 16142,2020-04-21,Pakistan,Asia,90,6.4546031126506325,1147,9565
 16143,2020-04-21,Panama,North America,90,4.1944136145024045,191,4658
-16144,2020-04-21,Papua New Guinea,Australia,90,0.0,0,7
+16144,2020-04-21,Papua New Guinea,Australasia,90,0.0,0,7
 16145,2020-04-21,Paraguay,South America,90,3.3235581622678394,0,208
 16146,2020-04-21,Peru,South America,90,6.88039743111237,1512,17837
 16147,2020-04-21,Philippines,Asia,90,3.001726232338086,140,6599
@@ -16205,7 +16205,7 @@
 16203,2020-04-22,Antigua and Barbuda,North America,91,0.8620689655172413,1,24
 16204,2020-04-22,Argentina,South America,91,3.22843743628084,113,3144
 16205,2020-04-22,Armenia,Asia,91,4.028436018957346,72,1473
-16206,2020-04-22,Australia,Australia,91,0.3927729772191673,7,6652
+16206,2020-04-22,Australia,Australasia,91,0.3927729772191673,7,6652
 16207,2020-04-22,Austria,Europe,91,0.44586761785091805,52,14925
 16208,2020-04-22,Azerbaijan,Asia,91,2.4705065926439973,38,1518
 16209,2020-04-22,Bahamas,North America,91,3.6666666666666665,0,65
@@ -16252,7 +16252,7 @@
 16250,2020-04-22,Estonia,Europe,91,1.3010668748373666,7,1559
 16251,2020-04-22,Eswatini,Africa,91,11.538461538461538,0,31
 16252,2020-04-22,Ethiopia,Africa,91,3.6101083032490973,2,116
-16253,2020-04-22,Fiji,Australia,91,1.1363636363636365,0,18
+16253,2020-04-22,Fiji,Australasia,91,1.1363636363636365,0,18
 16254,2020-04-22,Finland,Europe,91,3.2862644415917845,115,4129
 16255,2020-04-22,France,Europe,91,1.0246055865399837,-2188,155980
 16256,2020-04-22,Gabon,Africa,91,8.801213960546281,10,166
@@ -16312,7 +16312,7 @@
 16310,2020-04-22,Namibia,Africa,91,0.0,0,16
 16311,2020-04-22,Nepal,Asia,91,8.287292817679557,2,45
 16312,2020-04-22,Netherlands,Europe,91,2.633982129747346,715,35032
-16313,2020-04-22,New Zealand,Australia,91,0.584225900681597,6,1451
+16313,2020-04-22,New Zealand,Australasia,91,0.584225900681597,6,1451
 16314,2020-04-22,Nicaragua,North America,91,2.0408163265306123,0,10
 16315,2020-04-22,Niger,Africa,91,1.07559926244622,5,662
 16316,2020-04-22,Nigeria,Africa,91,11.269276393831554,208,873
@@ -16321,7 +16321,7 @@
 16319,2020-04-22,Oman,Asia,91,7.810260819719119,106,1614
 16320,2020-04-22,Pakistan,Asia,91,6.927006470655013,511,10076
 16321,2020-04-22,Panama,North America,91,3.5891033929287977,163,4821
-16322,2020-04-22,Papua New Guinea,Australia,91,2.777777777777778,1,8
+16322,2020-04-22,Papua New Guinea,Australasia,91,2.777777777777778,1,8
 16323,2020-04-22,Paraguay,South America,91,1.3500482160077143,5,213
 16324,2020-04-22,Peru,South America,91,6.902707884016296,1413,19250
 16325,2020-04-22,Philippines,Asia,91,2.5907703805193996,111,6710
@@ -16383,7 +16383,7 @@
 16381,2020-04-23,Antigua and Barbuda,North America,92,0.8547008547008548,0,24
 16382,2020-04-23,Argentina,South America,92,4.398960363872645,291,3435
 16383,2020-04-23,Armenia,Asia,92,3.9134765902945774,50,1523
-16384,2020-04-23,Australia,Australia,92,0.2832007712701856,10,6662
+16384,2020-04-23,Australia,Australasia,92,0.2832007712701856,10,6662
 16385,2020-04-23,Austria,Europe,92,0.44522759065963635,77,15002
 16386,2020-04-23,Azerbaijan,Asia,92,2.3712737127371275,30,1548
 16387,2020-04-23,Bahamas,North America,92,5.3627760252365935,7,72
@@ -16430,7 +16430,7 @@
 16428,2020-04-23,Estonia,Europe,92,1.0301313417460725,33,1592
 16429,2020-04-23,Eswatini,Africa,92,6.474820143884892,0,31
 16430,2020-04-23,Ethiopia,Africa,92,1.946902654867257,0,116
-16431,2020-04-23,Fiji,Australia,92,1.1235955056179776,0,18
+16431,2020-04-23,Fiji,Australasia,92,1.1235955056179776,0,18
 16432,2020-04-23,Finland,Europe,92,3.003287179998008,155,4284
 16433,2020-04-23,France,Europe,92,1.3084375460232693,2323,158303
 16434,2020-04-23,Gabon,Africa,92,8.217270194986073,1,167
@@ -16490,7 +16490,7 @@
 16488,2020-04-23,Namibia,Africa,92,0.0,0,16
 16489,2020-04-23,Nepal,Asia,92,8.585858585858585,3,48
 16490,2020-04-23,Netherlands,Europe,92,2.419974839250769,889,35921
-16491,2020-04-23,New Zealand,Australia,92,0.47071853800359964,5,1456
+16491,2020-04-23,New Zealand,Australasia,92,0.47071853800359964,5,1456
 16492,2020-04-23,Nicaragua,North America,92,3.921568627450981,1,11
 16493,2020-04-23,Niger,Africa,92,0.9738283627510651,9,671
 16494,2020-04-23,Nigeria,Africa,92,11.51928627656783,108,981
@@ -16499,7 +16499,7 @@
 16497,2020-04-23,Oman,Asia,92,7.133351077987757,102,1716
 16498,2020-04-23,Pakistan,Asia,92,7.3945586813001976,1079,11155
 16499,2020-04-23,Panama,North America,92,4.088090656403677,345,5166
-16500,2020-04-23,Papua New Guinea,Australia,92,2.7027027027027026,0,8
+16500,2020-04-23,Papua New Guinea,Australasia,92,2.7027027027027026,0,8
 16501,2020-04-23,Paraguay,South America,92,1.0496183206106873,0,213
 16502,2020-04-23,Peru,South America,92,7.219245392089291,1664,20914
 16503,2020-04-23,Philippines,Asia,92,2.7084343189529814,271,6981
@@ -16561,7 +16561,7 @@
 16559,2020-04-24,Antigua and Barbuda,North America,93,0.847457627118644,0,24
 16560,2020-04-24,Argentina,South America,93,4.753063497957668,172,3607
 16561,2020-04-24,Armenia,Asia,93,4.159847244953627,73,1596
-16562,2020-04-24,Australia,Australia,93,0.20144923178688476,15,6677
+16562,2020-04-24,Australia,Australasia,93,0.20144923178688476,15,6677
 16563,2020-04-24,Austria,Europe,93,0.43125385048080783,69,15071
 16564,2020-04-24,Azerbaijan,Asia,93,2.5613942434644836,44,1592
 16565,2020-04-24,Bahamas,North America,93,5.3731343283582085,1,73
@@ -16608,7 +16608,7 @@
 16606,2020-04-24,Estonia,Europe,93,0.9817671809256664,13,1605
 16607,2020-04-24,Eswatini,Africa,93,9.15032679738562,5,36
 16608,2020-04-24,Ethiopia,Africa,93,1.5679442508710801,1,117
-16609,2020-04-24,Fiji,Australia,93,1.1111111111111112,0,18
+16609,2020-04-24,Fiji,Australasia,93,1.1111111111111112,0,18
 16610,2020-04-24,Finland,Europe,93,2.957950700821653,111,4395
 16611,2020-04-24,France,Europe,93,0.8810656565913002,1649,159952
 16612,2020-04-24,Gabon,Africa,93,8.066581306017927,5,172
@@ -16668,7 +16668,7 @@
 16666,2020-04-24,Namibia,Africa,93,0.0,0,16
 16667,2020-04-24,Nepal,Asia,93,8.333333333333332,1,49
 16668,2020-04-24,Netherlands,Europe,93,2.215995489415503,808,36729
-16669,2020-04-24,New Zealand,Australia,93,0.4136219495381222,5,1461
+16669,2020-04-24,New Zealand,Australasia,93,0.4136219495381222,5,1461
 16670,2020-04-24,Nicaragua,North America,93,1.9230769230769231,0,11
 16671,2020-04-24,Niger,Africa,93,0.994275384151853,10,681
 16672,2020-04-24,Nigeria,Africa,93,10.937134844589858,114,1095
@@ -16677,7 +16677,7 @@
 16675,2020-04-24,Oman,Asia,93,6.519034585717841,74,1790
 16676,2020-04-24,Pakistan,Asia,93,7.0219337686202445,785,11940
 16677,2020-04-24,Panama,North America,93,4.355828220858895,172,5338
-16678,2020-04-24,Papua New Guinea,Australia,93,2.6315789473684212,0,8
+16678,2020-04-24,Papua New Guinea,Australasia,93,2.6315789473684212,0,8
 16679,2020-04-24,Paraguay,South America,93,1.5962441314553992,10,223
 16680,2020-04-24,Peru,South America,93,6.272532144122367,734,21648
 16681,2020-04-24,Philippines,Asia,93,2.7488877758463213,211,7192
@@ -16739,7 +16739,7 @@
 16737,2020-04-25,Antigua and Barbuda,North America,94,0.8403361344537815,0,24
 16738,2020-04-25,Argentina,South America,94,4.936165205624523,173,3780
 16739,2020-04-25,Armenia,Asia,94,4.406779661016949,81,1677
-16740,2020-04-25,Australia,Australia,94,0.213021302130213,17,6694
+16740,2020-04-25,Australia,Australasia,94,0.213021302130213,17,6694
 16741,2020-04-25,Austria,Europe,94,0.4705474613098015,77,15148
 16742,2020-04-25,Azerbaijan,Asia,94,2.3339780786589297,25,1617
 16743,2020-04-25,Bahamas,North America,94,5.09915014164306,5,78
@@ -16786,7 +16786,7 @@
 16784,2020-04-25,Estonia,Europe,94,1.258970162407151,30,1635
 16785,2020-04-25,Eswatini,Africa,94,17.2972972972973,20,56
 16786,2020-04-25,Ethiopia,Africa,94,1.8803418803418805,5,122
-16787,2020-04-25,Fiji,Australia,94,0.0,0,18
+16787,2020-04-25,Fiji,Australasia,94,0.0,0,18
 16788,2020-04-25,Finland,Europe,94,2.8501666901441522,80,4475
 16789,2020-04-25,France,Europe,94,0.7872329975429667,1692,161644
 16790,2020-04-25,Gabon,Africa,94,6.690561529271206,4,176
@@ -16846,7 +16846,7 @@
 16844,2020-04-25,Namibia,Africa,94,0.0,0,16
 16845,2020-04-25,Nepal,Asia,94,7.6923076923076925,0,49
 16846,2020-04-25,Netherlands,Europe,94,2.1161425553146063,655,37384
-16847,2020-04-25,New Zealand,Australia,94,0.41191816559110256,9,1470
+16847,2020-04-25,New Zealand,Australasia,94,0.41191816559110256,9,1470
 16848,2020-04-25,Nicaragua,North America,94,3.7037037037037033,1,12
 16849,2020-04-25,Niger,Africa,94,1.0730253353204173,3,684
 16850,2020-04-25,Nigeria,Africa,94,10.77981651376147,87,1182
@@ -16855,7 +16855,7 @@
 16853,2020-04-25,Oman,Asia,94,5.801007851869214,115,1905
 16854,2020-04-25,Pakistan,Asia,94,7.762491209722498,783,12723
 16855,2020-04-25,Panama,North America,94,4.196544022569649,200,5538
-16856,2020-04-25,Papua New Guinea,Australia,94,2.5641025641025643,0,8
+16856,2020-04-25,Papua New Guinea,Australasia,94,2.5641025641025643,0,8
 16857,2020-04-25,Paraguay,South America,94,1.8433179723502304,5,228
 16858,2020-04-25,Peru,South America,94,8.578776909887598,3683,25331
 16859,2020-04-25,Philippines,Asia,94,2.4010812054290316,102,7294
@@ -16917,7 +16917,7 @@
 16915,2020-04-26,Antigua and Barbuda,North America,95,0.8333333333333334,0,24
 16916,2020-04-26,Argentina,South America,95,4.821368574308433,112,3892
 16917,2020-04-26,Armenia,Asia,95,4.30442919525889,69,1746
-16918,2020-04-26,Australia,Australia,95,0.20659301176681938,20,6714
+16918,2020-04-26,Australia,Australasia,95,0.20659301176681938,20,6714
 16919,2020-04-26,Austria,Europe,95,0.467023125605339,77,15225
 16920,2020-04-26,Azerbaijan,Asia,95,2.083333333333333,28,1645
 16921,2020-04-26,Bahamas,North America,95,4.076086956521739,2,80
@@ -16964,7 +16964,7 @@
 16962,2020-04-26,Estonia,Europe,95,1.1326860841423947,8,1643
 16963,2020-04-26,Eswatini,Africa,95,13.145539906103284,3,59
 16964,2020-04-26,Ethiopia,Africa,95,1.5151515151515151,1,123
-16965,2020-04-26,Fiji,Australia,95,0.0,0,18
+16965,2020-04-26,Fiji,Australasia,95,0.0,0,18
 16966,2020-04-26,Finland,Europe,95,2.571023377098678,101,4576
 16967,2020-04-26,France,Europe,95,0.5077064374219239,576,162220
 16968,2020-04-26,Gabon,Africa,95,2.3337222870478413,0,176
@@ -17024,7 +17024,7 @@
 17022,2020-04-26,Namibia,Africa,95,0.0,0,16
 17023,2020-04-26,Nepal,Asia,95,3.7037037037037033,3,52
 17024,2020-04-26,Netherlands,Europe,95,2.0332485008683494,656,38040
-17025,2020-04-26,New Zealand,Australia,95,0.3284521691528671,-1,1469
+17025,2020-04-26,New Zealand,Australasia,95,0.3284521691528671,-1,1469
 17026,2020-04-26,Nicaragua,North America,95,5.263157894736842,1,13
 17027,2020-04-26,Niger,Africa,95,1.1490866234531527,12,696
 17028,2020-04-26,Nigeria,Africa,95,11.250925240562546,91,1273
@@ -17033,7 +17033,7 @@
 17031,2020-04-26,Oman,Asia,95,5.430566330488752,93,1998
 17032,2020-04-26,Pakistan,Asia,95,6.35405761372463,605,13328
 17033,2020-04-26,Panama,North America,95,4.207642068913745,241,5779
-17034,2020-04-26,Papua New Guinea,Australia,95,2.5,0,8
+17034,2020-04-26,Papua New Guinea,Australasia,95,2.5,0,8
 17035,2020-04-26,Paraguay,South America,95,1.809954751131222,0,228
 17036,2020-04-26,Peru,South America,95,8.442351299494156,2186,27517
 17037,2020-04-26,Philippines,Asia,95,2.74079874706343,285,7579
@@ -17095,7 +17095,7 @@
 17093,2020-04-27,Antigua and Barbuda,North America,96,0.0,0,24
 17094,2020-04-27,Argentina,South America,96,4.5894106961585726,111,4003
 17095,2020-04-27,Armenia,Asia,96,4.0119760479041915,62,1808
-17096,2020-04-27,Australia,Australia,96,0.20616708497669414,7,6721
+17096,2020-04-27,Australia,Australasia,96,0.20616708497669414,7,6721
 17097,2020-04-27,Austria,Europe,96,0.4609086106708927,49,15274
 17098,2020-04-27,Azerbaijan,Asia,96,1.9801980198019802,33,1678
 17099,2020-04-27,Bahamas,North America,96,3.91644908616188,0,80
@@ -17142,7 +17142,7 @@
 17140,2020-04-27,Estonia,Europe,96,1.0834769761142575,4,1647
 17141,2020-04-27,Eswatini,Africa,96,13.765182186234817,6,65
 17142,2020-04-27,Ethiopia,Africa,96,1.3289036544850499,1,124
-17143,2020-04-27,Fiji,Australia,96,0.0,0,18
+17143,2020-04-27,Fiji,Australasia,96,0.0,0,18
 17144,2020-04-27,Finland,Europe,96,2.5239687848383503,119,4695
 17145,2020-04-27,France,Europe,96,1.235394427793219,3743,165963
 17146,2020-04-27,Gabon,Africa,96,4.988913525498892,35,211
@@ -17202,7 +17202,7 @@
 17200,2020-04-27,Namibia,Africa,96,0.0,0,16
 17201,2020-04-27,Nepal,Asia,96,2.8,0,52
 17202,2020-04-27,Netherlands,Europe,96,1.8272086813858477,400,38440
-17203,2020-04-27,New Zealand,Australia,96,0.28657205240174677,3,1472
+17203,2020-04-27,New Zealand,Australasia,96,0.28657205240174677,3,1472
 17204,2020-04-27,Nicaragua,North America,96,5.0,0,13
 17205,2020-04-27,Niger,Africa,96,1.136032624526653,5,701
 17206,2020-04-27,Nigeria,Africa,96,7.90729379686435,64,1337
@@ -17211,7 +17211,7 @@
 17209,2020-04-27,Oman,Asia,96,4.599281031930641,51,2049
 17210,2020-04-27,Pakistan,Asia,96,6.087756299456081,587,13915
 17211,2020-04-27,Panama,North America,96,4.310035198620789,242,6021
-17212,2020-04-27,Papua New Guinea,Australia,96,0.0,0,8
+17212,2020-04-27,Papua New Guinea,Australasia,96,0.0,0,8
 17213,2020-04-27,Paraguay,South America,96,1.3392857142857142,0,228
 17214,2020-04-27,Peru,South America,96,7.613468805646649,1182,28699
 17215,2020-04-27,Philippines,Asia,96,2.8976454933058142,198,7777
@@ -17273,7 +17273,7 @@
 17271,2020-04-28,Antigua and Barbuda,North America,97,0.0,0,24
 17272,2020-04-28,Argentina,South America,97,3.565356278015354,124,4127
 17273,2020-04-28,Armenia,Asia,97,3.956751782838739,59,1867
-17274,2020-04-28,Australia,Australia,97,0.2444113263785395,23,6744
+17274,2020-04-28,Australia,Australasia,97,0.2444113263785395,23,6744
 17275,2020-04-28,Austria,Europe,97,0.46664475846204406,83,15357
 17276,2020-04-28,Azerbaijan,Asia,97,2.0487331797793673,39,1717
 17277,2020-04-28,Bahamas,North America,97,2.0460358056265986,0,80
@@ -17320,7 +17320,7 @@
 17318,2020-04-28,Estonia,Europe,97,0.8302808302808303,13,1660
 17319,2020-04-28,Eswatini,Africa,97,13.937282229965156,6,71
 17320,2020-04-28,Ethiopia,Africa,97,1.6339869281045754,2,126
-17321,2020-04-28,Fiji,Australia,97,0.0,0,18
+17321,2020-04-28,Fiji,Australasia,97,0.0,0,18
 17322,2020-04-28,Finland,Europe,97,1.9929198898649536,45,4740
 17323,2020-04-28,France,Europe,97,1.3128456142407723,3090,169053
 17324,2020-04-28,Gabon,Africa,97,7.297019527235355,27,238
@@ -17380,7 +17380,7 @@
 17378,2020-04-28,Namibia,Africa,97,0.0,0,16
 17379,2020-04-28,Nepal,Asia,97,2.3437499999999996,2,54
 17380,2020-04-28,Netherlands,Europe,97,1.422266853412965,172,38612
-17381,2020-04-28,New Zealand,Australia,97,0.2450313095562211,2,1474
+17381,2020-04-28,New Zealand,Australasia,97,0.2450313095562211,2,1474
 17382,2020-04-28,Nicaragua,North America,97,3.225806451612903,0,13
 17383,2020-04-28,Niger,Africa,97,1.0947853644482857,8,709
 17384,2020-04-28,Nigeria,Africa,97,8.583891571895935,195,1532
@@ -17389,7 +17389,7 @@
 17387,2020-04-28,Oman,Asia,97,4.203382963638205,82,2131
 17388,2020-04-28,Pakistan,Asia,97,5.197089509606422,697,14612
 17389,2020-04-28,Panama,North America,97,2.97940551277137,0,6021
-17390,2020-04-28,Papua New Guinea,Australia,97,0.0,0,8
+17390,2020-04-28,Papua New Guinea,Australasia,97,0.0,0,8
 17391,2020-04-28,Paraguay,South America,97,2.268760907504363,11,239
 17392,2020-04-28,Peru,South America,97,7.646686758194739,2491,31190
 17393,2020-04-28,Philippines,Asia,97,2.5846560846560847,181,7958
@@ -17451,7 +17451,7 @@
 17449,2020-04-29,Antigua and Barbuda,North America,98,0.0,0,24
 17450,2020-04-29,Argentina,South America,98,3.3753173694429233,158,4285
 17451,2020-04-29,Armenia,Asia,98,3.7209302325581395,65,1932
-17452,2020-04-29,Australia,Australia,98,0.22304832713754646,8,6752
+17452,2020-04-29,Australia,Australasia,98,0.22304832713754646,8,6752
 17453,2020-04-29,Austria,Europe,98,0.43321205140957514,45,15402
 17454,2020-04-29,Azerbaijan,Asia,98,2.0657722901579008,49,1766
 17455,2020-04-29,Bahamas,North America,98,1.7587939698492463,0,80
@@ -17498,7 +17498,7 @@
 17496,2020-04-29,Estonia,Europe,98,0.7393043267482728,6,1666
 17497,2020-04-29,Eswatini,Africa,98,16.08187134502924,20,91
 17498,2020-04-29,Ethiopia,Africa,98,2.08,4,130
-17499,2020-04-29,Fiji,Australia,98,0.0,0,18
+17499,2020-04-29,Fiji,Australasia,98,0.0,0,18
 17500,2020-04-29,Finland,Europe,98,2.184507523939809,166,4906
 17501,2020-04-29,France,Europe,98,0.7984996783467386,-2510,166543
 17502,2020-04-29,Gabon,Africa,98,9.656453110492109,38,276
@@ -17558,7 +17558,7 @@
 17556,2020-04-29,Namibia,Africa,98,0.0,0,16
 17557,2020-04-29,Nepal,Asia,98,3.0303030303030307,3,57
 17558,2020-04-29,Netherlands,Europe,98,1.1850172869423523,386,38998
-17559,2020-04-29,New Zealand,Australia,98,0.20377666077978535,2,1476
+17559,2020-04-29,New Zealand,Australasia,98,0.20377666077978535,2,1476
 17560,2020-04-29,Nicaragua,North America,98,3.125,0,13
 17561,2020-04-29,Niger,Africa,98,0.9135027119611762,4,713
 17562,2020-04-29,Nigeria,Africa,98,8.976176971072034,196,1728
@@ -17567,7 +17567,7 @@
 17565,2020-04-29,Oman,Asia,98,4.673167905764218,143,2274
 17566,2020-04-29,Pakistan,Asia,98,5.113903827225654,913,15525
 17567,2020-04-29,Panama,North America,98,3.4973265628678076,357,6378
-17568,2020-04-29,Papua New Guinea,Australia,98,0.0,0,8
+17568,2020-04-29,Papua New Guinea,Australasia,98,0.0,0,8
 17569,2020-04-29,Paraguay,South America,98,1.376936316695353,0,239
 17570,2020-04-29,Peru,South America,98,8.37469659366733,2741,33931
 17571,2020-04-29,Philippines,Asia,98,2.627511591962906,254,8212
@@ -17629,7 +17629,7 @@
 17627,2020-04-30,Antigua and Barbuda,North America,99,0.0,0,24
 17628,2020-04-30,Argentina,South America,99,3.1251507113576076,143,4428
 17629,2020-04-30,Armenia,Asia,99,4.129950100859964,134,2066
-17630,2020-04-30,Australia,Australia,99,0.21366887259993472,14,6766
+17630,2020-04-30,Australia,Australasia,99,0.21366887259993472,14,6766
 17631,2020-04-30,Austria,Europe,99,0.3962977447529657,50,15452
 17632,2020-04-30,Azerbaijan,Asia,99,2.1718931475029035,38,1804
 17633,2020-04-30,Bahamas,North America,99,0.7481296758104738,1,81
@@ -17676,7 +17676,7 @@
 17674,2020-04-30,Estonia,Europe,99,0.650210716435882,23,1689
 17675,2020-04-30,Eswatini,Africa,99,11.398963730569948,9,100
 17676,2020-04-30,Ethiopia,Africa,99,1.4195583596214512,1,131
-17677,2020-04-30,Fiji,Australia,99,0.0,0,18
+17677,2020-04-30,Fiji,Australasia,99,0.0,0,18
 17678,2020-04-30,Finland,Europe,99,2.174640347942456,89,4995
 17679,2020-04-30,France,Europe,99,0.6804415470028083,756,167299
 17680,2020-04-30,Gabon,Africa,99,8.496176720475786,0,276
@@ -17736,7 +17736,7 @@
 17734,2020-04-30,Namibia,Africa,99,0.0,0,16
 17735,2020-04-30,Nepal,Asia,99,2.9411764705882355,0,57
 17736,2020-04-30,Netherlands,Europe,99,1.0991621987376163,514,39512
-17737,2020-04-30,New Zealand,Australia,99,0.12211668928086838,3,1479
+17737,2020-04-30,New Zealand,Australasia,99,0.12211668928086838,3,1479
 17738,2020-04-30,Nicaragua,North America,99,3.0303030303030307,1,14
 17739,2020-04-30,Niger,Africa,99,0.9892594686263425,6,719
 17740,2020-04-30,Nigeria,Africa,99,9.612919764163035,204,1932
@@ -17745,7 +17745,7 @@
 17743,2020-04-30,Oman,Asia,99,4.101851851851852,74,2348
 17744,2020-04-30,Pakistan,Asia,99,5.517743304985377,1292,16817
 17745,2020-04-30,Panama,North America,99,3.234518889720478,154,6532
-17746,2020-04-30,Papua New Guinea,Australia,99,0.0,0,8
+17746,2020-04-30,Papua New Guinea,Australasia,99,0.0,0,8
 17747,2020-04-30,Paraguay,South America,99,3.166666666666666,27,266
 17748,2020-04-30,Peru,South America,99,7.355681466462009,3045,36976
 17749,2020-04-30,Philippines,Asia,99,2.983955615534563,276,8488

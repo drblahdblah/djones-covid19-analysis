@@ -34,10 +34,10 @@ def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
     """
     df_scatter = df_scatter.groupby(['Country/Region', 'Date', 'Continent'], as_index=False).sum()
 
-    df_scatter['growth_rate_clip'] = df_scatter['growth_rate'].clip(lower=1)
+    df_scatter['growth_rate_clip'] = df_scatter['Growth Rate'].clip(lower=1)
 
-    df_scatter['New cases per day'] = df_scatter['new_cases'].clip(lower=1)
-    df_scatter['Total cases'] = df_scatter['total_cases'].clip(lower=1)
+    df_scatter['New cases per day'] = df_scatter['New cases'].clip(lower=1)
+    df_scatter['Total cases'] = df_scatter['Total cases'].clip(lower=1)
 
     title = {
         'text': "Covid-19 cases per region: Marker size is growth rate",
@@ -124,7 +124,7 @@ app.layout = html.Div([
             # Main plot
             dcc.Graph(
                 id='crossfilter-indicator-scatter',
-                hoverData={'points': [{'customdata': 'Spain'}]},
+                hoverData={'points': [{'customdata': 'Netherlands'}]},
             )
         ], style={'width': '49%',
                   'float': 'left',
