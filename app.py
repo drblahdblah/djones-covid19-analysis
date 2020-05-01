@@ -6,23 +6,59 @@ import dash_html_components as html
 import pandas as pd
 import plotly.express as px
 
-app = dash.Dash(__name__)
+pd.set_option("display.max_columns", 500)
+pd.set_option("display.max_rows", 1000)
+pd.set_option("display.width", 1000)
+
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 date_today = datetime.strftime(datetime.today(), '%d-%m-%Y')
 
-stacked_df_path = f'./data/cases/result.csv'
-df = pd.read_csv(stacked_df_path, header=0)
-available_indicators = df['indicator'].unique()
+# Load all the CASES data
+stacked_cases_df_path = f'./data/cases/result.csv'
+stacked_cases_df = pd.read_csv(stacked_cases_df_path, header=0)
+stacked_cases_df.replace({"Slope of power-law": "Slope of power-law (cases)",
+                          "Acceleration of power-law": "Acceleration of power-law (cases)",
+                          "Growth Rate": "Growth Rate (cases)",
+                          "Average Growth Rate": "Average Growth Rate (cases)",
+                          "Doubling time": "Doubling time (cases)"
+                          },
+                         inplace=True)
 
-days = df.Days.unique()
-continents = df.Continent.unique()
+pivoted_cases_path = f'./data/cases/result_pivoted.csv'
+pivoted_cases_df = pd.read_csv(pivoted_cases_path, header=0)
 
-pivoted_data_path = f'./data/cases/result_pivoted.csv'
-pivoted = pd.read_csv(pivoted_data_path, header=0)
-colors = {
-    'background': '#111111',
-    'text': '#7FDBFF'
-}
+# Get deaths information
+stacked_deaths_df_path = f'./data/deaths/result.csv'
+stacked_deaths_df = pd.read_csv(stacked_deaths_df_path, header=0)
+stacked_deaths_df.replace({"Total cases": "Total deaths", "New cases": "New deaths",
+                           "New cases per week": "New deaths per week",
+                           "log10(Total cases)": "log10(Total deaths)",
+                           "log10(New cases per week)": "log10(New deaths per week)",
+                           "Slope of power-law": "Slope of power-law (deaths)",
+                           "Acceleration of power-law": "Acceleration of power-law (deaths)",
+                           "Growth Rate": "Growth Rate (deaths)",
+                           "Days since first case": "Days since first death",
+                           "Average Growth Rate": "Average Growth Rate (deaths)",
+                           "Doubling time": "Doubling time (deaths)"
+                           },
+                          inplace=True)
+pivoted_deaths_path = f'./data/deaths/result_pivoted.csv'
+pivoted_deaths_df = pd.read_csv(pivoted_deaths_path, header=0)
+pivoted_deaths_df = pivoted_deaths_df.rename(columns={"New cases": "New deaths", "Total cases": "Total deaths"})
+
+stacked_complete_df = pd.concat([stacked_cases_df, stacked_deaths_df])
+pivoted_complete_df = pd.merge(pivoted_cases_df, pivoted_deaths_df,
+                               on=['Date', 'Country/Region', 'Continent', 'Days', 'Growth Rate'])
+pivoted_complete_df.drop(columns={"Unnamed: 0_x", "Unnamed: 0_y"}, inplace=True)
+# print(f"pivoted_complete_df: \n{pivoted_complete_df.head(20)}")
+
+# Get information for sliders/radio buttons/etc.
+available_indicators = stacked_complete_df['indicator'].unique()
+days = stacked_complete_df.Days.unique()
+continents = stacked_complete_df.Continent.unique()
 
 
 def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
@@ -60,27 +96,48 @@ def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
                       )
 
 
-fig_animated = plot_animation(pivoted)
+fig_animated = plot_animation(pivoted_complete_df)
 
-app.layout = html.Div([
+app.layout = html.Div(children=[
 
-    html.Title('Corona-virus Dashboard'),
-    # Dashboard heading
-    html.H1(
-        children='Corona-virus Dashboard',
-        style={
-            'textAlign': 'center',
-        }
-    ),
-
-    # Dashboard sub-heading
-    html.Div(children=f'A dashboard for visualising my analyses of the Johns Hopkins Univerisity\'s (JHUs)'
-                      f' corona-virus dataset.',
-             style={
-                 'textAlign': 'center',
-             }),
-
+    # Titles Div
     html.Div([
+        html.Title(['Corona-virus Dashboard']),
+
+        # Dashboard heading
+        html.H1(
+            children='Corona-virus Dashboard',
+            style={
+                'textAlign': 'center',
+            }
+        ),
+
+        # Dashboard sub-heading
+        html.Div(children=f'A dashboard for visualising my analyses of the Johns Hopkins Univerisity\'s (JHUs)'
+                          f' corona-virus dataset.',
+                 style={
+                     'textAlign': 'center',
+                 }),
+
+    ],
+    ),
+    # END Titles Div
+
+    html.Hr([]),
+
+    #
+
+    # Dropdown menu & log/linear toggle div
+    html.Div([
+        # # Toggle between cases and deaths
+        # html.Div([
+        #     dcc.RadioItems(
+        #         id='crossfilter-xaxis-cases',
+        #         options=[{'label': i, 'value': i} for i in ['Cases', 'Deaths']],
+        #         value='Cases',
+        #         labelStyle={'display': 'inline-block'}
+        #     )
+        # ], style={'padding-down': '100px'}),
         # Left-hand (X-axis) dropdown and log/linear radio buttons
         html.Div([
             dcc.Dropdown(
@@ -118,7 +175,9 @@ app.layout = html.Div([
         'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }),
+    # END Dropdown menu & log/linear toggle div
 
+    # Top plots (main scatter & timeseries)
     html.Div([
         html.Div([
             # Main plot
@@ -147,10 +206,10 @@ app.layout = html.Div([
         # Slider for time movement
         html.Div(dcc.Slider(
             id='crossfilter-year--slider',
-            min=df['Days'].min(),
-            max=df['Days'].max(),
-            value=df['Days'].max(),
-            marks={str(year): str(year) for year in df['Days'].unique()[0::5]},
+            min=stacked_complete_df['Days'].min(),
+            max=stacked_complete_df['Days'].max(),
+            value=stacked_complete_df['Days'].max(),
+            marks={str(year): str(year) for year in stacked_complete_df['Days'].unique()[0::5]},
             step=2
         ), style={'width': '49%',
                   'float': 'left',
@@ -162,8 +221,9 @@ app.layout = html.Div([
         'padding': '10px 5px'
     }
     ),
+    # Top plots (main scatter & timeseries)
 
-    # fig_animated
+    # Bottom animation figure div
     html.Div([
         dcc.Graph(id='cases-animation-slider',
                   figure=fig_animated,
@@ -174,7 +234,9 @@ app.layout = html.Div([
         'padding': '10px 5px',
         'vertical-align': 'center'
     }),
+    # END Bottom animation figure div
 
+    # Footer div
     html.Div(children=f'Copyright Dr. David I. Jones, 2020. MIT License. '
                       f'See https://github.com/drblahdblah/covid-19-analysis for the code.',
              style={
@@ -195,7 +257,7 @@ app.layout = html.Div([
 def update_graph(xaxis_column_name, yaxis_column_name,
                  xaxis_type, yaxis_type,
                  date_value):
-    dff = df[df['Days'] == date_value]
+    dff = stacked_complete_df[stacked_complete_df['Days'] == date_value]
     return {
         'data': [dict(
             x=dff[(dff['indicator'] == xaxis_column_name) & (dff['Continent'] == i)]['value'],
@@ -256,7 +318,7 @@ def create_time_series(dff, axis_type, title):
      dash.dependencies.Input('crossfilter-xaxis-type', 'value')])
 def update_y_timeseries(hover_data, xaxis_column_name, axis_type):
     country_name = hover_data['points'][0]['customdata']
-    dff = df[df['Country/Region'] == country_name]
+    dff = stacked_complete_df[stacked_complete_df['Country/Region'] == country_name]
     dff = dff[dff['indicator'] == xaxis_column_name]
     title = f'<b>{country_name}</b><br>{xaxis_column_name}'
     return create_time_series(dff, axis_type, title)
@@ -269,10 +331,10 @@ def update_y_timeseries(hover_data, xaxis_column_name, axis_type):
      dash.dependencies.Input('crossfilter-yaxis-type', 'value')]
 )
 def update_x_timeseries(hover_data, yaxis_column_name, axis_type):
-    dff = df[df['Country/Region'] == hover_data['points'][0]['customdata']]
+    dff = stacked_complete_df[stacked_complete_df['Country/Region'] == hover_data['points'][0]['customdata']]
     dff = dff[dff['indicator'] == yaxis_column_name]
     return create_time_series(dff, axis_type, yaxis_column_name)
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
