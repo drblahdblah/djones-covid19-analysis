@@ -10,14 +10,14 @@ app = dash.Dash(__name__)
 server = app.server
 date_today = datetime.strftime(datetime.today(), '%d-%m-%Y')
 
-stacked_df_path = f'./data/result.csv'
+stacked_df_path = f'./data/cases/result.csv'
 df = pd.read_csv(stacked_df_path, header=0)
 available_indicators = df['indicator'].unique()
 
 days = df.Days.unique()
 continents = df.Continent.unique()
 
-pivoted_data_path = f'./data/result_pivoted.csv'
+pivoted_data_path = f'./data/cases/result_pivoted.csv'
 pivoted = pd.read_csv(pivoted_data_path, header=0)
 colors = {
     'background': '#111111',
