@@ -96,7 +96,7 @@ def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
                       )
 
 
-fig_animated = plot_animation(pivoted_complete_df)
+fig_animated = plot_animation(pivoted_cases_df)
 
 app.layout = html.Div(children=[
 
@@ -129,16 +129,6 @@ app.layout = html.Div(children=[
 
     # Dropdown menu & log/linear toggle div
     html.Div([
-        # # Toggle between cases and deaths
-        # html.Div([
-        #     dcc.RadioItems(
-        #         id='crossfilter-xaxis-cases',
-        #         options=[{'label': i, 'value': i} for i in ['Cases', 'Deaths']],
-        #         value='Cases',
-        #         labelStyle={'display': 'inline-block'}
-        #     )
-        # ], style={'padding-down': '100px'}),
-        # Left-hand (X-axis) dropdown and log/linear radio buttons
         html.Div([
             dcc.Dropdown(
                 id='crossfilter-xaxis-column',
@@ -337,4 +327,4 @@ def update_x_timeseries(hover_data, yaxis_column_name, axis_type):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
