@@ -3,10 +3,12 @@ from datetime import datetime
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+# import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+# external_stylesheets = [dbc.themes.DARKLY,  "https://use.fontawesome.com/releases/v5.9.0/css/all.css"]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
@@ -170,7 +172,7 @@ app.layout = html.Div(children=[
         ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        'backgroundColor': 'rgb(250, 250, 250)',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }),
     # END Dropdown menu & log/linear toggle div
@@ -203,7 +205,7 @@ app.layout = html.Div(children=[
 
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        'backgroundColor': 'rgb(250, 250, 250)',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }
     ),
@@ -252,7 +254,7 @@ app.layout = html.Div(children=[
         ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        'backgroundColor': 'rgb(250, 250, 250)',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }),
     # END Dropdown menu & log/linear toggle div
@@ -284,7 +286,7 @@ app.layout = html.Div(children=[
         ),
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        'backgroundColor': 'rgb(250, 250, 250)',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }
     ),
@@ -297,7 +299,7 @@ app.layout = html.Div(children=[
                   style={'height': '700px'})
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        'backgroundColor': 'rgb(250, 250, 250)',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px',
         'vertical-align': 'center'
     }),
@@ -469,4 +471,4 @@ def update_deaths_x_timeseries(hover_data, yaxis_column_name, axis_type):
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(port=8088)
