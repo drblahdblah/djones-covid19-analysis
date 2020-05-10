@@ -44,14 +44,8 @@ stacked_deaths_df.replace({"Total cases": "Total deaths", "New cases": "New deat
                            "Doubling time": "Doubling time (deaths)"
                            },
                           inplace=True)
-pivoted_deaths_path = f'./data/deaths/result_pivoted.csv'
-pivoted_deaths_df = pd.read_csv(pivoted_deaths_path, header=0)
-pivoted_deaths_df = pivoted_deaths_df.rename(columns={"New cases": "New deaths", "Total cases": "Total deaths"})
 
 stacked_complete_df = pd.concat([stacked_cases_df, stacked_deaths_df])
-pivoted_complete_df = pd.merge(pivoted_cases_df, pivoted_deaths_df,
-                               on=['Date', 'Country/Region', 'Continent', 'Days', 'Growth Rate'])
-pivoted_complete_df.drop(columns={"Unnamed: 0_x", "Unnamed: 0_y"}, inplace=True)
 
 # Load all the USA CASES data
 stacked_usa_cases_df_path = f'./data/usa_analysis/cases/result.csv'
