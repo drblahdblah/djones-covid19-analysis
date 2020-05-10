@@ -3,12 +3,10 @@ from datetime import datetime
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-# import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-# external_stylesheets = [dbc.themes.DARKLY,  "https://use.fontawesome.com/releases/v5.9.0/css/all.css"]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
@@ -55,22 +53,70 @@ pivoted_complete_df = pd.merge(pivoted_cases_df, pivoted_deaths_df,
                                on=['Date', 'Country/Region', 'Continent', 'Days', 'Growth Rate'])
 pivoted_complete_df.drop(columns={"Unnamed: 0_x", "Unnamed: 0_y"}, inplace=True)
 
+# Load all the USA CASES data
+stacked_usa_cases_df_path = f'./data/usa_analysis/cases/result.csv'
+stacked_usa_cases_df = pd.read_csv(stacked_usa_cases_df_path, header=0)
+stacked_usa_cases_df.replace({"Slope of power-law": "Slope of power-law (cases)",
+                              "Acceleration of power-law": "Acceleration of power-law (cases)",
+                              "Growth Rate": "Growth Rate (cases)",
+                              "Average Growth Rate": "Average Growth Rate (cases)",
+                              "Doubling time": "Doubling time (cases)"
+                              },
+                             inplace=True)
+
+pivoted_usa_cases_path = f'./data/usa_analysis/cases/result_pivoted.csv'
+pivoted_usa_cases_df = pd.read_csv(pivoted_usa_cases_path, header=0)
+
+# Load all the USA DEATHS data
+stacked_usa_deaths_df_path = f'./data/usa_analysis/deaths/result.csv'
+stacked_usa_deaths_df = pd.read_csv(stacked_usa_deaths_df_path, header=0)
+stacked_usa_deaths_df.replace({"Total cases": "Total deaths", "New cases": "New deaths",
+                               "Total cases per million": "Total deaths per million",
+                               "New cases per million": "New deaths per million",
+                               "New cases per week per million": "New deaths per week per million",
+                               "New cases per week": "New deaths per week",
+                               "log10(Total cases)": "log10(Total deaths)",
+                               "log10(New cases per week)": "log10(New deaths per week)",
+                               "Slope of power-law": "Slope of power-law (deaths)",
+                               "Acceleration of power-law": "Acceleration of power-law (deaths)",
+                               "Growth Rate": "Growth Rate (deaths)",
+                               "Days since first case": "Days since first death",
+                               "Average Growth Rate": "Average Growth Rate (deaths)",
+                               "Doubling time": "Doubling time (deaths)"
+                               },
+                              inplace=True)
+
+pivoted_usa_deaths_path = f'./data/usa_analysis/deaths/result_pivoted.csv'
+pivoted_usa_deaths_df = pd.read_csv(pivoted_usa_deaths_path, header=0)
+
 # Get information for sliders/radio buttons/etc.
 available_indicators_cases = stacked_cases_df['indicator'].unique()
 available_indicators_deaths = stacked_deaths_df['indicator'].unique()
+available_indicators_usa_cases = stacked_usa_cases_df['indicator'].unique()
+available_indicators_usa_deaths = stacked_usa_deaths_df['indicator'].unique()
 
 days = stacked_complete_df.Days.unique()
 continents = stacked_complete_df.Continent.unique()
 
 
-def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
+def plot_animation(df_scatter: pd.DataFrame, case_type: str) -> px.scatter:
     """
     Function to create a good scatter plot of new versus total cases with the date as the
     parameter in the bar.
+    :param case_type:
     :param df_scatter: A Pandas DataFrame to create the scatter plot with
     :return:
     """
-    df_scatter = df_scatter.groupby(['Country/Region', 'Date', 'Continent'], as_index=False).sum()
+    if case_type == 'world':
+        df_scatter = df_scatter.groupby(['Country/Region', 'Date', 'Continent'], as_index=False).sum()
+        color = "Continent"
+        hover_name = "Country/Region"
+        animation_group = "Country/Region"
+    else:
+        df_scatter = df_scatter.groupby(['Province_State', 'Date'], as_index=False).sum()
+        color = "Province_State"
+        hover_name = "Province_State"
+        animation_group = "Province_State"
 
     df_scatter['growth_rate_clip'] = df_scatter['Growth Rate'].clip(lower=1)
 
@@ -78,18 +124,18 @@ def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
     df_scatter['Total cases'] = df_scatter['Total cases'].clip(lower=1)
 
     title = {
-        'text': "Covid-19 cases per region: Marker size is growth rate",
+        'text': f"Covid-19 cases per region for {case_type.upper()}: Marker size is growth rate",
         'y': 0.9,
         'x': 0.5,
         'xanchor': 'center',
         'yanchor': 'top'}
-    # return scatter plot
+
     return px.scatter(df_scatter, x="Total cases", y="New cases per day",
-                      animation_frame="Date", animation_group="Country/Region",
+                      animation_frame="Date", animation_group=animation_group,
                       size="growth_rate_clip",
                       size_max=100,
-                      color="Continent",
-                      hover_name="Country/Region",
+                      color=color,
+                      hover_name=hover_name,
                       log_x=True,
                       log_y=True,
                       range_x=[1, 3e6],
@@ -98,7 +144,9 @@ def plot_animation(df_scatter: pd.DataFrame) -> px.scatter:
                       )
 
 
-fig_animated = plot_animation(pivoted_cases_df)
+# Create the animation figures
+fig_animated = plot_animation(pivoted_cases_df, 'world')
+fig_animated_usa = plot_animation(pivoted_usa_cases_df, 'usa')
 
 app.layout = html.Div(children=[
 
@@ -131,7 +179,7 @@ app.layout = html.Div(children=[
 
     # Cases heading
     html.H3(
-        children='Cases Plots',
+        children='Worldwide Cases Plots',
         style={
             'textAlign': 'center',
         }
@@ -215,7 +263,7 @@ app.layout = html.Div(children=[
     # Dropdown menu & log/linear toggle div
     # Deaths heading
     html.H3(
-        children='Deaths Plots',
+        children='Worldwide Deaths Plots',
         style={
             'textAlign': 'center',
         }
@@ -292,10 +340,200 @@ app.layout = html.Div(children=[
     ),
     # END Top plots DEATHS (main scatter & timeseries)
 
+    # USA Cases heading
+    html.H3(
+        children='USA Cases Plots',
+        style={
+            'textAlign': 'center',
+        }
+    ),
+
+    # Dropdown menu & log/linear toggle div
+    html.Div([
+        html.Div([
+            dcc.Dropdown(
+                id='crossfilter-us-cases-xaxis-column',
+                options=[{'label': i, 'value': i} for i in available_indicators_usa_cases],
+                value='Total Cases (cumulative cases / country)'
+            ),
+            dcc.RadioItems(
+                id='crossfilter-us-cases-xaxis-type',
+                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+                value='Linear',
+                labelStyle={'display': 'inline-block'}
+            )
+        ], style={'width': '49%',
+                  'float': 'left',
+                  'display': 'inline-block'}
+        ),
+
+        # Right-hand (Y-axis) dropdown and log/linear radio buttons
+        html.Div([
+            dcc.Dropdown(
+                id='crossfilter-us-cases-yaxis-column',
+                options=[{'label': i, 'value': i} for i in available_indicators_usa_cases],
+                value='New cases / day / country'
+            ),
+            dcc.RadioItems(
+                id='crossfilter-us-cases-yaxis-type',
+                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+                value='Linear',
+                labelStyle={'display': 'inline-block'}
+            )
+        ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
+    ], style={
+        'borderBottom': 'thin lightgrey solid',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
+        'padding': '10px 5px'
+    }),
+    # END USA CASES Dropdown menu & log/linear toggle div
+
+    # Top USA CASES plots (main scatter & timeseries)
+    html.Div([
+        html.Div([
+            # Main plot
+            dcc.Graph(
+                id='crossfilter-us-cases-indicator-scatter',
+                hoverData={'points': [{'customdata': 'New York'}]},
+            )
+        ], style={'width': '49%',
+                  'float': 'left',
+                  'display': 'inline-block',
+                  'padding': '10 10',
+                  'borderRight': 'thin lightgrey solid',
+                  }
+        ),
+
+        # Right-hand-side X and Y time series
+        html.Div([
+            dcc.Graph(id='x-us-cases-time-series'),
+            dcc.Graph(id='y-us-cases-time-series'),
+        ], style={'display': 'inline-block',
+                  'width': '49%',
+                  'borderLeft': 'thin lightgrey solid'
+                  }
+        ),
+
+    ], style={
+        'borderBottom': 'thin lightgrey solid',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
+        'padding': '10px 5px'
+    }
+    ),
+    # END plots USA CASES (main scatter & timeseries)
+
+    # USA DEATHS heading
+    html.H3(
+        children='USA Deaths Plots',
+        style={
+            'textAlign': 'center',
+        }
+    ),
+
+    # Dropdown menu & log/linear toggle div
+    html.Div([
+        html.Div([
+            dcc.Dropdown(
+                id='crossfilter-us-deaths-xaxis-column',
+                options=[{'label': i, 'value': i} for i in available_indicators_usa_deaths],
+                value='Total Cases (cumulative cases / country)'
+            ),
+            dcc.RadioItems(
+                id='crossfilter-us-deaths-xaxis-type',
+                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+                value='Linear',
+                labelStyle={'display': 'inline-block'}
+            )
+        ], style={'width': '49%',
+                  'float': 'left',
+                  'display': 'inline-block'}
+        ),
+
+        # Right-hand (Y-axis) dropdown and log/linear radio buttons
+        html.Div([
+            dcc.Dropdown(
+                id='crossfilter-us-deaths-yaxis-column',
+                options=[{'label': i, 'value': i} for i in available_indicators_usa_deaths],
+                value='New cases / day / country'
+            ),
+            dcc.RadioItems(
+                id='crossfilter-us-deaths-yaxis-type',
+                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+                value='Linear',
+                labelStyle={'display': 'inline-block'}
+            )
+        ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
+    ], style={
+        'borderBottom': 'thin lightgrey solid',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
+        'padding': '10px 5px'
+    }),
+    # END USA DEATHS Dropdown menu & log/linear toggle div
+
+    # Top USA DEATHS plots (main scatter & timeseries)
+    html.Div([
+        html.Div([
+            # Main plot
+            dcc.Graph(
+                id='crossfilter-us-deaths-indicator-scatter',
+                hoverData={'points': [{'customdata': 'New York'}]},
+            )
+        ], style={'width': '49%',
+                  'float': 'left',
+                  'display': 'inline-block',
+                  'padding': '10 10',
+                  'borderRight': 'thin lightgrey solid',
+                  }
+        ),
+
+        # Right-hand-side X and Y time series
+        html.Div([
+            dcc.Graph(id='x-us-deaths-time-series'),
+            dcc.Graph(id='y-us-deaths-time-series'),
+        ], style={'display': 'inline-block',
+                  'width': '49%',
+                  'borderLeft': 'thin lightgrey solid'
+                  }
+        ),
+
+    ], style={
+        'borderBottom': 'thin lightgrey solid',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
+        'padding': '10px 5px'
+    }
+    ),
+    # END plots USA DEATHS (main scatter & timeseries)
+
     # START Bottom animation figure div
+    # WORLD Cases ANIMATION heading
+    html.H3(
+        children='Worldwide Cases Animation',
+        style={
+            'textAlign': 'center',
+        }
+    ),
     html.Div([
         dcc.Graph(id='cases-animation-slider',
                   figure=fig_animated,
+                  style={'height': '700px'})
+    ], style={
+        'borderBottom': 'thin lightgrey solid',
+        # 'backgroundColor': 'rgb(250, 250, 250)',
+        'padding': '10px 5px',
+        'vertical-align': 'center'
+    }),
+    # END Bottom animation figure div
+
+    # USA Cases ANIMATION heading
+    html.H3(
+        children='USA Cases Animation',
+        style={
+            'textAlign': 'center',
+        }
+    ),
+    html.Div([
+        dcc.Graph(id='usa-cases-animation-slider',
+                  figure=fig_animated_usa,
                   style={'height': '700px'})
     ], style={
         'borderBottom': 'thin lightgrey solid',
@@ -338,6 +576,7 @@ def create_time_series(dff, axis_type, title):
     }
 
 
+# WORLD CASES CALLBACKS
 @app.callback(
     dash.dependencies.Output('crossfilter-indicator-scatter', 'figure'),
     [dash.dependencies.Input('crossfilter-xaxis-column', 'value'),
@@ -402,9 +641,10 @@ def update_cases_x_timeseries(hover_data, yaxis_column_name, axis_type):
     dff = stacked_cases_df[stacked_cases_df['Country/Region'] == hover_data['points'][0]['customdata']]
     dff = dff[dff['indicator'] == yaxis_column_name]
     return create_time_series(dff, axis_type, yaxis_column_name)
+# END WORLD CASES callback functions
 
 
-# Deaths callback functions
+# WORLD DEATHS callback functions
 @app.callback(
     dash.dependencies.Output('crossfilter-deaths-indicator-scatter', 'figure'),
     [dash.dependencies.Input('crossfilter-deaths-xaxis-column', 'value'),
@@ -468,7 +708,142 @@ def update_deaths_x_timeseries(hover_data, yaxis_column_name, axis_type):
     dff = stacked_deaths_df[stacked_deaths_df['Country/Region'] == hover_data['points'][0]['customdata']]
     dff = dff[dff['indicator'] == yaxis_column_name]
     return create_time_series(dff, axis_type, yaxis_column_name)
+# END WORLD DEATHS callback functions
+
+
+# USA CASES CALLBACKS
+@app.callback(
+    dash.dependencies.Output('crossfilter-us-cases-indicator-scatter', 'figure'),
+    [dash.dependencies.Input('crossfilter-us-cases-xaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-cases-yaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-cases-xaxis-type', 'value'),
+     dash.dependencies.Input('crossfilter-us-cases-yaxis-type', 'value')])
+def update_usa_cases_graph(xaxis_column_name, yaxis_column_name,
+                           xaxis_type, yaxis_type,
+                           ):
+    dff = stacked_usa_cases_df[stacked_usa_cases_df['Days'] == stacked_usa_cases_df.Days.max()]
+    return {
+        'data': [dict(
+            x=dff[(dff['indicator'] == xaxis_column_name)]['value'],
+            y=dff[(dff['indicator'] == yaxis_column_name)]['value'],
+            text=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
+            customdata=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
+            mode='markers',
+            marker={
+                'size': 15,
+                'opacity': 0.5,
+                'line': {'width': 0.5, 'color': 'white'}
+            },
+        )
+        ],
+        'layout': dict(
+            xaxis={
+                'title': xaxis_column_name,
+                'type': 'linear' if xaxis_type == 'Linear' else 'log'
+            },
+            yaxis={
+                'title': yaxis_column_name,
+                'type': 'linear' if yaxis_type == 'Linear' else 'log'
+            },
+            margin={'l': 40, 'b': 30, 't': 10, 'r': 0},
+            height=450,
+            hovermode='closest'
+        )
+    }
+
+
+@app.callback(
+    dash.dependencies.Output('x-us-cases-time-series', 'figure'),
+    [dash.dependencies.Input('crossfilter-us-cases-indicator-scatter', 'hoverData'),
+     dash.dependencies.Input('crossfilter-us-cases-xaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-cases-xaxis-type', 'value')])
+def update_usa_cases_y_timeseries(hover_data, xaxis_column_name, axis_type):
+    country_name = hover_data['points'][0]['customdata']
+    dff = stacked_usa_cases_df[stacked_usa_cases_df['Province_State'] == country_name]
+    dff = dff[dff['indicator'] == xaxis_column_name]
+    title = f'<b>{country_name}</b><br>{xaxis_column_name}'
+    return create_time_series(dff, axis_type, title)
+
+
+@app.callback(
+    dash.dependencies.Output('y-us-cases-time-series', 'figure'),
+    [dash.dependencies.Input('crossfilter-us-cases-indicator-scatter', 'hoverData'),
+     dash.dependencies.Input('crossfilter-us-cases-yaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-cases-yaxis-type', 'value')]
+)
+def update_usa_cases_x_timeseries(hover_data, yaxis_column_name, axis_type):
+    dff = stacked_usa_cases_df[stacked_usa_cases_df['Province_State'] == hover_data['points'][0]['customdata']]
+    dff = dff[dff['indicator'] == yaxis_column_name]
+    return create_time_series(dff, axis_type, yaxis_column_name)
+# END USA CASES callback functions
+
+
+# USA DEATHS CALLBACKS
+@app.callback(
+    dash.dependencies.Output('crossfilter-us-deaths-indicator-scatter', 'figure'),
+    [dash.dependencies.Input('crossfilter-us-deaths-xaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-deaths-yaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-deaths-xaxis-type', 'value'),
+     dash.dependencies.Input('crossfilter-us-deaths-yaxis-type', 'value')])
+def update_usa_deaths_graph(xaxis_column_name, yaxis_column_name,
+                            xaxis_type, yaxis_type,
+                            ):
+    dff = stacked_usa_deaths_df[stacked_usa_deaths_df['Days'] == stacked_usa_deaths_df.Days.max()]
+    return {
+        'data': [dict(
+            x=dff[(dff['indicator'] == xaxis_column_name)]['value'],
+            y=dff[(dff['indicator'] == yaxis_column_name)]['value'],
+            text=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
+            customdata=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
+            mode='markers',
+            marker={
+                'size': 15,
+                'opacity': 0.5,
+                'line': {'width': 0.5, 'color': 'white'}
+            },
+        )
+        ],
+        'layout': dict(
+            xaxis={
+                'title': xaxis_column_name,
+                'type': 'linear' if xaxis_type == 'Linear' else 'log'
+            },
+            yaxis={
+                'title': yaxis_column_name,
+                'type': 'linear' if yaxis_type == 'Linear' else 'log'
+            },
+            margin={'l': 40, 'b': 30, 't': 10, 'r': 0},
+            height=450,
+            hovermode='closest'
+        )
+    }
+
+
+@app.callback(
+    dash.dependencies.Output('x-us-deaths-time-series', 'figure'),
+    [dash.dependencies.Input('crossfilter-us-deaths-indicator-scatter', 'hoverData'),
+     dash.dependencies.Input('crossfilter-us-deaths-xaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-deaths-xaxis-type', 'value')])
+def update_usa_deaths_y_timeseries(hover_data, xaxis_column_name, axis_type):
+    country_name = hover_data['points'][0]['customdata']
+    dff = stacked_usa_deaths_df[stacked_usa_deaths_df['Province_State'] == country_name]
+    dff = dff[dff['indicator'] == xaxis_column_name]
+    title = f'<b>{country_name}</b><br>{xaxis_column_name}'
+    return create_time_series(dff, axis_type, title)
+
+
+@app.callback(
+    dash.dependencies.Output('y-us-deaths-time-series', 'figure'),
+    [dash.dependencies.Input('crossfilter-us-deaths-indicator-scatter', 'hoverData'),
+     dash.dependencies.Input('crossfilter-us-deaths-yaxis-column', 'value'),
+     dash.dependencies.Input('crossfilter-us-deaths-yaxis-type', 'value')]
+)
+def update_usa_deaths_x_timeseries(hover_data, yaxis_column_name, axis_type):
+    dff = stacked_usa_deaths_df[stacked_usa_deaths_df['Province_State'] == hover_data['points'][0]['customdata']]
+    dff = dff[dff['indicator'] == yaxis_column_name]
+    return create_time_series(dff, axis_type, yaxis_column_name)
+# END USA DEATHS callback functions
 
 
 if __name__ == '__main__':
-    app.run_server(port=8088)
+    app.run_server(debug=True, port=8088)
