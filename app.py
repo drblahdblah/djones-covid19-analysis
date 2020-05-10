@@ -47,19 +47,19 @@ stacked_deaths_df.replace({"Total cases": "Total deaths", "New cases": "New deat
 
 stacked_complete_df = pd.concat([stacked_cases_df, stacked_deaths_df])
 
-# Load all the USA CASES data
-stacked_usa_cases_df_path = f'./data/usa_analysis/cases/result.csv'
-stacked_usa_cases_df = pd.read_csv(stacked_usa_cases_df_path, header=0)
-stacked_usa_cases_df.replace({"Slope of power-law": "Slope of power-law (cases)",
-                              "Acceleration of power-law": "Acceleration of power-law (cases)",
-                              "Growth Rate": "Growth Rate (cases)",
-                              "Average Growth Rate": "Average Growth Rate (cases)",
-                              "Doubling time": "Doubling time (cases)"
-                              },
-                             inplace=True)
-
-pivoted_usa_cases_path = f'./data/usa_analysis/cases/result_pivoted.csv'
-pivoted_usa_cases_df = pd.read_csv(pivoted_usa_cases_path, header=0)
+# # Load all the USA CASES data
+# stacked_usa_cases_df_path = f'./data/usa_analysis/cases/result.csv'
+# stacked_usa_cases_df = pd.read_csv(stacked_usa_cases_df_path, header=0)
+# stacked_usa_cases_df.replace({"Slope of power-law": "Slope of power-law (cases)",
+#                               "Acceleration of power-law": "Acceleration of power-law (cases)",
+#                               "Growth Rate": "Growth Rate (cases)",
+#                               "Average Growth Rate": "Average Growth Rate (cases)",
+#                               "Doubling time": "Doubling time (cases)"
+#                               },
+#                              inplace=True)
+#
+# pivoted_usa_cases_path = f'./data/usa_analysis/cases/result_pivoted.csv'
+# pivoted_usa_cases_df = pd.read_csv(pivoted_usa_cases_path, header=0)
 
 # # Load all the USA DEATHS data
 # stacked_usa_deaths_df_path = f'./data/usa_analysis/deaths/result.csv'
@@ -86,7 +86,7 @@ pivoted_usa_cases_df = pd.read_csv(pivoted_usa_cases_path, header=0)
 # Get information for sliders/radio buttons/etc.
 available_indicators_cases = stacked_cases_df['indicator'].unique()
 available_indicators_deaths = stacked_deaths_df['indicator'].unique()
-available_indicators_usa_cases = stacked_usa_cases_df['indicator'].unique()
+# available_indicators_usa_cases = stacked_usa_cases_df['indicator'].unique()
 # available_indicators_usa_deaths = stacked_usa_deaths_df['indicator'].unique()
 
 days = stacked_complete_df.Days.unique()
@@ -214,7 +214,6 @@ app.layout = html.Div(children=[
         ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }),
     # END Dropdown menu & log/linear toggle div
@@ -247,7 +246,6 @@ app.layout = html.Div(children=[
 
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }
     ),
@@ -296,7 +294,6 @@ app.layout = html.Div(children=[
         ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }),
     # END Dropdown menu & log/linear toggle div
@@ -328,93 +325,92 @@ app.layout = html.Div(children=[
         ),
     ], style={
         'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
         'padding': '10px 5px'
     }
     ),
     # END Top plots DEATHS (main scatter & timeseries)
 
-    # USA Cases heading
-    html.H3(
-        children='USA Cases Plots',
-        style={
-            'textAlign': 'center',
-        }
-    ),
-
-    # Dropdown menu & log/linear toggle div
-    html.Div([
-        html.Div([
-            dcc.Dropdown(
-                id='crossfilter-us-cases-xaxis-column',
-                options=[{'label': i, 'value': i} for i in available_indicators_usa_cases],
-                value='Total Cases (cumulative cases / country)'
-            ),
-            dcc.RadioItems(
-                id='crossfilter-us-cases-xaxis-type',
-                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
-                value='Linear',
-                labelStyle={'display': 'inline-block'}
-            )
-        ], style={'width': '49%',
-                  'float': 'left',
-                  'display': 'inline-block'}
-        ),
-
-        # Right-hand (Y-axis) dropdown and log/linear radio buttons
-        html.Div([
-            dcc.Dropdown(
-                id='crossfilter-us-cases-yaxis-column',
-                options=[{'label': i, 'value': i} for i in available_indicators_usa_cases],
-                value='New cases / day / country'
-            ),
-            dcc.RadioItems(
-                id='crossfilter-us-cases-yaxis-type',
-                options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
-                value='Linear',
-                labelStyle={'display': 'inline-block'}
-            )
-        ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
-    ], style={
-        'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
-        'padding': '10px 5px'
-    }),
-    # END USA CASES Dropdown menu & log/linear toggle div
-
-    # Top USA CASES plots (main scatter & timeseries)
-    html.Div([
-        html.Div([
-            # Main plot
-            dcc.Graph(
-                id='crossfilter-us-cases-indicator-scatter',
-                hoverData={'points': [{'customdata': 'New York'}]},
-            )
-        ], style={'width': '49%',
-                  'float': 'left',
-                  'display': 'inline-block',
-                  'padding': '10 10',
-                  'borderRight': 'thin lightgrey solid',
-                  }
-        ),
-
-        # Right-hand-side X and Y time series
-        html.Div([
-            dcc.Graph(id='x-us-cases-time-series'),
-            dcc.Graph(id='y-us-cases-time-series'),
-        ], style={'display': 'inline-block',
-                  'width': '49%',
-                  'borderLeft': 'thin lightgrey solid'
-                  }
-        ),
-
-    ], style={
-        'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
-        'padding': '10px 5px'
-    }
-    ),
-    # END plots USA CASES (main scatter & timeseries)
+    # # USA Cases heading
+    # html.H3(
+    #     children='USA Cases Plots',
+    #     style={
+    #         'textAlign': 'center',
+    #     }
+    # ),
+    #
+    # # Dropdown menu & log/linear toggle div
+    # html.Div([
+    #     html.Div([
+    #         dcc.Dropdown(
+    #             id='crossfilter-us-cases-xaxis-column',
+    #             options=[{'label': i, 'value': i} for i in available_indicators_usa_cases],
+    #             value='Total Cases (cumulative cases / country)'
+    #         ),
+    #         dcc.RadioItems(
+    #             id='crossfilter-us-cases-xaxis-type',
+    #             options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+    #             value='Linear',
+    #             labelStyle={'display': 'inline-block'}
+    #         )
+    #     ], style={'width': '49%',
+    #               'float': 'left',
+    #               'display': 'inline-block'}
+    #     ),
+    #
+    #     # Right-hand (Y-axis) dropdown and log/linear radio buttons
+    #     html.Div([
+    #         dcc.Dropdown(
+    #             id='crossfilter-us-cases-yaxis-column',
+    #             options=[{'label': i, 'value': i} for i in available_indicators_usa_cases],
+    #             value='New cases / day / country'
+    #         ),
+    #         dcc.RadioItems(
+    #             id='crossfilter-us-cases-yaxis-type',
+    #             options=[{'label': i, 'value': i} for i in ['Linear', 'Log']],
+    #             value='Linear',
+    #             labelStyle={'display': 'inline-block'}
+    #         )
+    #     ], style={'width': '49%', 'float': 'right', 'display': 'inline-block'})
+    # ], style={
+    #     'borderBottom': 'thin lightgrey solid',
+    #     # 'backgroundColor': 'rgb(250, 250, 250)',
+    #     'padding': '10px 5px'
+    # }),
+    # # END USA CASES Dropdown menu & log/linear toggle div
+    #
+    # # Top USA CASES plots (main scatter & timeseries)
+    # html.Div([
+    #     html.Div([
+    #         # Main plot
+    #         dcc.Graph(
+    #             id='crossfilter-us-cases-indicator-scatter',
+    #             hoverData={'points': [{'customdata': 'New York'}]},
+    #         )
+    #     ], style={'width': '49%',
+    #               'float': 'left',
+    #               'display': 'inline-block',
+    #               'padding': '10 10',
+    #               'borderRight': 'thin lightgrey solid',
+    #               }
+    #     ),
+    #
+    #     # Right-hand-side X and Y time series
+    #     html.Div([
+    #         dcc.Graph(id='x-us-cases-time-series'),
+    #         dcc.Graph(id='y-us-cases-time-series'),
+    #     ], style={'display': 'inline-block',
+    #               'width': '49%',
+    #               'borderLeft': 'thin lightgrey solid'
+    #               }
+    #     ),
+    #
+    # ], style={
+    #     'borderBottom': 'thin lightgrey solid',
+    #     # 'backgroundColor': 'rgb(250, 250, 250)',
+    #     'padding': '10px 5px'
+    # }
+    # ),
+    # # END plots USA CASES (main scatter & timeseries)
 
     # # USA DEATHS heading
     # html.H3(
@@ -686,71 +682,71 @@ def update_deaths_x_timeseries(hover_data, yaxis_column_name, axis_type):
 # END WORLD DEATHS callback functions
 
 
-# USA CASES CALLBACKS
-@app.callback(
-    dash.dependencies.Output('crossfilter-us-cases-indicator-scatter', 'figure'),
-    [dash.dependencies.Input('crossfilter-us-cases-xaxis-column', 'value'),
-     dash.dependencies.Input('crossfilter-us-cases-yaxis-column', 'value'),
-     dash.dependencies.Input('crossfilter-us-cases-xaxis-type', 'value'),
-     dash.dependencies.Input('crossfilter-us-cases-yaxis-type', 'value')])
-def update_usa_cases_graph(xaxis_column_name, yaxis_column_name,
-                           xaxis_type, yaxis_type,
-                           ):
-    dff = stacked_usa_cases_df[stacked_usa_cases_df['Days'] == stacked_usa_cases_df.Days.max()]
-    return {
-        'data': [dict(
-            x=dff[(dff['indicator'] == xaxis_column_name)]['value'],
-            y=dff[(dff['indicator'] == yaxis_column_name)]['value'],
-            text=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
-            customdata=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
-            mode='markers',
-            marker={
-                'size': 15,
-                'opacity': 0.5,
-                'line': {'width': 0.5, 'color': 'white'}
-            },
-        )
-        ],
-        'layout': dict(
-            xaxis={
-                'title': xaxis_column_name,
-                'type': 'linear' if xaxis_type == 'Linear' else 'log'
-            },
-            yaxis={
-                'title': yaxis_column_name,
-                'type': 'linear' if yaxis_type == 'Linear' else 'log'
-            },
-            margin={'l': 40, 'b': 30, 't': 10, 'r': 0},
-            height=450,
-            hovermode='closest'
-        )
-    }
-
-
-@app.callback(
-    dash.dependencies.Output('x-us-cases-time-series', 'figure'),
-    [dash.dependencies.Input('crossfilter-us-cases-indicator-scatter', 'hoverData'),
-     dash.dependencies.Input('crossfilter-us-cases-xaxis-column', 'value'),
-     dash.dependencies.Input('crossfilter-us-cases-xaxis-type', 'value')])
-def update_usa_cases_y_timeseries(hover_data, xaxis_column_name, axis_type):
-    country_name = hover_data['points'][0]['customdata']
-    dff = stacked_usa_cases_df[stacked_usa_cases_df['Province_State'] == country_name]
-    dff = dff[dff['indicator'] == xaxis_column_name]
-    title = f'<b>{country_name}</b><br>{xaxis_column_name}'
-    return create_time_series(dff, axis_type, title)
-
-
-@app.callback(
-    dash.dependencies.Output('y-us-cases-time-series', 'figure'),
-    [dash.dependencies.Input('crossfilter-us-cases-indicator-scatter', 'hoverData'),
-     dash.dependencies.Input('crossfilter-us-cases-yaxis-column', 'value'),
-     dash.dependencies.Input('crossfilter-us-cases-yaxis-type', 'value')]
-)
-def update_usa_cases_x_timeseries(hover_data, yaxis_column_name, axis_type):
-    dff = stacked_usa_cases_df[stacked_usa_cases_df['Province_State'] == hover_data['points'][0]['customdata']]
-    dff = dff[dff['indicator'] == yaxis_column_name]
-    return create_time_series(dff, axis_type, yaxis_column_name)
-# END USA CASES callback functions
+# # USA CASES CALLBACKS
+# @app.callback(
+#     dash.dependencies.Output('crossfilter-us-cases-indicator-scatter', 'figure'),
+#     [dash.dependencies.Input('crossfilter-us-cases-xaxis-column', 'value'),
+#      dash.dependencies.Input('crossfilter-us-cases-yaxis-column', 'value'),
+#      dash.dependencies.Input('crossfilter-us-cases-xaxis-type', 'value'),
+#      dash.dependencies.Input('crossfilter-us-cases-yaxis-type', 'value')])
+# def update_usa_cases_graph(xaxis_column_name, yaxis_column_name,
+#                            xaxis_type, yaxis_type,
+#                            ):
+#     dff = stacked_usa_cases_df[stacked_usa_cases_df['Days'] == stacked_usa_cases_df.Days.max()]
+#     return {
+#         'data': [dict(
+#             x=dff[(dff['indicator'] == xaxis_column_name)]['value'],
+#             y=dff[(dff['indicator'] == yaxis_column_name)]['value'],
+#             text=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
+#             customdata=dff[(dff['indicator'] == yaxis_column_name)]['Province_State'],
+#             mode='markers',
+#             marker={
+#                 'size': 15,
+#                 'opacity': 0.5,
+#                 'line': {'width': 0.5, 'color': 'white'}
+#             },
+#         )
+#         ],
+#         'layout': dict(
+#             xaxis={
+#                 'title': xaxis_column_name,
+#                 'type': 'linear' if xaxis_type == 'Linear' else 'log'
+#             },
+#             yaxis={
+#                 'title': yaxis_column_name,
+#                 'type': 'linear' if yaxis_type == 'Linear' else 'log'
+#             },
+#             margin={'l': 40, 'b': 30, 't': 10, 'r': 0},
+#             height=450,
+#             hovermode='closest'
+#         )
+#     }
+#
+#
+# @app.callback(
+#     dash.dependencies.Output('x-us-cases-time-series', 'figure'),
+#     [dash.dependencies.Input('crossfilter-us-cases-indicator-scatter', 'hoverData'),
+#      dash.dependencies.Input('crossfilter-us-cases-xaxis-column', 'value'),
+#      dash.dependencies.Input('crossfilter-us-cases-xaxis-type', 'value')])
+# def update_usa_cases_y_timeseries(hover_data, xaxis_column_name, axis_type):
+#     country_name = hover_data['points'][0]['customdata']
+#     dff = stacked_usa_cases_df[stacked_usa_cases_df['Province_State'] == country_name]
+#     dff = dff[dff['indicator'] == xaxis_column_name]
+#     title = f'<b>{country_name}</b><br>{xaxis_column_name}'
+#     return create_time_series(dff, axis_type, title)
+#
+#
+# @app.callback(
+#     dash.dependencies.Output('y-us-cases-time-series', 'figure'),
+#     [dash.dependencies.Input('crossfilter-us-cases-indicator-scatter', 'hoverData'),
+#      dash.dependencies.Input('crossfilter-us-cases-yaxis-column', 'value'),
+#      dash.dependencies.Input('crossfilter-us-cases-yaxis-type', 'value')]
+# )
+# def update_usa_cases_x_timeseries(hover_data, yaxis_column_name, axis_type):
+#     dff = stacked_usa_cases_df[stacked_usa_cases_df['Province_State'] == hover_data['points'][0]['customdata']]
+#     dff = dff[dff['indicator'] == yaxis_column_name]
+#     return create_time_series(dff, axis_type, yaxis_column_name)
+# # END USA CASES callback functions
 
 
 # # USA DEATHS CALLBACKS
