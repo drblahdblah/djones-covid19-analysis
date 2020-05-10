@@ -846,4 +846,4 @@ def update_usa_deaths_x_timeseries(hover_data, yaxis_column_name, axis_type):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8088)
+    app.run_server()
