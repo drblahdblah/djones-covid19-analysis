@@ -518,25 +518,6 @@ app.layout = html.Div(children=[
     }),
     # END Bottom animation figure div
 
-    # USA Cases ANIMATION heading
-    html.H3(
-        children='USA Cases Animation',
-        style={
-            'textAlign': 'center',
-        }
-    ),
-    html.Div([
-        dcc.Graph(id='usa-cases-animation-slider',
-                  figure=fig_animated_usa,
-                  style={'height': '700px'})
-    ], style={
-        'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
-        'padding': '10px 5px',
-        'vertical-align': 'center'
-    }),
-    # END Bottom animation figure div
-
     # Footer div
     html.Div(children=f'Copyright Dr. David I. Jones, 2020. MIT License. '
                       f'See https://github.com/drblahdblah/djones-covid19-analysis for the code.',
