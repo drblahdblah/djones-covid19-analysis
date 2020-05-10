@@ -80,8 +80,8 @@ stacked_usa_deaths_df.replace({"Total cases": "Total deaths", "New cases": "New 
                                },
                               inplace=True)
 
-pivoted_usa_deaths_path = f'./data/usa_analysis/deaths/result_pivoted.csv'
-pivoted_usa_deaths_df = pd.read_csv(pivoted_usa_deaths_path, header=0)
+# pivoted_usa_deaths_path = f'./data/usa_analysis/deaths/result_pivoted.csv'
+# pivoted_usa_deaths_df = pd.read_csv(pivoted_usa_deaths_path, header=0)
 
 # Get information for sliders/radio buttons/etc.
 available_indicators_cases = stacked_cases_df['indicator'].unique()
@@ -140,7 +140,7 @@ def plot_animation(df_scatter: pd.DataFrame, case_type: str) -> px.scatter:
 
 # Create the animation figures
 fig_animated = plot_animation(pivoted_cases_df, 'world')
-fig_animated_usa = plot_animation(pivoted_usa_cases_df, 'usa')
+# fig_animated_usa = plot_animation(pivoted_usa_cases_df, 'usa')
 
 app.layout = html.Div(children=[
 
