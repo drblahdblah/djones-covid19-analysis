@@ -23,9 +23,6 @@ stacked_cases_df.replace({"Slope of power-law": "Slope of power-law (cases)",
                           },
                          inplace=True)
 
-pivoted_cases_path = f'./data/cases/result_pivoted.csv'
-pivoted_cases_df = pd.read_csv(pivoted_cases_path, header=0)
-
 # Get deaths information
 stacked_deaths_df_path = f'./data/deaths/result.csv'
 stacked_deaths_df = pd.read_csv(stacked_deaths_df_path, header=0)
@@ -54,54 +51,6 @@ available_indicators_deaths = stacked_deaths_df['indicator'].unique()
 days = stacked_complete_df.Days.unique()
 continents = stacked_complete_df.Continent.unique()
 
-
-def plot_animation(df_scatter: pd.DataFrame, case_type: str) -> px.scatter:
-    """
-    Function to create a good scatter plot of new versus total cases with the date as the
-    parameter in the bar.
-    :param case_type:
-    :param df_scatter: A Pandas DataFrame to create the scatter plot with
-    :return:
-    """
-    if case_type == 'world':
-        df_scatter = df_scatter.groupby(['Country/Region', 'Date', 'Continent'], as_index=False).sum()
-        color = "Continent"
-        hover_name = "Country/Region"
-        animation_group = "Country/Region"
-    else:
-        df_scatter = df_scatter.groupby(['Province_State', 'Date'], as_index=False).sum()
-        color = "Province_State"
-        hover_name = "Province_State"
-        animation_group = "Province_State"
-
-    df_scatter['growth_rate_clip'] = df_scatter['Growth Rate'].clip(lower=1)
-
-    df_scatter['New cases per day'] = df_scatter['New cases'].clip(lower=1)
-    df_scatter['Total cases'] = df_scatter['Total cases'].clip(lower=1)
-
-    title = {
-        'text': f"Covid-19 cases per region for {case_type.upper()}: Marker size is growth rate",
-        'y': 0.9,
-        'x': 0.5,
-        'xanchor': 'center',
-        'yanchor': 'top'}
-
-    return px.scatter(df_scatter, x="Total cases", y="New cases per day",
-                      animation_frame="Date", animation_group=animation_group,
-                      size="growth_rate_clip",
-                      size_max=100,
-                      color=color,
-                      hover_name=hover_name,
-                      log_x=True,
-                      log_y=True,
-                      range_x=[1, 3e6],
-                      range_y=[1, 1e6],
-                      title=title
-                      )
-
-
-# Create the animation figures
-fig_animated = plot_animation(pivoted_cases_df, 'world')
 
 app.layout = html.Div(children=[
 
@@ -289,26 +238,6 @@ app.layout = html.Div(children=[
         'padding': '10px 5px'
     }
     ),
-
-    # START Bottom animation figure div
-    # WORLD Cases ANIMATION heading
-    html.H3(
-        children='Worldwide Cases Animation',
-        style={
-            'textAlign': 'center',
-        }
-    ),
-    html.Div([
-        dcc.Graph(id='cases-animation-slider',
-                  figure=fig_animated,
-                  style={'height': '700px'})
-    ], style={
-        'borderBottom': 'thin lightgrey solid',
-        # 'backgroundColor': 'rgb(250, 250, 250)',
-        'padding': '10px 5px',
-        'vertical-align': 'center'
-    }),
-    # END Bottom animation figure div
 
     # Footer div
     html.Div(children=f'Copyright Dr. David I. Jones, 2020. MIT License. '
